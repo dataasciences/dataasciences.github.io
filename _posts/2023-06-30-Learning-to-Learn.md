@@ -130,4 +130,45 @@ Procrastination:
   > You should realize that it’s perfectly normal to start a learning session with a negative feeling even if you like the subject. It’s how you handle those feelings that matter.
   > Solution: Focus on the process, not the product. The product is what triggers the pain that causes you to procrastinate. Instead of saying "I will solve this task today", put in your best effort for a period of time continuously over the days.
 
+### Memory:
 
+  > Use your visual memory to remember things.
+  > Example: Link a memorable picture to a formula.
+  > Images help you encapsulate a very hard-to-remember concept by tapping into visual areas with enhanced memory abilities.
+  > The more neural hooks you can build by evoking the senses the easier it will be for you to recall the concept.
+  > Keep repeating what you want to learn so that the metabolic toxins won’t suck away the neural patterns related to that memory. Spaced repetition is the key.
+  > Flashcards help. Consider using Anki.
+  > Handwriting helps you deeply convert what you are trying to learn into neural memory structures.
+
+### Memory Techniques:
+
+  > Create meaningful groups and abbreviations.
+  > To remember numbers, associate them with memorable events.
+  > Create mnemonic phrases from the first letters of the words you want to remember.
+  > Memory Palace Technique: Use a familiar place (like the blueprint of your house) and associate visual images of things you want to remember with physical places.
+  > This is not easy. You’ll be very slow at first. But with practice, you’ll get better.
+  > The more you practice your "memory muscle" the easier you’ll remember.
+
+
+### Week 4: Renaissance Learning and Unlocking Your Potential
+
+You should know:
+
+  - Exercising is by far more effective than any drug to help you learn better. It helps new neurons survive.
+  - Learning doesn't always progress linearly and logically. Inevitably your brain will hit a knowledge collapse sometimes. This usually means your brain is restructuring its understanding, building a more solid   foundation.
+  - You learn complex concepts by trying to make sense of the information you perceive. Not by having someone else tell it to you.
+
+#### Metaphors:
+
+  - Metaphors and analogies are very helpful, not only to memorize but to also understand different concepts.
+  - It is often helpful to pretend that you are the concept you’re trying to understand.
+
+#### Intelligence:
+
+   - Intelligence does matter. Being smart usually equates to having a large working memory (more than just four slots).
+  - However, a superb working memory can hold its thoughts so tightly that new thoughts won’t easily find a way into the brain. Such tightly controlled attention could use an occasional breath of ADHD. Your attention shifts even if you don’t want it to shift.
+  - Deliberate practice is what helps the average brain lift into the realm of those naturally gifted. Practicing certain mental patterns deepens your mind.
+  - Brilliant scientists like Ramón y Cajal, the father of neuroscience, or Charles Darwin, were not exceptionally gifted. The key to their success was perseverance, taking responsibility for their learning and changing their thoughts.
+  - Take pride in the qualities you excel at. Tune people out if they try to demean your efforts.
+
+  
