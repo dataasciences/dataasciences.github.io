@@ -29,7 +29,7 @@ words_per_minute         : 200
 comments:
   provider               : "false" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : PsCustomObject # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : akashram # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Thoughtfully Mine"
-  avatar           : "/assets/images/pscustomobject.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/man-character-thinking_155707-268.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Just a platform to share my thoughts & what i know!"
   location         : "127.0.0.1"
   email            : "akash9129@gmail.com"
