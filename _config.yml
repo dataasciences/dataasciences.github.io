@@ -127,7 +127,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/PsCustomObject"
+      url: "https://github.com/rakash"
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -149,7 +149,7 @@ footer:
       url: "https://www.linkedin.com/in/akash-ramkumar/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://pscustomobject.github.io/"
+      url: "https://rakash.github.io/"
     #- label: "GitLab"
     #  icon: "fab fa-fw fa-gitlab"
       # url:
