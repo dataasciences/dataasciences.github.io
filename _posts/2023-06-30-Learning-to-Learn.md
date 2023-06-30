@@ -171,4 +171,47 @@ You should know:
   - Brilliant scientists like Ramón y Cajal, the father of neuroscience, or Charles Darwin, were not exceptionally gifted. The key to their success was perseverance, taking responsibility for their learning and changing their thoughts.
   - Take pride in the qualities you excel at. Tune people out if they try to demean your efforts.
 
-  
+#### Right hemisphere:
+
+  - Helps us put our work into the big picture perspective and does reality checks.
+  - When you go through homework or test questions and don’t go back to check your work, you’re acting like a person who’s refusing to use parts of his brain.
+
+#### Left hemisphere:
+
+  - Interprets the world for us but with a tendency for rigidity, dogmatism, and egocentricity.
+  - This may lead to overconfidence. Ex: believing dismissively that your answers are correct.
+
+#### Best Practices:
+
+  - Always step back and recheck to take advantage of the abilities of both-hemispheres interactions.
+  - Brainstorm and find focused people to analyze your work with.
+  - Your errors are sometimes easier to be found by others.
+  - Explaining yourself to others helps you understand more.
+  - Studying in a team helps you catch what you missed, or what you can’t see.
+  - Don’t fool yourself. Don’t blindly believe in your intellectual abilities. Having a team can bring those projections down.
+
+#### Test Checklist:
+
+  - Did you make a serious effort to understand the text? If you had a study guide, did you go through it?
+  - Did you attempt to outline every homework problem solution?
+  - Did you understand all your homework problems’ solutions? If not, did you ask for explanations?
+  - Did you work with classmates on homework problems? checked your solutions?
+  - Did you consult your instructor/teacher when you had a problem with something?
+  - Did you sleep well the night before the test?
+
+#### Test-Taking Technique:
+
+  - Take a quick look at the test when it’s handed to you to get a sense of what it involves.
+  - Start with the hardest problem. Pull yourself out if you get stuck for over 2 minutes. Starting with a hard problem loads your focused mode first and then switches attention away from it. This allows the diffused mode to start its work.
+  - Turn next to an easy problem. Solves what you can, then move back to a hard one. This allows the different parts of your brain to work simultaneously on different thoughts.   
+
+#### Taking Test Tips:
+
+  - Being Stressed before a test is normal. The body puts ups out chemicals when it’s under stress. How you interpret the body's reaction to those chemicals makes all the difference.
+  - Shift your thinking from "I am afraid of this test" to “I am excited to do my best”.
+  - If you are stressed during a test, turn your attention to breathing. Relax, put your hand on your stomach, and slowly draw some deep breaths. This will calm you down.
+  - Relax your brain on the last day before a test. Have a quick final look at the materials. Feeling guilty on the last day is a natural reaction even if you prepared well. So relax.
+  - Good worry motivates you. Bad worry wastes your energy.
+  - Double-check your answers. Look away, shift your attention, and then recheck.
+
+I'm sure applying the techniques discussed above would bring lots of benefits to your learning.
