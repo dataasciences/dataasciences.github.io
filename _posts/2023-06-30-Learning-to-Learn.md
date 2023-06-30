@@ -54,11 +54,11 @@ Chunks:
 Pieces of information, neuroscientifically speaking, bond together through use and meaning. They can get bigger and more complex, but at the same time, they are single easy-to-access items that can fit into the slot of the working memory.
 
 ```
-
 Chunking is the act of grouping concepts into compact packages of information that are easier for the mind to access.
+```
 
 Example: If you understand and practice a math formula. You no longer will need to focus much to solve it like you did the first time. That’s because your "formula chunk" got so abstracted into your brain that it can only take one slot of your working memory to solve it.
-```
+
 
 - Turn off distractions - You want to use all four slots of your working memory when studying. Learning will be inefficient if some of those slots are connected to something else
 - You have to solve the problem yourself - Just because you see it, or even understand it, doesn't mean that you will be able to solve it (Illusion of competence). It is always easier to look at the material, even if you think it’s easy than to do it yourself.
@@ -89,70 +89,69 @@ Procrastination:
 
 # First time learning something:
 
-> The first time you do something the deluge of information coming at you would make the job seem almost impossibly difficult. But, once you've chunked it, it will be simple.
-> At first, it's really hard, but later it's easy. It becomes like a habit. Ex: Driving for the first time.
+  - The first time you do something the deluge of information coming at you would make the job seem almost impossibly difficult. But, once you've chunked it, it will be simple.
+  - At first, it's really hard, but later it's easy. It becomes like a habit. Ex: Driving for the first time.
 
 ### Habits: 
 
-> Neuro-scientifically speaking, chunking is related to habit.
-> Habit is an energy saver. You don’t need to focus when performing different habitual tasks.
-> Habits can be good or bad, brief or long.
+  - Neuro-scientifically speaking, chunking is related to habit.
+  - Habit is an energy saver. You don’t need to focus when performing different habitual tasks.
+  - Habits can be good or bad, brief or long.
 
 ### Habits Parts:
 
 #### 1. The cue: The trigger that launches you into zombie mode (habitual routine).
-          > Recognize what launches you into zombie procrastination mode:
-          > Location. Time. Feelings. Reaction to people or events.
-          > Consider shutting your phone/internet for brief periods of time to prevent most cues.
+  - Recognize what launches you into zombie procrastination mode:
+  - Location. Time. Feelings. Reaction to people or events.
+  - Consider shutting your phone/internet for brief periods of time to prevent most cues.
 
 #### 2. The routine: Routine you do in reaction to the cue.
-          > You only need to use your willpower to change your reaction to the cues.
-          > Actively focus on rewiring your old habits.
-          > You need a plan. You need some willpower.
+   - You only need to use your willpower to change your reaction to the cues.
+   - Actively focus on rewiring your old habits.
+   - You need a plan. You need some willpower.
 
 #### 3. The reward: Habits exist because they reward us.
-        > Give yourself bigger rewards for bigger achievements. But after you finish them.
-        > Example: If I study for 4 hours today, I’ll watch a movie, guilt-free, at night.
-        > Habits are powerful because they create neurological cravings. It helps to add a new reward if you want to overcome your previous cravings.
-        > Only once your brain starts expecting a reward will the important rewiring take place that will allow you to create new habits.
+   - Give yourself bigger rewards for bigger achievements. But after you finish them.
+   - Example: If I study for 4 hours today, I’ll watch a movie, guilt-free, at night.
+   - Habits are powerful because they create neurological cravings. It helps to add a new reward if you want to overcome your previous cravings.
+   - Only once your brain starts expecting a reward will the important rewiring take place that will allow you to create new habits.
 
 #### 4. The belief: To change your habits, you need to change your underlying belief.        
-       > Example: You might feel like you’ll never be able to change the habit of studying late. This is not true. You can actually rewire your brain.
-       > Joining a student community helps, either online or in real life.
-       > Trust your system. You have to feel happy and worry-free when you are resting.
+   - Example: You might feel like you’ll never be able to change the habit of studying late. This is not true. You can actually rewire your brain.
+   - Joining a student community helps, either online or in real life.
+   - Trust your system. You have to feel happy and worry-free when you are resting.
 
 ### Weekly/Daily list:
 
-  > Researchers showed that writing your daily list the evening before helps you accomplish them the next day. If you don’t write them down, they will take the valuable slots of memory.
-  > Plan your finishing time, this is as important as planning your working time.
-  > Work on the most important and most disliked task first, even if it’s only one Pomodoro.
-  > Take notes about what works and what doesn’t.
-  > Have a backup plan for when you will still procrastinate.
+  - Researchers showed that writing your daily list the evening before helps you accomplish them the next day. If you don’t write them down, they will take the valuable slots of memory.
+  - Plan your finishing time, this is as important as planning your working time.
+  - Work on the most important and most disliked task first, even if it’s only one Pomodoro.
+  - Take notes about what works and what doesn’t.
+  - Have a backup plan for when you will still procrastinate.
 
 ### Focus on Process:
 
-  > You should realize that it’s perfectly normal to start a learning session with a negative feeling even if you like the subject. It’s how you handle those feelings that matter.
-  > Solution: Focus on the process, not the product. The product is what triggers the pain that causes you to procrastinate. Instead of saying "I will solve this task today", put in your best effort for a period of time continuously over the days.
+  - You should realize that it’s perfectly normal to start a learning session with a negative feeling even if you like the subject. It’s how you handle those feelings that matter.
+  - Solution: Focus on the process, not the product. The product is what triggers the pain that causes you to procrastinate. Instead of saying "I will solve this task today", put in your best effort for a period of time continuously over the days.
 
 ### Memory:
 
-  > Use your visual memory to remember things.
-  > Example: Link a memorable picture to a formula.
-  > Images help you encapsulate a very hard-to-remember concept by tapping into visual areas with enhanced memory abilities.
-  > The more neural hooks you can build by evoking the senses the easier it will be for you to recall the concept.
-  > Keep repeating what you want to learn so that the metabolic toxins won’t suck away the neural patterns related to that memory. Spaced repetition is the key.
-  > Flashcards help. Consider using Anki.
-  > Handwriting helps you deeply convert what you are trying to learn into neural memory structures.
+  - Use your visual memory to remember things.
+  - Example: Link a memorable picture to a formula.
+  - Images help you encapsulate a very hard-to-remember concept by tapping into visual areas with enhanced memory abilities.
+  - The more neural hooks you can build by evoking the senses the easier it will be for you to recall the concept.
+  - Keep repeating what you want to learn so that the metabolic toxins won’t suck away the neural patterns related to that memory. Spaced repetition is the key.
+  - Flashcards help. Consider using Anki.
+  - Handwriting helps you deeply convert what you are trying to learn into neural memory structures.
 
 ### Memory Techniques:
 
-  > Create meaningful groups and abbreviations.
-  > To remember numbers, associate them with memorable events.
-  > Create mnemonic phrases from the first letters of the words you want to remember.
-  > Memory Palace Technique: Use a familiar place (like the blueprint of your house) and associate visual images of things you want to remember with physical places.
-  > This is not easy. You’ll be very slow at first. But with practice, you’ll get better.
-  > The more you practice your "memory muscle" the easier you’ll remember.
-
+  - Create meaningful groups and abbreviations.
+  - To remember numbers, associate them with memorable events.
+  - Create mnemonic phrases from the first letters of the words you want to remember.
+  - Memory Palace Technique: Use a familiar place (like the blueprint of your house) and associate visual images of things you want to remember with physical places.
+  - This is not easy. You’ll be very slow at first. But with practice, you’ll get better.
+  - The more you practice your "memory muscle" the easier you’ll remember.
 
 ### Week 4: Renaissance Learning and Unlocking Your Potential
 
