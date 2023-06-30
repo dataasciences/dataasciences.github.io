@@ -87,7 +87,7 @@ Procrastination:
 4. Procrastination shares feature with addiction. At first, it leads you to think that if you study too early you’ll forget the material. Then, when the class is ahead of you, it leads you to think that you are inadequate or that the subject is too hard.
 5. You want to avoid cramming which doesn’t build solid neural structures, by putting the same amount into your learning and spacing it over a long period by starting earlier.
 
-# First time learning something:
+### First time learning something:
 
   - The first time you do something the deluge of information coming at you would make the job seem almost impossibly difficult. But, once you've chunked it, it will be simple.
   - At first, it's really hard, but later it's easy. It becomes like a habit. Ex: Driving for the first time.
