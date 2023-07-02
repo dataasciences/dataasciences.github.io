@@ -1,6 +1,6 @@
 ---
 title: "Mind-Gut Connection"
-excerpt: "The Mind-blowing Connection between Your Gut and Brain"
+excerpt: "The Mind-blowing Connection Between Your Gut and Brain"
 categories:
   - General
 tags:
