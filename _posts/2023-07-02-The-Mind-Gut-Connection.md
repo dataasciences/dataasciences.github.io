@@ -10,7 +10,7 @@ tags:
 toc: true
 ---
 
-[](https://m.media-amazon.com/images/I/51F4fxCl+TL.jpg)
+[Mind-Gut-Connection](https://m.media-amazon.com/images/I/51F4fxCl+TL.jpg)
 
 I came across this book online and it immediately caught my attention and I started flipping the pages the very next day. The Mind is indeed a mysterious organ for most. How it works, not even the best medical professionals are able to say, but as it is known for any other organ or living being, it is up to you on how you treat it. This book talks about just that, how by treating another part of your body well, one can influence the mind and be able to keep it healthy.
 
