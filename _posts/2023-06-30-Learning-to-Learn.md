@@ -2,10 +2,11 @@
 title: "Learning How to Learn"
 excerpt: "Learn how to Learn with the Power of Habits."
 categories:
-  - General
+  - Learning
 tags:
   - General
   - HowTo
+  - Learning
 
 toc: true
 ---
