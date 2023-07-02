@@ -2,7 +2,7 @@
 title: "The Mind-Gut Connection"
 excerpt: "The Mind-blowing Connection Between Your Gut and Brain"
 categories:
-  - General
+  - Health
 tags:
   - Health
   - HowTo
