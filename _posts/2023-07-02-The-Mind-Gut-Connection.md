@@ -32,4 +32,15 @@ Lots. The book covers various topics such as hunter-gatherers, primitive humans'
 
 Well, this is according to the author. The author suggests that if a certain lifestyle is followed, it could provide optimal health and well-being. They are; 
 
-  - 
+  -  Practice Natural & Organic Farming of your Gut Microbiome.
+  -  Cut down on Animal Fat in your Diet.
+  -  Maximize our Gut Microbial Diversity.
+  -  Avoid mass-produced and processed foods and maximize organically grown food.
+  -  Eat fermented foods and probiotics.
+  -  Be Mindful of Stress.
+  -  Eat small portions.
+  -  Fast to Starve your Gut Microbes.
+  -  Do not Eat when you are Stressed, angry, or Sad.
+  -  Enjoy your Meals together and be social as much as possible.
+
+These were some of the major insights from the book and I hope you liked reading this page. Until next time!
