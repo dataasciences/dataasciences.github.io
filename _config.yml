@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Thoughtfully Mine"
   avatar           : "/assets/images/man-character-thinking_155707-268.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A Platform to Share my Thoughts!"
+  bio              : "A Platform to Share My Thoughts!"
   location         : "127.0.0.1"
   email            : "akash9129@gmail.com"
   links:
