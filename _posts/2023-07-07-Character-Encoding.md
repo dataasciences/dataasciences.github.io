@@ -1,6 +1,6 @@
 ---
 title: "Character Encoding"
-excerpt: "Need and Methods"
+excerpt: "Need for it and Methods"
 categories:
   - IT
 tags:
