@@ -1,4 +1,3 @@
-
 ---
 title: "Character Encoding"
 excerpt: "Need and Methods"
