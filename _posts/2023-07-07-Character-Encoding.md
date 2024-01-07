@@ -14,11 +14,11 @@ You've written some interesting code, but all of them have processed only one ki
 
 #### How is it possible?
 
-How can you do it in Python? This is what we'll discuss now. Let's start with how computers understand single characters.
+Let's start with how computers understand single characters.
 
-Computers store characters as numbers. Every character used by a computer corresponds to a unique number, and vice versa. This assignment must include more characters than you might expect. Many of them are invisible to humans but essential to computers. Some of these characters are called whitespaces, while others are named control characters because their purpose is to control input/output devices. An example of a whitespace that is completely invisible to the naked eye is a special code, or a pair of codes (different operating systems may treat this issue differently), which are used to mark the ends of the lines inside text files.
+Computers store characters as numbers. Every character used by a computer corresponds to a unique number, and vice versa. This assignment must include more characters than you might expect. Many of them are invisible to humans but essential to computers. Some of these characters are called whitespaces, while others are named control characters because their purpose is to control input/output devices. An example of whitespace that is completely invisible to the naked eye is a special code, or a pair of codes (different operating systems may treat this issue differently), which are used to mark the ends of the lines inside text files.
 
-People do not see this sign (or these signs) but are able to observe the effect of their application where the lines are broken. We can create virtually any number of character-number assignments, but life in a world in which every type of computer uses a different character encoding would not be very convenient. This system has led to a need to introduce a universal and widely accepted standard implemented by (almost) all computers and operating systems all over the world.
+People do not see this sign (or these signs) but can observe the effect of their application where the lines are broken. We can create virtually any number of character-number assignments, but life in a world in which every type of computer uses a different character encoding would not be very convenient. This system has led to a need to introduce a universal and widely accepted standard implemented by (almost) all computers and operating systems all over the world. Let's start with one of the widely used encoding methods.
 
 #### ASCII
 
@@ -42,7 +42,7 @@ We need a new term now: a code point.
 
 A code point is a number that makes a character. For example, 32 is a code point that makes a space in ASCII encoding. We can say that standard ASCII code consists of 128 code points.
 As standard ASCII occupies 128 out of 256 possible code points, you can only make use of the remaining 128.  It's not enough for all possible languages, but it may be sufficient for one language, or for a small group of similar languages. Can you set the higher half of the code points differently for different languages? Yes, you can. Such a concept is called a code page.
-A code page is a standard for using the upper 128 code points to store specific national characters. For example, there are different code pages for Western Europe and Eastern Europe, Cyrillic and Greek alphabets, Arabic and Hebrew languages, and so on. This means that the one and same code point can make different characters when used on different code pages.
+A code page is a standard for using the upper 128 code points to store specific national characters. For example, there are different code pages for Western Europe and Eastern Europe, Cyrillic and Greek alphabets, Arabic and Hebrew languages, and so on. This means that the same code point can make different characters when used on different code pages.
 For example, code point 200 makes Č (a letter used by some Slavic languages) when utilized by the ISO/IEC 8859-2 code page, and makes Ш (a Cyrillic letter) when used by the ISO/IEC 8859-5 code page.
 In consequence, to determine the meaning of a specific code point, you have to know the target code page. In other words, the code points derived from the code page concept are ambiguous.
 
