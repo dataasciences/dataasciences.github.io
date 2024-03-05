@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "aqua" #"default" # "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "ThoughtFully Mine"
+title                    : "Data Musings"
 title_separator          : "-"
-name                     : "Thoughtfully Mine"
+name                     : "Data Musings"
 description              : "Thoughts Unfiltered"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -27,7 +27,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "false" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus" # "false" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : akashram # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Thoughtfully Mine"
+  name             : "Data Musings"
   avatar           : "/assets/images/man-character-thinking_155707-268.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A Platform to Share My Thoughts!"
+  bio              : "Musings on Data, Unfiltered!"
   location         : "127.0.0.1"
   email            : "akash9129@gmail.com"
   links:
