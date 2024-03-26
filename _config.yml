@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Data Musings"
   avatar           : "/assets/images/man-character-thinking_155707-268.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Musings on Data, Books & Finance Unfiltered!"
+  bio              : "Musings on Data | Software Engineering | AI | Books | Finance."
   location         : "127.0.0.1"
   email            : "akash9129@gmail.com"
   links:
