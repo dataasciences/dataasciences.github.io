@@ -19,7 +19,7 @@ We will look at what Big O Notation is and some sample code in Python along with
 **Note:** Big-O notation is one of the measures used for algorithmic complexity. Some others include Big-Theta and Big-Omega. Big-Omega, Big-Theta, and Big-O are intuitively equal to the best, average, and worst time complexity an algorithm can achieve. We typically use Big-O as a measure, instead of the other two, because it can guarantee that an algorithm runs in an acceptable complexity in its worst case, it'll work in the average and best case as well, but not vice versa.
 {: .notice--warning}
 
-Firstly, what is Big O Notation?
+## What is Big O Notation?
 
 Big-O notation is a statistical measure used to describe the complexity of the algorithm. Big O describes an algorithm's runtime or memory consumption (space) without the interference of contextual variables such as RAM and CPU. It gives programmers a way to compare algorithms and identify the most efficient solution. It signifies the relationship between the input to the algorithm and the steps required to execute the algorithm.
 
@@ -49,7 +49,7 @@ In order to compute Big-O, you will first need to know the possible values it ca
 **Note:** Anything worse than linear is considered a bad complexity (i.e. inefficient) and should be avoided if possible. Linear complexity is okay and usually a necessary evil. Logarithmic is good. Constant is amazing!
 {: .notice--warning}
 
-## Lets look at some examples:
+## Some Examples:
 
 Lets say we want to calculate Mean of a sequence, a naive implementation would be as follows;
 
