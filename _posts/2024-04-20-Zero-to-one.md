@@ -55,8 +55,7 @@ Foundations are everything and the inception. Thiel remembers his early days wit
 
 ## The Liking for Monopolies
 
-![]()
-
+![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/monopoly_example_image_1.jpeg?raw=true)
 
 Thiel believes in Monopolies. He feels that Monopolies generate good for the world. If a business has achieved a monopoly, it indicates that the business has truly gone from "zero to one," and created something for society that did not exist before or improved upon existing technology to such a degree that it has made the old technology obsolete. To Quote thiel from the book, "Since [Google] doesn't have to worry about competing with anyone, it has wider latitude to care about its workers, its products, and its impact on the wider world." Thiel believes that there are 5 key aspects to creating a Monopoly - It is to resist copying others' business models and instead to think for yourself, Proprietary technology, network effects, economies of scale, and branding. Rather than initially painting a grandiose vision of global market dominance, the best way to build a monopoly is to start small. Capture a small, specific market with the tentacles to easily branch to related markets over time.
 
