@@ -1,3 +1,12 @@
+---
+title: "Blueprint of Innovation: A Dive into Peter Thiel's Zero to One"
+excerpt: "A Peak into the Entrepreneur's Mind"
+categories:
+  - Book Notes
+tags:
+  - Books
+---
+
 "Doing something good for society is a misguided goal. It’s better to do something different. You will benefit society more that way"
 
 ![](https://images.blinkist.io/images/books/62c2f8466cee0700089d6ec1/1_1/470.jpg)
