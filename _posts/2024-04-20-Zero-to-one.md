@@ -7,7 +7,8 @@ tags:
   - Books
 ---
 
-"Doing something good for society is a misguided goal. It’s better to do something different. You will benefit society more that way"
+**"Doing something good for society is a misguided goal. It’s better to do something different. You will benefit society more that way"**
+
 
 ![](https://images.blinkist.io/images/books/62c2f8466cee0700089d6ec1/1_1/470.jpg)
 
@@ -54,6 +55,9 @@ Foundations are everything and the inception. Thiel remembers his early days wit
 
 ## The Liking for Monopolies
 
+![]()
+
+
 Thiel believes in Monopolies. He feels that Monopolies generate good for the world. If a business has achieved a monopoly, it indicates that the business has truly gone from "zero to one," and created something for society that did not exist before or improved upon existing technology to such a degree that it has made the old technology obsolete. To Quote thiel from the book, "Since [Google] doesn't have to worry about competing with anyone, it has wider latitude to care about its workers, its products, and its impact on the wider world." Thiel believes that there are 5 key aspects to creating a Monopoly - It is to resist copying others' business models and instead to think for yourself, Proprietary technology, network effects, economies of scale, and branding. Rather than initially painting a grandiose vision of global market dominance, the best way to build a monopoly is to start small. Capture a small, specific market with the tentacles to easily branch to related markets over time.
 
 Thiel supplements his belief with a statement that despite common knowledge, there are many secrets left to find and solve. 
@@ -68,7 +72,7 @@ A good salesperson is like a good actor who performs so well that it's difficult
 
 ## Will AI & Technology replace humans?
 
-Short answer is No. Thiel believes that computers are tools & that the big technological advances of the future will happen in computers complementing — not replacing — people. We shouldn’t be afraid that computers will replace us. People and computers combined together can do tasks better than either one can by themselves. This presents plenty of business opportunities. 
+The Short Answer is No. Thiel believes that computers are tools & that the big technological advances of the future will happen in computers complementing — not replacing — people. We shouldn’t be afraid that computers will replace us. People and computers combined together can do tasks better than either one can by themselves. This presents plenty of business opportunities. 
 
 Software engineers have been taught to think up ways that computers can do people’s jobs. But computers can’t learn everything. It isn’t just a matter of feeding them enough data. You can give computers more and more data, but this doesn’t actually make them any smarter. Artificial Intelligence is certainly interesting, and it becomes more and more developed every day and the rate of growth is too fast as well, but it still isn’t close to being able to take on complex analysis that humans can perform. 
 The day it can do that is very far in the future.
