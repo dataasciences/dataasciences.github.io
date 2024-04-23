@@ -71,7 +71,7 @@ A good salesperson is like a good actor who performs so well that it's difficult
 
 ## Will AI & Technology replace humans?
 
-![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/AI_human.jpg?raw=true)
+![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/AI-Motherboard-scaled.jpg?raw=true)
 
 The Short Answer is No. Thiel believes that computers are tools & that the big technological advances of the future will happen in computers complementing — not replacing — people. We shouldn’t be afraid that computers will replace us. People and computers combined can do tasks better than either one can by themselves. This presents plenty of business opportunities. 
 
