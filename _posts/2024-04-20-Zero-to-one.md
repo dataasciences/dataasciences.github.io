@@ -14,7 +14,7 @@ tags:
 
 In the world of entrepreneurship and innovation, few voices resonate as profoundly as that of Peter Thiel, the co-founder of PayPal and Palantir, and a renowned venture capitalist. Thiel’s book "Zero to One" serves as a guide for aspiring entrepreneurs, offering a roadmap to navigate the complex field of startups and fostering groundbreaking ideas. 
 
-I found this book to be a fascinating read and a peak into one of the successful entrepreneur's minds was exciting. I found plenty of interesting takeaways but here is the summary of it. The book revolves around the concept that Going from zero to one means going from nothing to something. This is greater than going from one to 10 or even from one to 100, or in other words going from 0 to 1 is the greatest leap possible. To go from zero to one is to give birth to something from the dark void of oblivion. This is the essence of true innovation.
+I found this book to be a fascinating read and a peak into one of the successful entrepreneur's minds was exciting. I found plenty of interesting takeaways but here is the summary of it. The book revolves around the concept that Going from zero to one means going from nothing to something. This is greater than going from one to 10 or even from one to 100, in other words going from 0 to 1 is the greatest leap possible. To go from zero to one is to give birth to something from the dark void of oblivion. This is the essence of true innovation.
 
 Thiel emphasizes that creating truly innovative technology requires progressing from "zero to one" rather than from "one to n." This means creating something entirely new rather than incrementally adding to what already exists. He feels the world needs startups as an engine to both envision and create the future. Though there has been new technology lately, there are still many aspects of everyday life that are begging for improvement, given the right vision and strategy.
 
@@ -57,7 +57,7 @@ Foundations are everything and the inception. Thiel remembers his early days wit
 
 ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/monopoly_example_image_1.jpeg?raw=true)
 
-Thiel believes in Monopolies. He feels that Monopolies generate good for the world. If a business has achieved a monopoly, it indicates that the business has truly gone from "zero to one," and created something for society that did not exist before or improved upon existing technology to such a degree that it has made the old technology obsolete. To Quote thiel from the book, "Since [Google] doesn't have to worry about competing with anyone, it has wider latitude to care about its workers, its products, and its impact on the wider world." Thiel believes that there are 5 key aspects to creating a Monopoly - It is to resist copying others' business models and instead think for yourself, Proprietary technology, network effects, economies of scale, and branding. Rather than initially painting a grandiose vision of global market dominance, the best way to build a monopoly is to start small. Capture a small, specific market with the tentacles to easily branch to related markets over time.
+Thiel believes in Monopolies. He feels that Monopolies generate good for the world. If a business has achieved a monopoly, it indicates that the business has truly gone from "zero to one," and created something for society that did not exist before or improved upon existing technology to such a degree that it has made the old technology obsolete. To Quote Thiel from the book, "Since [Google] doesn't have to worry about competing with anyone, it has wider latitude to care about its workers, its products, and its impact on the wider world." Thiel believes that there are 5 key aspects to creating a Monopoly - It is to resist copying others' business models and instead think for yourself, Proprietary technology, network effects, economies of scale, and branding. Rather than initially painting a grandiose vision of global market dominance, the best way to build a monopoly is to start small. Capture a small, specific market with the tentacles to easily branch to related markets over time.
 
 Thiel supplements his belief with a statement that despite common knowledge, there are many secrets left to find and solve. 
 
@@ -78,7 +78,7 @@ The Short Answer is No. Thiel believes that computers are tools & that the big t
 Software engineers have been taught to think up ways that computers can do people’s jobs. But computers can’t learn everything. It isn’t just a matter of feeding them enough data. You can give computers more and more data, but this doesn’t make them any smarter. Artificial Intelligence is certainly interesting, and it becomes more and more developed every day and the rate of growth is too fast as well, but it still isn’t close to being able to take on complex analysis that humans can perform. 
 The day it can do that is very far in the future.
 
-## Re-writing Rules
+## Re-Writing Rules
 
 Thiel strongly believed in re-writing rules and that;
 
