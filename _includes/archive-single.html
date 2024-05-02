@@ -26,5 +26,11 @@
     </h2>
     {% include page__meta.html type=include.type %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+     <!--  Added the Below to Display Total Comments for a Blog Post #disqus_thread was added. Line 30 to 34 -->
+    {% if post.link %}
+      <a href="{{ post.link }}#disqus_thread">Read comments</a>
+    {% else %}
+      <a href="{{ post.url | relative_url }}#disqus_thread" rel="permalink">Read comments</a>
+    {% endif %}
   </article>
 </div>
