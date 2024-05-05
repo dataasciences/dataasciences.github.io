@@ -19,7 +19,7 @@ One such popular algorithm under the Supervised branch is Random Forest.
 
 Random forests are an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees.
 
-But how do these work under the hood? Understanding underlying workings is important for a Data Scientist/ML Engineer as even a basic algorithm can solve a customer's problem and after a point, it is the understanding of the algorithm that will improve the solution to the customers problem.
+But how do these work under the hood? Understanding underlying workings is important for a Data Scientist/ML Engineer as even a basic algorithm can solve a customer's problem and after a point, it is the understanding of the algorithm that will improve the solution to the customer's problem.
 
 Let’s look at one of the ways to understand Decision Trees and Random Forest predictions and see how the prediction is arrived at for each observation.
 
@@ -27,8 +27,7 @@ Let’s look at one of the ways to understand Decision Trees and Random Forest p
 
 1) This Package works only with scikit-learn modules.
 
-2) To install tree interpreter run, “pip install treeinterpreter“.
-    Refer https://github.com/andosa/treeinterpreter
+2) To install tree interpreter run, “pip install treeinterpreter“. Refer https://github.com/andosa/treeinterpreter
 
 ## So, where do we start?
 
@@ -38,7 +37,7 @@ How do decision trees work?
 
 A Decision Tree is a tree (and a type of directed, acyclic graph) in which the nodes represent decisions (a square box), random transitions (a circular box) or terminal nodes, and the edges or branches are binary (yes/no, true/false) representing possible paths from one node to another. The specific type of decision tree used for machine learning contains no random transitions. To use a decision tree for classification or regression, one grabs a row of data or a set of features and starts at the root, and then through each subsequent decision node to the terminal node. The process is very intuitive and easy to interpret, which allows trained decision trees to be used for variable selection or more generally, feature engineering.
 
-### Terminologies in Decision Trees
+## Terminologies in Decision Trees
 
 ![](https://miro.medium.com/v2/resize:fit:640/format:webp/1*dLxNivHYH7AB8l0PfOpCdw.png)
 
@@ -61,28 +60,29 @@ For Classification trees, the splits are chosen so as to;
 1) Minimize Entropy or 
 2) Minimize Gini impurity in the Resulting Subsets.
 
-An example of a learned decision tree for classification to help you make your decision is below:;
+An example of a learned decision tree for classification to help you make your decision is below;
 
 ![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*S10T4ah3_JqdQ-eY6Hau0Q.png)
 
-The Core Algorithm of a Decision Tree is ID3 and it uses Entropy and Information Gain to construct a decision tree. ID3 algorithm uses entropy to calculate the homogeneity of a sample. Information theory/Gain is a measure to define the degree of disorganization in a system known as Entropy. If the sample is completely homogeneous, then the entropy is zero and if the sample is equally divided (50% — 50%), it has an entropy of one.
+The Core Algorithm of a Decision Tree is ID3 and it uses Entropy and Information Gain to construct a decision tree. ID3 algorithm uses entropy to calculate the homogeneity of a sample. Information theory/Gain is a measure to define the degree of disorganization in a system known as Entropy.
 
-![](https://miro.medium.com/v2/resize:fit:492/format:webp/1*LFS3ACQUJEI95VUudSwbQw.jpeg)
+If the sample is completely homogeneous, then the entropy is zero and if the sample is equally divided (50% — 50%), it has an entropy of one.
+
+            ![](https://miro.medium.com/v2/resize:fit:492/format:webp/1*LFS3ACQUJEI95VUudSwbQw.jpeg)
 
 Here p and q are the probability of success and failure respectively in that node. Entropy is also used with the categorical target variable. It chooses the split which has the lowest entropy compared to the parent node and other splits. The lesser the entropy, the better it is.
 
 Steps to Calculate Entropy:
 
-1) Calculate the entropy of the parent node
+1) Calculate the entropy of the parent node.
+
 2) Calculate the entropy of each individual node of split and calculate the weighted average of all sub-nodes available in the split.
 
 ![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*sUtTTQ_4NJ-18k7FwyVVOA.jpeg)
 
-
 ![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*sUtTTQ_4NJ-18k7FwyVVOA.jpeg)
 
-
-### Information Gain
+## Information Gain
 
 Information Gain, on the other hand, is all about finding an attribute that returns the highest value( homogeneous branches)
 
@@ -96,9 +96,9 @@ Step 3: Choose the attribute with the largest information gain as the decision n
 
 So, in the above situation, we choose the Outlook attribute as that has the highest gain value.
 
-### Gini Index
+## Gini Index
 
-The Gini index which is different than Gini Impurity says, that if we select two items from a population at random then they must be of the same class and the probability for this is 1 if the population is pure.
+The Gini index which is different than the Gini Impurity says, that if we select two items from a population at random then they must be of the same class and the probability for this is 1 if the population is pure.
 
 Steps to calculate Gini for a split:
 
@@ -126,7 +126,7 @@ Split on Class:
 
 As you can see above, the value is higher for Gender and therefore the split will occur on the Gender attribute.
 
-### Chi-square
+## Chi-Square
 
 Another method to find the best split for classification problems is chi-square. Let’s take a brief look at that.
 
@@ -136,7 +136,7 @@ The higher the value of Chi-Square, the higher the statistical significance of d
 
 Chi-square = ((Actual — Expected)² / Expected)¹/2
 
-### Steps to Calculate Chi-square for a split:
+## Steps to Calculate Chi-square for a split
 
 1. Calculate the Chi-square for an individual node by calculating the deviation for the Success and Failure of both.
 2. Calculated Chi-square of the Split using the Sum of all Chi-square of success and Failure of each node of the split
@@ -164,8 +164,7 @@ So far what we saw, applies to classification problems. Most ML frameworks(like 
 For regression trees, they are either chosen to minimize Variance (Reduction in Variance approach) OR MAE (Mean Absolute Error) within all of the subsets.
 {: .notice--warning}
 
-
-### Variance (Reduction in Variance approach)
+## Variance (Reduction in Variance approach)
 
 This algorithm uses the standard formula of variance to choose the best split. The split with lower variance is selected as the criteria to split the population.
 
@@ -178,7 +177,7 @@ Steps to calculate Variance:
 
 Example:- Let us assign numerical value 1 for playing cricket and 0 for not playing cricket. Now follow the steps to identify the right split:
 
-1. Variance for the Root node, mean value is (15*1 + 15*0)/30 = 0.5 and we have 15 one and 15 zero. Now variance would be ((1–0.5)²+(1–0.5)²+….15 times+(0–0.5)²+(0–0.5)²+…15 times) / 30, this can be written as (15*(1–0.5)²+15*(0–0.5)²) / 30 = 0.25
+1. Variance for the Root node, the mean value is (15*1 + 15*0)/30 = 0.5 and we have 15 one and 15 zero. Now variance would be ((1–0.5)²+(1–0.5)²+….15 times+(0–0.5)²+(0–0.5)²+…15 times) / 30, this can be written as (15*(1–0.5)²+15*(0–0.5)²) / 30 = 0.25
 
 2. Mean of Female node = (2*1+8*0)/10=0.2 and Variance = (2*(1–0.2)²+8*(0–0.2)²) / 10 = 0.16
 
