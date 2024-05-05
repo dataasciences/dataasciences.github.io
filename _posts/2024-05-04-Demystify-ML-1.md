@@ -68,7 +68,7 @@ The Core Algorithm of a Decision Tree is ID3 and it uses Entropy and Information
 
 If the sample is completely homogeneous, then the entropy is zero and if the sample is equally divided (50% — 50%), it has an entropy of one.
 
-            ![](https://miro.medium.com/v2/resize:fit:492/format:webp/1*LFS3ACQUJEI95VUudSwbQw.jpeg)
+![](https://miro.medium.com/v2/resize:fit:492/format:webp/1*LFS3ACQUJEI95VUudSwbQw.jpeg)
 
 Here p and q are the probability of success and failure respectively in that node. Entropy is also used with the categorical target variable. It chooses the split which has the lowest entropy compared to the parent node and other splits. The lesser the entropy, the better it is.
 
@@ -195,7 +195,7 @@ Above, you can see that the Gender split has a lower variance compared to the pa
 
 So far we have seen some theories behind decision trees and how they work. Let us look at some code examples to see how a prediction/decision is arrived at.
 
-### Implementing Decision Tree
+## Implementing Decision Tree
 
 **NOTE:** Codes seen here were executed on Kaggle. It is posted here only for the purpose of understanding the concepts talked about in this post.
 
