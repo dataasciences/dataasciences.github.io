@@ -9,10 +9,9 @@ tags:
   - Machine Learning
 ---
 
+![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/Tree_Forests.png?raw=true)
 
-![](https://miro.medium.com/v2/resize:fit:506/format:webp/1*cmcNUc0kDzgxmC8ZE-UIBQ.png)
-
-This could be the age of LLM's but understanding classical ML and under-the-hood workings goes a long way in implementing real-world projects, especially for tabular data.
+This could be the age of LLM's but understanding classical ML and under-the-hood workings never gets old and goes a long way in implementing real-world projects, especially for tabular data.
 
 One vital class of Machine Learning is Supervised learning which aims at learning a function that maps an input to an output based on example input-output pairs.
 One such popular algorithm under the Supervised branch is Random Forest.
