@@ -107,7 +107,7 @@ Steps to calculate Gini for a split:
 
 $$
 \begin{aligned}
-  Gini = 1 - $$\left$$\sum_{i=1}^c (p$$<sub>i</sub>$$) $$\right$$^2
+  Gini = 1 - \left\sum_{i=1}^c (p<sub>i</sub>) \right^2
 \end{aligned}
 $$
 
