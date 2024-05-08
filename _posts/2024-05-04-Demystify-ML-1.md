@@ -67,7 +67,7 @@ The Core Algorithm of a Decision Tree is ID3 and it uses Entropy and Information
 
 If the sample is completely homogeneous, then the entropy is zero and if the sample is equally divided (50% — 50%), it has an entropy of one.
 
-$$ Entropy = -p log<sub>2</sub>p - q log<sub>2</sub>p $$
+$ Entropy = -p log$<sub>$2$</sub>$ - q log$<sub>$2$</sub>$p $
 
 Here p and q are the probability of success and failure respectively in that node. Entropy is also used with the categorical target variable. It chooses the split which has the lowest entropy compared to the parent node and other splits. The lesser the entropy, the better it is.
 
