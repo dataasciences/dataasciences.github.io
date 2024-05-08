@@ -70,7 +70,8 @@ If the sample is completely homogeneous, then the entropy is zero and if the sam
 ```math
 Entropy = -p log<sub>2</sub>p - q log<sub>2</sub>p
 ```
-
+$\sqrt{3x-1}+(1+x)^2$
+ 
 Here p and q are the probability of success and failure respectively in that node. Entropy is also used with the categorical target variable. It chooses the split which has the lowest entropy compared to the parent node and other splits. The lesser the entropy, the better it is.
 
 Steps to Calculate Entropy:
