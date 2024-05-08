@@ -167,6 +167,8 @@ This algorithm uses the standard formula of variance to choose the best split. T
 
 ![](https://miro.medium.com/v2/resize:fit:640/format:webp/1*7SS2zgD-pgQPPNUetJj98A.jpeg)
 
+$$ Variance = \frac{\sum_ (x - \bar{x})^2} {n} $$
+
 Steps to calculate Variance:
 
 1. Calculate the variance for each node.
