@@ -165,8 +165,6 @@ For regression trees, they are either chosen to minimize Variance (Reduction in 
 
 This algorithm uses the standard formula of variance to choose the best split. The split with lower variance is selected as the criteria to split the population.
 
-![](https://miro.medium.com/v2/resize:fit:640/format:webp/1*7SS2zgD-pgQPPNUetJj98A.jpeg)
-
 $$ Variance = \frac{\sum_ (x - \bar{x})^2} {n} $$
 
 Steps to calculate Variance:
