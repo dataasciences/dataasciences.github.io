@@ -67,9 +67,7 @@ The Core Algorithm of a Decision Tree is ID3 and it uses Entropy and Information
 
 If the sample is completely homogeneous, then the entropy is zero and if the sample is equally divided (50% — 50%), it has an entropy of one.
 
-$Entropy = -p log<sub>2</sub>p - q log<sub>2</sub>p$
-
-$\sqrt{3x-1}+(1+x)^2$
+**Entropy = -p log<sub>2</sub>p - q log<sub>2</sub>p**
  
 Here p and q are the probability of success and failure respectively in that node. Entropy is also used with the categorical target variable. It chooses the split which has the lowest entropy compared to the parent node and other splits. The lesser the entropy, the better it is.
 
@@ -106,14 +104,6 @@ Steps to calculate Gini for a split:
 1) Calculate Gini for sub-nodes, using the formula - the sum of the square of probability for success and failure (p^2+q^2).
 
 2) Calculate the Gini for the split using the weighted Gini score of each node of that split.
-
-```math
-Gini = 1 - \left\sum_{i=1}^c (p<sub>i</sub>) \right^2
-```
-
-```math
-$$ Gini = 1 - \left\sum_{i=1}^c (p$$<sub>i</sub>$$) \right^2$$
-```
 
 $$ Gini = 1 - $$\left$$\sum_{i=1}^c (p$$<sub>i</sub>$$) $$\right$$^2$$
 
