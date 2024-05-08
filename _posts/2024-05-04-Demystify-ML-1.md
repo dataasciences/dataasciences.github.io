@@ -105,7 +105,11 @@ Steps to calculate Gini for a split:
 
 2) Calculate the Gini for the split using the weighted Gini score of each node of that split.
 
-$$ Gini = 1 - $$\left$$\sum_{i=1}^c (p$$<sub>i</sub>$$) $$\right$$^2 $$
+$$
+\begin{aligned}
+  Gini = 1 - $$\left$$\sum_{i=1}^c (p$$<sub>i</sub>$$) $$\right$$^2
+\end{aligned}
+$$
 
 ![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*ldS-_5OrbtssgSU0uIv8jQ.jpeg)
 
