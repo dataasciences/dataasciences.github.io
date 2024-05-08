@@ -107,6 +107,12 @@ Steps to calculate Gini for a split:
 
 $$ \begin{equation} G = 1 - \sum_{i=1}^{n} p_i^2 \end{equation} $$
 
+$ G = 1 - \sum_{i=1}^{n} p_i^2 $
+
+```math
+G = 1 - \sum_{i=1}^{n} p_i^2
+```
+
 ![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*ldS-_5OrbtssgSU0uIv8jQ.jpeg)
 
 Split on Gender:
