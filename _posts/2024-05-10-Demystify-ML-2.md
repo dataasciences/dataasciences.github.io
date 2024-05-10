@@ -11,6 +11,8 @@ tags:
 
 ![](https://vitalflux.com/wp-content/uploads/2023/12/Difference-between-decision-tree-and-random-forest-640x640.png)
 
+### Explanation
+
 In the [previous post](https://dataasciences.github.io/machine%20learning/data%20science/Demystify-ML-1/), we looked at the fundamentals of Trees, how it is split, how they are calculated and how a classifier arrives at a specific prediction using code examples.
 
 In this post, we go to the next step — An ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes or mean prediction of the individual trees. Random forest is like a bootstrapping algorithm with a Decision tree (CART) model.
@@ -28,8 +30,8 @@ This is straightforward since the prediction of a forest is the average of the p
 
 2) If there are M input variables, a number m < M is specified such that at each node, m variables are selected at random out of the M. Among the “m” features, calculate the node “d” using the best split point to split the node. The value of m is held constant while we grow the forest. The nodes are further split into daughter nodes using the best split.
 
-> The splitting criteria are similar to that of decision tree regressor in sci-kit-learn.
-{: .notice--note}
+> [!NOTE]
+> :info: **The splitting criteria are similar to that of the decision tree regressor in scikit-learn package.**
 
 3) Build a forest by repeating the above steps “n” number of times to create “n” number of trees(n_estimators in sci-kit-learn). Each tree is grown to the largest extent possible and there is no pruning.
 
@@ -123,8 +125,8 @@ Image(graph.create_png())
 
 ![](https://miro.medium.com/v2/resize:fit:640/format:webp/1*DqD5Sl8KyORcpkoJRSqzcQ.jpeg)
 
-Although one image is not going to solve the issue, looking at an individual decision tree shows us that a random forest is not an unexplainable method, but a sequence of logical questions and answers and every prediction can be trivially presented as a sum of feature contributions, showing how the features lead to a particular prediction.
+Although one image is not going to solve the issue, looking at an individual decision tree shows us that a random forest is not an unexplainable method, but a sequence of logical questions and answers and every prediction can be trivially presented as a sum of features contributions, showing how the features lead to a particular prediction.
 
 This opens up a lot of opportunities in practical machine learning tasks.
 
-I hope this 2-part series sparked some interest towards understanding under-the-hood workings of ML Algorithms.
+I hope this 2-part series sparked some interest towards understanding the underlying workings of ML Algorithms.
