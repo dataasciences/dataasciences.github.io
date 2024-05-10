@@ -11,7 +11,7 @@ tags:
 
 ![](https://vitalflux.com/wp-content/uploads/2023/12/Difference-between-decision-tree-and-random-forest-640x640.png)
 
-### Explanation
+### Dive into Random Forest
 
 In the [previous post](https://dataasciences.github.io/machine%20learning/data%20science/Demystify-ML-1/), we looked at the fundamentals of Trees, how it is split, how they are calculated and how a classifier arrives at a specific prediction using code examples.
 
