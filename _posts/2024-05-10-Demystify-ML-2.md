@@ -30,8 +30,8 @@ This is straightforward since the prediction of a forest is the average of the p
 
 2) If there are M input variables, a number m < M is specified such that at each node, m variables are selected at random out of the M. Among the “m” features, calculate the node “d” using the best split point to split the node. The value of m is held constant while we grow the forest. The nodes are further split into daughter nodes using the best split.
 
-> [!NOTE]
-> :info: **The splitting criteria are similar to that of the decision tree regressor in scikit-learn package.**
+> **The splitting criteria are similar to that of the decision tree regressor in scikit-learn package.**
+{: .notice--info}
 
 3) Build a forest by repeating the above steps “n” number of times to create “n” number of trees(n_estimators in sci-kit-learn). Each tree is grown to the largest extent possible and there is no pruning.
 
