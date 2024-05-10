@@ -340,4 +340,4 @@ top5y
 
 You can see that the target values are only from among the terminal node values shown in the Decision Tree Split Figure above.
 
-Now that we know how Decision trees work, it is time to move to part 2 — an advanced technique called the Random Forest.
+Now that we know how Decision trees work, it is time to move to [part 2 — an advanced technique called the Random Forest](https://dataasciences.github.io/machine%20learning/data%20science/Demystify-ML-2/).
