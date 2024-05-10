@@ -158,7 +158,7 @@ Splitting on class gives you the below table
 
 So far what we saw, applies to classification problems. Most ML frameworks(like scikit-learn) by default uses the variance approach as the splitting criteria for regression problems. There are 2 approaches to choose from for regression problems.
 
-> **For regression trees, they are either chosen to minimize Variance (Reduction in Variance approach) OR MAE (Mean Absolute Error) within all of the subsets.**
+> For regression trees, they are either chosen to minimize Variance (Reduction in Variance approach) OR MAE (Mean Absolute Error) within all of the subsets.
 {: .notice--info}
 
 ## Variance (Reduction in Variance approach)
