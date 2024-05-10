@@ -13,7 +13,7 @@ tags:
 
 In the [previous post](https://dataasciences.github.io/machine%20learning/data%20science/Demystify-ML-1/), we looked at the fundamentals of Trees, how it is split, how they are calculated and how a classifier arrives at a specific prediction using code examples.
 
-In this post, we go to the next step — An ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes or mean prediction of the individual trees. Random forest is like a bootstrapping algorithm with Decision tree (CART) model.
+In this post, we go to the next step — An ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes or mean prediction of the individual trees. Random forest is like a bootstrapping algorithm with a Decision tree (CART) model.
 
 The random forest has been a burgeoning machine learning technique in the last few years. It is a non-linear tree-based model that often provides accurate results. However, being a black box, it is oftentimes hard to interpret and fully understand especially when it comes to explaining the results and rationale behind it to stakeholders in organizations.
 
@@ -28,10 +28,10 @@ This is straightforward since the prediction of a forest is the average of the p
 
 2) If there are M input variables, a number m < M is specified such that at each node, m variables are selected at random out of the M. Among the “m” features, calculate the node “d” using the best split point to split the node. The value of m is held constant while we grow the forest. The nodes are further split into daughter nodes using the best split.
 
-> [!NOTE]  
-> The splitting criteria are similar to that of decision tree regressor in scikit-learn.
+> The splitting criteria are similar to that of decision tree regressor in sci-kit-learn.
+{: .notice--note}
 
-3) Build forest by repeating the above steps “n” number times to create “n” number of trees(n_estimators in scikit-learn). Each tree is grown to the largest extent possible and there is no pruning.
+3) Build a forest by repeating the above steps “n” number of times to create “n” number of trees(n_estimators in sci-kit-learn). Each tree is grown to the largest extent possible and there is no pruning.
 
 4) Predict new data by aggregating the predictions of the ntree( “n” number of trees) trees (i.e., majority votes for classification, the average for regression).
 
