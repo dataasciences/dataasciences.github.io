@@ -161,6 +161,9 @@ So far what we saw, applies to classification problems. Most ML frameworks(like 
 > For regression trees, they are either chosen to minimize Variance (Reduction in Variance approach) OR MAE (Mean Absolute Error) within all of the subsets.
 {: .notice--info}
 
+> <span style="font-size:4em;">For regression trees, they are either chosen to minimize Variance (Reduction in Variance approach) OR MAE (Mean Absolute Error) within all of the subsets.</span>
+{: .notice--info}
+
 ## Variance (Reduction in Variance approach)
 
 This algorithm uses the standard formula of variance to choose the best split. The split with lower variance is selected as the criteria to split the population.
