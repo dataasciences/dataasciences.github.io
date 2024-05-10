@@ -154,12 +154,12 @@ Splitting on class gives you the below table
 ![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*Nqvz2uICpL6O_1IWebFVpw.jpeg)
 
 Which tree algorithm does scikit-learn use? CART it is, more on that here — http://scikit-learn.org/stable/modules/tree.html#tree-algorithms
-{: .notice--warning}
+{: .notice--info}
 
 So far what we saw, applies to classification problems. Most ML frameworks(like scikit-learn) by default uses the variance approach as the splitting criteria for regression problems. There are 2 approaches to choose from for regression problems.
 
 For regression trees, they are either chosen to minimize Variance (Reduction in Variance approach) OR MAE (Mean Absolute Error) within all of the subsets.
-{: .notice--warning}
+{: .notice--info}
 
 ## Variance (Reduction in Variance approach)
 
