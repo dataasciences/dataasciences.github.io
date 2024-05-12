@@ -14,6 +14,8 @@ The Space of Data Science has several tools that can be used for Data Extraction
 
 In this blog, we will see 10 lesser-known Jupyter commands with examples.
 
+### Magic Commands
+
 ```python
 %who
 ```
@@ -128,4 +130,4 @@ Based on the output above, here is what they mean;
 
 ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/jupyter_xmode.PNG?raw=true)
 
-I hope these Magic commands are useful to you. Do share some commands that you know of & that could be of help to the developer community! 
+I hope these Magic commands are useful to you as you continue to master Jupyter Notebooks.
