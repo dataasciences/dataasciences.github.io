@@ -48,16 +48,13 @@ This command times the execution of a Python statement or expression. It's usefu
 
 ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/jupyter_timeit.PNG?raw=true)
 
-> <span style="font-size:1em;"> Purpose: %timeit is primarily used for timing small code snippets or expressions repeatedly to get a more accurate measure of their execution time.
-
-                  How it works: It runs the specified code multiple times (by default, it runs it 100,000 times) and calculates the average execution time, providing a more reliable estimate.
-
-                  Output: %timeit provides a more detailed output, including the average time taken per loop, the number of loops executed, and the best time taken per loop.
+> <span style="font-size:1em;"> **Purpose:** %timeit is primarily used for timing small code snippets or expressions repeatedly to get a more accurate measure of their execution time.<br>
+                  **How it works:** It runs the specified code multiple times (by default, it runs it 100,000 times) and calculates the average execution time, providing a more reliable estimate.<br>
+                  **Output:** %timeit provides a more detailed output, including the average time taken per loop, the number of loops executed, and the best time taken per loop.
                   </span>
 {: .notice--info}
 
 %timeit is useful for benchmarking small code snippets and obtaining reliable average execution times.
-
 
 ```python
 %history
@@ -120,12 +117,10 @@ Similar to %timeit, %time measures the execution time of a single Python stateme
 
 Based on the output above, here is what they mean; 
 
-> <span style="font-size:1em;"> The **Wall Time** means that a clock hanging on a wall outside of the computer would measure 304 ms from the time the code was submitted to the CPU to the time when the process completed.
-
-             **User time** and **sys time** both refer to the time taken by the CPU to actually work on the code. The CPU time dedicated to our code is only a fraction of the wall time as the CPU swaps its attention from               our code to other processes that are running on the system.
- 
+> <span style="font-size:1em;"> The **Wall Time** means that a clock hanging on a wall outside of the computer would measure 304 ms from the time the code was submitted to the CPU to the time when the process completed.<br>
+             **User time** and **sys time** both refer to the time taken by the CPU to actually work on the code. The CPU time dedicated to our code is only a fraction of the wall time as the CPU swaps its attention from               our code to other processes that are running on the system.<br>
             **User time** is the amount of CPU time taken outside of the kernel. Sys time is the amount of time taken inside of the kernel. The total CPU time is user time + sys time.
-    </span>
+  </span>
 {: .notice--info}
 
 ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/jupyter_timeit.png?raw=true)
