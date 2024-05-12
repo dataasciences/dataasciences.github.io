@@ -49,7 +49,9 @@ This command times the execution of a Python statement or expression. It's usefu
 ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/jupyter_timeit.PNG?raw=true)
 
   Purpose: %timeit is primarily used for timing small code snippets or expressions repeatedly to get a more accurate measure of their execution time.
+  
   How it works: It runs the specified code multiple times (by default, it runs it 100,000 times) and calculates the average execution time, providing a more reliable estimate.
+  
   Output: %timeit provides a more detailed output, including the average time taken per loop, the number of loops executed, and the best time taken per loop.
 
 %timeit is useful for benchmarking small code snippets and obtaining reliable average execution times.
