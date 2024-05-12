@@ -115,6 +115,8 @@ If you are interested to know more about this, refer to the [page here](https://
 
 Similar to %timeit, %time measures the execution time of a single Python statement or expression, but it only runs it once.
 
+![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/jupyter_timeit.png?raw=true)
+
 Based on the output above, here is what they mean; 
 
 > <span style="font-size:1em;"> The **Wall Time** means that a clock hanging on a wall outside of the computer would measure 304 ms from the time the code was submitted to the CPU to the time when the process completed.<br>
@@ -122,8 +124,6 @@ Based on the output above, here is what they mean;
             **User time** is the amount of CPU time taken outside of the kernel. Sys time is the amount of time taken inside of the kernel. The total CPU time is user time + sys time.
   </span>
 {: .notice--info}
-
-![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/jupyter_timeit.png?raw=true)
 
 ```python
 %xmode
