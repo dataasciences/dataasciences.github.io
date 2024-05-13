@@ -11,7 +11,7 @@ tags:
 toc: true
 ---
 
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5qSdSwvHuatikFy8AIoXsaoT8a0MSObL-3Q&usqp=CAU)
+![](https://learningfactor.com.au/wp-content/uploads/2018/10/brain-map.jpg)
 
 [**Learning How to Learn**](https://www.coursera.org/learn/learning-how-to-learn) is one of the best online courses you will ever take, as this deals with how to learn anything. If you haven't done the course, read on to learn the important points from it.
 
