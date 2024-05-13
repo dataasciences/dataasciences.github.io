@@ -119,7 +119,7 @@ Similar to %timeit, %time measures the execution time of a single Python stateme
 
 Based on the output above, here is what they mean; 
 
-> <span style="font-size:1em;"> The **Wall Time** means that a clock hanging on a wall outside of the computer would measure 304 ms from the time the code was submitted to the CPU to the time when the process completed.<br>
+> <span style="font-size:1em;"> The **Wall Time** means that a clock hanging on a wall outside of the computer would measure 994 ms from the time the code was submitted to the CPU to the time when the process completed.<br>
              **User time** and **sys time** both refer to the time taken by the CPU to actually work on the code. The CPU time dedicated to our code is only a fraction of the wall time as the CPU swaps its attention from               our code to other processes that are running on the system.<br>
             **User time** is the amount of CPU time taken outside of the kernel. Sys time is the amount of time taken inside of the kernel. The total CPU time is user time + sys time.
   </span>
