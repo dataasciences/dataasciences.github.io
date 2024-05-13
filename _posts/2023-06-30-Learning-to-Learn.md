@@ -11,7 +11,9 @@ tags:
 toc: true
 ---
 
-This is one of those good online courses you will ever take, as this deals with how to learn anything. If you haven't done the course, read on to grasp the important points from it.
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5qSdSwvHuatikFy8AIoXsaoT8a0MSObL-3Q&usqp=CAU)
+
+[**Learning How to Learning**](https://www.coursera.org/learn/learning-how-to-learn) is one of the best online courses you will ever take, as this deals with how to learn anything. If you haven't done the course, read on to learn the important points from it.
 
 ## Week 1: What is Learning?
 
