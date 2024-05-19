@@ -80,7 +80,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "akash_ram"
+  username               : "ponderingdata"
 facebook:
   username               :
   app_id                 :
@@ -112,21 +112,21 @@ author:
     #- label: "Email"
     #  icon: "fas fa-fw fa-envelope-square"
     #  url: mailto:akash9129@gmail.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://rakash.github.io/"
+    #- label: "Website"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://rakash.github.io/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/akash-ramkumar/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/akash_ram"
+      url: "https://twitter.com/ponderingdata"
     #- label: "Facebook"
     #  icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/rakash"
+    #- label: "GitHub"
+      #icon: "fab fa-fw fa-github"
+      #url: "https://github.com/rakash"
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -140,15 +140,15 @@ footer:
     #- label: "Facebook"
     #  icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/rakash"
+    #- label: "GitHub"
+    #  icon: "fab fa-fw fa-github"
+    #  url: "https://github.com/rakash"
     - label: "LinkedIn Profile"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/akash-ramkumar/"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://rakash.github.io/"
+    #- label: "Website"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://rakash.github.io/"
     #- label: "GitLab"
     #  icon: "fab fa-fw fa-gitlab"
       # url:
