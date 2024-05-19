@@ -103,7 +103,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Data Musings"
+  name             : "Software Musings"
   avatar           : "/assets/images/data_musings.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Musings on Data, Software Engineering, AI, Books." 
   location         : "127.0.0.1"
