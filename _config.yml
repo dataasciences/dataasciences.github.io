@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "contrast" #"default" # "air", "aqua", "contrast", "d
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Data Musings"
+title                    : "Software Musings"
 title_separator          : "-"
-name                     : "Data Musings"
+name                     : "Software Musings"
 description              : "Thoughts Unfiltered"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
