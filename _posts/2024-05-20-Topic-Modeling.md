@@ -242,7 +242,7 @@ show(plot, notebook_handle=True)
 ```
 ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/words_lsa.PNG?raw=true)
 
-However, LSI has one major weakness – ambiguity. For example, how could a system determine if you are talking about Microsoft office, or the office in which you work. This is where LDA comes in, lets look at that.
+However, LSI has one major weakness – ambiguity. For example, how could a system determine if you are talking about Microsoft office, or the office in which you work. This is where LDA comes in, let's look at that.
 
 ### Latent Dirichlet Allocation
 
@@ -257,8 +257,8 @@ LDA is a significant extension of LSI.  Words are grouped into topics.  They can
 α is the parameter of the Dirichlet prior on the per-document topic distributions, β is the parameter of the Dirichlet prior on the per-topic word distribution.
 $$ θ_m $$ is the topic distribution for document m.
 $$ φ_k $$ is the word distribution for topic k.
-$$ z_m_n $$ is the topic for the n-th word in document m, and
-$$ w_m_n $$ is the specific word.
+$$ z_{mn} $$ is the topic for the n-th word in document m, and
+$$ w_{mn} $$ is the specific word.
 
 The fact that W is grayed out means that words $$ w_ij $$ are the only observable variables, and the other variables are latent variables. A sparse Dirichlet prior can be used to model the topic-word distribution, following the intuition that the probability distribution over words in a topic is skewed, so that only a small set of words have high probability. The resulting model is the most widely applied variant of LDA today. The plate notation for this model is shown below, where  K denotes the number of topics and  $$ φ_1 $$, …, $$ φ_k $$ are V -dimensional vectors storing the parameters of the Dirichlet-distributed topic-word distributions (V is the number of words in the vocabulary).
 
