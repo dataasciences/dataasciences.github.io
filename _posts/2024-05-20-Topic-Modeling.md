@@ -139,10 +139,10 @@ Latent Semantic Analysis (LSA) is a mathematical method that tries to bring out 
 Singular value decomposition can be used to solve the low-rank matrix approximation problem. We then derive from it an application to approximating term-document matrices. We invoke the following three-step procedure to this end:
 
 1. Given C, construct its SVD in the form  $$ C = U \sum V^T $$
-2. Derive from  Σ the matrix  Σk formed by replacing by zeros the  r − k  smallest singular values on the diagonal of  Σ.
+2. Derive from  Σ the matrix $$ \sum_k $$ formed by replacing by zeros the  r − k  smallest singular values on the diagonal of  Σ.
 3. Compute and output  $$ C_k = U\sum_kV^T $$ as the rank- k approximation to  C.   
   
-Where C is the term-document matrix and U, Σ and V^T are SVD computed matrices.
+Where C is the term-document matrix and U, $$ \sum $$ and $$ V^T $$ are SVD computed matrices.
 
 Done with theory, on to Python now! For LSI, We'll be using scikit learn module.
 
