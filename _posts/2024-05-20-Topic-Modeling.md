@@ -248,17 +248,17 @@ However, LSI has one major weakness – ambiguity. For example, how could a syst
 
 It is a generative statistical model that allows sets of observations to be explained by unobserved groups that explain why some parts of the data are similar. For example, if observations are words collected into documents, it posits that each document is a mixture of a small number of topics and that each word's presence is attributable to one of the document's topics.
 
-LSI examines the words used in a document and looks for their relationships with other words. LSI allows a system to determine the kind of words that a document might be relevant for, even if they are not actually used on the document itself.  But having content that is full of words that have relationships with each other, you are strengthening the document for all of those words.
+LSI examines the words used in a document and looks for their relationships with other words. LSI allows a system to determine the kind of words that a document might be relevant for, even if they are not actually used on the document itself.  But by having content that is full of words that have relationships with each other, you are strengthening the document for all of those words.
 
-LDA is a significant extension of LSI.  Words are grouped into topics.  They can exist in more than one topic, in fact most do.  LDA tackles ambiguity by comparing a document to two topics and determining which topic is closer to the document, across all combinations of topics which seem broadly relevant. In doing so, LDA helps to determine which documents are most relevant to which topics.
+LDA is a significant extension of LSI.  Words are grouped into topics.  They can exist in more than one topic, in fact, most do.  LDA tackles ambiguity by comparing a document to two topics and determining which topic is closer to the document, across all combinations of topics which seem broadly relevant. In doing so, LDA helps to determine which documents are most relevant to which topics.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Latent_Dirichlet_allocation.svg/593px-Latent_Dirichlet_allocation.svg.png)
 
 α is the parameter of the Dirichlet prior on the per-document topic distributions, β is the parameter of the Dirichlet prior on the per-topic word distribution.
 $$ θ_m $$ is the topic distribution for document m.
 $$ φ_k $$ is the word distribution for topic k.
-$$ z_mn $$ is the topic for the n-th word in document m, and
-$$ wmn $$ is the specific word.
+$$ z_m_n $$ is the topic for the n-th word in document m, and
+$$ w_m_n $$ is the specific word.
 
 The fact that W is grayed out means that words $$ w_ij $$ are the only observable variables, and the other variables are latent variables. A sparse Dirichlet prior can be used to model the topic-word distribution, following the intuition that the probability distribution over words in a topic is skewed, so that only a small set of words have high probability. The resulting model is the most widely applied variant of LDA today. The plate notation for this model is shown below, where  K denotes the number of topics and  $$ φ_1 $$, …, $$ φ_k $$ are V -dimensional vectors storing the parameters of the Dirichlet-distributed topic-word distributions (V is the number of words in the vocabulary).
 
@@ -411,7 +411,7 @@ doc_lda = lda_model[corpus]
 #Output: [(0,'0.040*"study" + 0.022*"virus" + 0.015*"new" + 0.014*"day" + 0.014*"link" + ''0.013*"increase" + 0.011*"find" + 0.010*"deadly" + 0.010*"life" + ''0.10*"tv"'),
           #(1,'0.019*"mer" + 0.018*"hospital" + 0.016*"test" + 0.012*"patient" + ''0.011*"blood" + 0.011*"rise" + 0.010*"kill" + 0.010*"world" + 0.009*"watch"'+ 0. 7*"review"'), (2,'0.018*"death" + 0.015*"risk" + 0.015*"help" + 0.013*"spread" + ''0.013*"woman" + 0.012*"ebola_outbreak" + 0.012*"man" + 0.012*"guinea" + ''0.011*"fda" + 0.011*"cigarette"'), (3, '0.022*"case" + 0.022*"new" + 0.018*"report" + 0.014*"drug" + ''0.013*"disease" + 0.013*"year" + 0.011*"high" + 0.008*"obesity" + ' '0.008*"fight" + 0.007*"alzheimer"'),(4, '0.026*"say" + 0.024*"health" + 0.017*"cancer" + 0.014*"heart" + ''0.012*"recall" + 0.010*"people" + 0.009*"doctor" + 0.008*"scientist" + ''0.008*"reveal" + 0.007*"good"')]
 ```
-Right, now that the LDA model is built, there has to be a metric to evaluate how good the model is. Lets compute that to check how good it is.¶
+Right, now that the LDA model is built, there has to be a metric to evaluate how good the model is. Lets compute that to check how good it is.
 There are 2 such metrics.
 
 1) Perplexity - Is a statistical measure of how well a probability model predicts a sample. As applied to LDA, for a given value of k, you estimate the LDA model. Then given the theoretical word distributions represented by the topics, compare that to the actual topic mixtures, or distribution of words in your documents. - Lower the better.
@@ -606,7 +606,6 @@ len(hdptopics)
 
 The topics generated by HDP are as above. Lets look at the terms of the 1st topic. We also see that the model has generated 20 topics. We'll be comparing the coherence scores of the other models later, But before that, lets look at the next technique under topic modeling.
 
-
 ### Non-Negative Matrix Factorization
 
 ![](https://upload.wikimedia.org/wikipedia/commons/f/f9/NMF.png)
@@ -621,7 +620,8 @@ $$ v_i = Wh_i $$ where $$ v_i $$ is the i-th column vector of the product matrix
 
 Again, the difference between LDA and NMF?
 
-Latent Dirichlet Allocation (where documents are represented by latent topics, and topics are represented by a distribution over words) Non-negative Matrix Factorization (where a document-term matrix is approximately factorized into term-feature and feature-document matrices).
+* Latent Dirichlet Allocation (where documents are represented by latent topics, and topics are represented by a distribution over words). 
+* Non-negative Matrix Factorization (where a document-term matrix is approximately factorized into term-feature and feature-document matrices).
 
 **NMF Structure:**
 
@@ -661,7 +661,6 @@ model.fit(xtfidf_norm)
 
 # NMF(alpha=0.0, beta_loss='frobenius', init='nndsvd', l1_ratio=0.0, max_iter=200, n_components=5, random_state=None, shuffle=False, solver='cd', tol=0.0001, verbose=0)
 ```
-
 In order to get the topics, we'll again be creating a function. The NMF doesn't have the show topics method and hence we'll be taking the custom approach.
 
 ```python
@@ -695,7 +694,6 @@ raw_documents= raw_documents.str.lower()
 raw_documents = raw_documents.tolist()
 raw_doc1 = [i.split() for i in raw_documents]
 ```
-
 ```python
 from sklearn.feature_extraction.text import CountVectorizer
 # use a custom stopwords list, set the minimum term-document frequency to 20
@@ -768,7 +766,6 @@ model = decomposition.NMF( init="nndsvd", n_components=k )
 W = model.fit_transform( A )
 H = model.components_
 ```
-
 checking the index for a term
 
 ```python
