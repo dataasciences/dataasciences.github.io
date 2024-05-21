@@ -24,7 +24,7 @@ sidebar:
 **Python Distilled -**
 
 {:style="text-align:center;"}
-![](https://m.media-amazon.com/images/I/51QQAJvfo2L._AC_UF1000,1000_QL80_DpWeblab_.jpg)
+![](https://images-eu.ssl-images-amazon.com/images/I/A1dGEl9c3QL._AC_UL210_SR210,210_.jpg)
 
 
 
