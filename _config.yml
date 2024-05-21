@@ -106,7 +106,7 @@ author:
   name             : "Software Musings"
   avatar           : "/assets/images/data_musings.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Musings on Data, Software Engineering, AI, Books." 
-  location         : "127.0.0.1"
+  #location         : "127.0.0.1"
   #email            : "akash9129@gmail.com"
   links:
     #- label: "Email"
