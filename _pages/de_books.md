@@ -17,12 +17,14 @@ sidebar:
 
 ![](https://www.jointaro.com/blog/content/images/2024/02/cover.JPG)
 
-**If you like the content, consider supporting me:**
+**If you like the content, consider supporting me!**
 {: .notice--info}
 
+<!---
 [![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](https://www.paypal.me/mmistakes)
 {: style="margin-top: 0.5em;"}
+-->
 
-Or you could get me a coffee! 
+**You could get me a coffee!** 
 
 [!["Buy Me A Coffee"](https://user-images.githubusercontent.com/1376749/120938564-50c59780-c6e1-11eb-814f-22a0399623c5.png)](https://www.buymeacoffee.com/mmistakes)
