@@ -9,12 +9,12 @@ sidebar:
 **Automate the Boring Stuff With Python -**
 
 {:style="text-align:center;"}
-![](https://hb.imgix.net/2114905578e4ba0d4129d8400b1622faa45e9240.jpg?auto=compress,format&fit=crop&h=353&w=616&s=403e90916ffd6e6031add3b67e927566)
+![](https://cdn.dribbble.com/users/12046154/screenshots/18435036/media/0ce62cfaa7d6e1f86ee9ab32fdbea691.jpg)
 
 **Fluent Python -**
 
 {:style="text-align:center;"}
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkXmtXWUuj3YOxXJuuW2kwCaqIJKOff2Jb6H_4ps-9B0pbBp10j2J5tgT5Y5yCGFXIc68&usqp=CAU)
+![](https://m.media-amazon.com/images/I/61j3DvlCTcL._AC_UF1000,1000_QL80_.jpg)
 
 **Head First Series -**
 
