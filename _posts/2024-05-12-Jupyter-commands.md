@@ -8,6 +8,8 @@ tags:
   - Data Science
   - Python
   - Jupyter Notebook
+sidebar:
+  - nav: docs
 ---
 
 The Space of Data Science has several tools that can be used for Data Extraction, Model building, Deployments & Reporting. But one tool or an IDE that is commonly used across is Jupyter Notebooks. Knowing handy commands and tricks in Jupyter Notebook can be helpful when you develop your projects, debug them, or when there is a need to export your project as a module, and many more.
