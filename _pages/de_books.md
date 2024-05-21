@@ -15,4 +15,4 @@ sidebar:
 
 **Fundamentals of Data Engineering**
 
-![](https://m.media-amazon.com/images/I/41BCu6h1rWL.jpg)
+![](https://www.jointaro.com/blog/content/images/2024/02/cover.JPG)
