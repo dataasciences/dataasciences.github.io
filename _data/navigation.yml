@@ -10,9 +10,9 @@ docs:
   - title: Book Recommendations
     children:
       - title: "Data Engineering"
-        #url: /about/
+        #url: /debooks/
       - title: "Machine Learning"
-        #url: /about/
+        #url: /mlbooks/
       - title: "Python"
         url: /pythonbooks/
       
