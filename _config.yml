@@ -322,10 +322,3 @@ defaults:
       layout: single
       author_profile: true
       share: true
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      sidebar:
-        nav: "docs"
