@@ -134,9 +134,9 @@ author:
 # Site Footer
 footer:
   links:
-    #- label: "Twitter"
-    #  icon: "fab fa-fw fa-twitter-square"
-      # url:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/ponderingdata"
     #- label: "Facebook"
     #  icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -158,7 +158,6 @@ footer:
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
       # url:
-
 
 # Reading Files
 include:
