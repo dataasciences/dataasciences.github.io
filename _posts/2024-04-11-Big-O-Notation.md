@@ -7,6 +7,8 @@ categories:
   - Programming
 tags:
   - Programming
+sidebar:
+  - nav: docs
 ---
 
 If you attend FAANG/MAANG interviews, chances are you would be asked to calculate the O-Notation for the code you write.
