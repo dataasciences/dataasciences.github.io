@@ -7,7 +7,7 @@ sidebar:
 
 **Hands-On Machine Learning with Scikit-Learn and TensorFlow**
 
-![](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRHVZsHf7ZPHPZ51B8dblEMlNvq3fWCz9RdVF1I2DcOfLiUMRr)
+![](https://m.media-amazon.com/images/I/81tPtnOeMyL._AC_UF1000,1000_QL80_.jpg)
 
 **ESLR**
 
