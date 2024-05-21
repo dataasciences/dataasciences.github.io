@@ -15,12 +15,5 @@ docs:
         url: /mlbooks/
       - title: "Python"
         url: /pythonbooks/
-      #- title: "Buy me Coffee!"
-      #  image: "/assets/images//buy_me.jpg"
-      #  image_alt: "image"
-sidebar:
-    - text: >
-       ---
-       [![Testing Sidebar image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu0rE2XZN3xuIjza2A0mFCbBGu6udRVNrw4f285mIFLg&s)]
-       ---
+   
             
