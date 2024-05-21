@@ -18,7 +18,7 @@ sidebar:
 
 **Python Distilled -**
 
-![](https://m.media-amazon.com/images/I/41jqNeCkSWL.jpg)
+![](https://www.oreilly.com/library/cover/9780134173399/1200w630h/)
 
 
 
