@@ -135,3 +135,16 @@ Based on the output above, here is what they mean;
 ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/jupyter_xmode.PNG?raw=true)
 
 I hope these Magic commands are useful to you as you continue to master Jupyter Notebooks.
+
+**If you like the content, consider supporting me!**
+{: .notice--info}
+
+<!---
+[![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](https://www.paypal.me/mmistakes)
+{: style="margin-top: 0.5em;"}
+-->
+
+**You could get me a coffee!** 
+
+[!["Buy Me A Coffee"](https://user-images.githubusercontent.com/1376749/120938564-50c59780-c6e1-11eb-814f-22a0399623c5.png)](https://buymeacoffee.com/softwaremusings)
+
