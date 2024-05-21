@@ -3,6 +3,8 @@ title: "Data Engineering Books to Read"
 permalink: /debooks/
 sidebar:
   - nav: docs
+  - text: >
+      [![](/assets/images/buy_me_coffee.jpg)](https://buymeacoffee.com/softwaremusings){:target="_blank"}
 ---
 
 **Data Warehouse Toolkit** - Considered one of the most fundamental books in the field of Data Engineering. A Must-read!
@@ -12,7 +14,8 @@ sidebar:
 
 **Data Engineering With Python** - Walks through Hands-on implementation of Data Engineering Concepts using Python
 
-![](https://m.media-amazon.com/images/I/712NB2pnF4L._AC_UF1000,1000_QL80_.jpg)
+{:style="text-align:center;"}
+![](https://m.media-amazon.com/images/I/41iGN2xZZCL._AC_SY200_QL15_.jpg)
 
 **Fundamentals of Data Engineering** - Touches upon fundamentals of Data Engineering in a very easy-to-understand manner. 
 
