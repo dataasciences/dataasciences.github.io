@@ -7,10 +7,6 @@ tags:
   - IT
   - Python
 toc: true
-sidebar:
-  - title: "Podcasts you need to Listen to"
-    image: http://placehold.it/350x250
-    image_alt: "image"
 ---
 
 You've written some interesting code, but all of them have processed only one kind of data - numbers. As you know (you can see this everywhere around you) lots of computer data are not numbers: first names, last names, addresses, titles, poems, scientific papers, emails, court judgments, love confessions, and much, much more. All these data must be stored, input, output, searched, and transformed by contemporary computers just like any other data, no matter if they are single characters or multi-volume encyclopedias.
