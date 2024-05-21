@@ -14,7 +14,7 @@ sidebar:
 **Fluent Python -**
 
 {:style="text-align:center;"}
-![](https://m.media-amazon.com/images/I/61j3DvlCTcL._AC_UF1000,1000_QL80_.jpg)
+![](https://media.licdn.com/dms/image/C4D12AQFi8yvHiIipLA/article-cover_image-shrink_600_2000/0/1521302936745?e=2147483647&v=beta&t=B2JG2JA5pqpbibzjzmPG24ve6kbb78ZLCmcJmBzoY6Q)
 
 **Head First Series -**
 
