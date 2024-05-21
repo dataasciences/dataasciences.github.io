@@ -10,9 +10,9 @@ docs:
   - title: Book Recommendations
     children:
       - title: "Data Engineering"
-        url: /docs/quick-start-guide/
+        url: /about/
       - title: "Machine Learning"
-        url: /docs/structure/
+        url: /about/
       - title: "Python"
-        url: /docs/installation/
+        url: /year-archive/
       
