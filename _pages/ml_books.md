@@ -3,32 +3,27 @@ title: "Machine Learning Books to Read"
 permalink: /mlbooks/
 sidebar:
   - nav: docs
+  - text: >
+      [![](/assets/images/buy_me_coffee.jpg)](https://buymeacoffee.com/softwaremusings){:target="_blank"}
 ---
 
 **Hands-On Machine Learning with Scikit-Learn and TensorFlow** - Touches the basics and advanced concepts in an easy-to-understand manner.
 
-![](https://m.media-amazon.com/images/I/81tPtnOeMyL._AC_UF1000,1000_QL80_.jpg)
+{:style="text-align:center;"}
+![](https://m.media-amazon.com/images/I/51FPscnZ%2B6L._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_PIStarRatingFOURANDHALF%2CBottomLeft%2C360%2C-6_SR600%2C315_ZA421%2C445%2C290%2C400%2C400%2CAmazonEmberBold%2C12%2C4%2C0%2C0%2C5_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg)
 
-**ESLR**
+**ESLR** - The most fundamental statistics and ML book recommended across together with ISLR. 
 
-![](https://m.media-amazon.com/images/I/517TrzchOML._AC_UF1000,1000_QL80_.jpg) - The most fundamental statistics and ML book recommended across together with ISLR. 
+{:style="text-align:center;"}
+![](https://5.imimg.com/data5/WT/VL/YO/SELLER-99655515/the-elements-of-statistical-learning-data-mining-inference-and-prediction-book-500x500.jpg) 
 
 **ISLR**
 
-![](https://images.squarespace-cdn.com/content/v1/5ff2adbe3fe4fe33db902812/8b373fbe-d1b4-4351-b803-0d3cd5bba1b0/ISLP_cover.png)
+{:style="text-align:center;"}
+![](https://m.media-amazon.com/images/I/41pP5%2BSAv-L._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_PIStarRatingFOURANDHALF%2CBottomLeft%2C360%2C-6_SR600%2C315_ZA1%252C895%2C445%2C290%2C400%2C400%2CAmazonEmberBold%2C12%2C4%2C0%2C0%2C5_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg)
 
 **Deep Learning** - The thorough book on Deep learning, even recommended by Tesla Founder Elon Musk!
 
-![](https://m.media-amazon.com/images/I/A10G+oKN3LL._AC_UF1000,1000_QL80_.jpg)
+{:style="text-align:center;"}
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8N7coeP1PelS7d17z2ZHgq1zkTzwHb8Be7F6y0tfFd7CDtsBXVQnMA8u_68GjBfp8he4&usqp=CAU)
 
-**If you like the content, consider supporting me!**
-{: .notice--info}
-
-<!---
-[![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](https://www.paypal.me/mmistakes)
-{: style="margin-top: 0.5em;"}
--->
-
-**You could get me a coffee!** 
-
-[!["Buy Me A Coffee"](https://user-images.githubusercontent.com/1376749/120938564-50c59780-c6e1-11eb-814f-22a0399623c5.png)](https://buymeacoffee.com/softwaremusings)
