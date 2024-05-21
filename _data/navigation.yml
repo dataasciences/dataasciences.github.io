@@ -15,4 +15,8 @@ docs:
         url: /mlbooks/
       - title: "Python"
         url: /pythonbooks/
+      - title: "Buy me Coffee!"
+        image: "/assets/images//buy_me.jpg"
+        image_alt: "image"
+        
       
