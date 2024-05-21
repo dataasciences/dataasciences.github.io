@@ -2,21 +2,7 @@
 main:
   # - title: "About"
   #  url: /about/
-  #- title: "Posts by Year"
-  #  url: /year-archive/
   - title: "Posts by Category"
     url: /categories/
-  - title: "Posts by Year"
-    url: /year-archive/
-
-docs:
-  - title: Getting Started
-    children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/    
+  - title: "Coming Soon!"
+    # url: /year-archive/
