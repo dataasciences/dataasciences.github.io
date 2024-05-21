@@ -100,7 +100,6 @@ analytics:
     tracking_id          : "G-VSBRHFF0CV"
     anonymize_ip         : # true, false (default)
 
-
 # Site Author
 author:
   name             : "Software Musings"
@@ -130,6 +129,9 @@ author:
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    # _docs      
+    - sidebar:
+      - nav: docs
 
 # Site Footer
 footer:
@@ -321,5 +323,6 @@ defaults:
       layout: single
       author_profile: true
       share: true
+  # _docs      
   - sidebar:
-      nav: "docs"
+    - nav: docs
