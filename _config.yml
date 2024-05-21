@@ -321,3 +321,5 @@ defaults:
       layout: single
       author_profile: true
       share: true
+  - sidebar:
+      nav: "docs"
