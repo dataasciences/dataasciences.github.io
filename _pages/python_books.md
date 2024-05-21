@@ -16,6 +16,9 @@ sidebar:
    
 ![](https://m.media-amazon.com/images/I/91X3bbahp3L._AC_UF1000,1000_QL80_.jpg)
 
+**Python Distilled -**
+
+![](https://m.media-amazon.com/images/I/41jqNeCkSWL.jpg)
 
 
 
