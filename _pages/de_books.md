@@ -20,4 +20,4 @@ sidebar:
 **Fundamentals of Data Engineering** - Touches upon fundamentals of Data Engineering in a very easy-to-understand manner. 
 
 {:style="text-align:center;"}
-![](https://m.media-amazon.com/images/I/41BCu6h1rWL.jpg)
+![](https://m.media-amazon.com/images/I/41BCu6h1rWL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_PIStarRatingFOURANDHALF%2CBottomLeft%2C360%2C-6_SR600%2C315_ZA497%2C445%2C290%2C400%2C400%2CAmazonEmberBold%2C12%2C4%2C0%2C0%2C5_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg)
