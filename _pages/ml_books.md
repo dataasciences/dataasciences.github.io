@@ -20,9 +20,9 @@ sidebar:
 **ISLR**
 
 {:style="text-align:center;"}
-![](https://trevorhastie.github.io/ISLR/ISL%20Cover%202.jpg)
+![](https://i.ebayimg.com/images/g/tw8AAOSwBKpjTs7a/s-l1200.webp)
 
 **Deep Learning** - The thorough book on Deep learning, even recommended by Tesla Founder Elon Musk!
 
 {:style="text-align:center;"}
-![](https://images.thenile.io/r1000/9780262035613.jpg)
+![](https://fivebooks.com/book/deep-learning-adaptive-computation-and-machine-learning-series/shareimage.jpg)
