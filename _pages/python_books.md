@@ -9,7 +9,7 @@ sidebar:
 **Automate the Boring Stuff With Python -**
 
 {:style="text-align:center;"}
-![](https://cdn.dribbble.com/users/12046154/screenshots/18435036/media/0ce62cfaa7d6e1f86ee9ab32fdbea691.jpg)
+![](https://m.media-amazon.com/images/I/51NUClalChL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg)
 
 **Fluent Python -**
 
