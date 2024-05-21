@@ -228,7 +228,7 @@ Python 3.8 introduced several new syntax warnings and improvements to error hand
 
 - Tracebacks in Python 3.8 include additional context to help diagnose errors. For example, KeyError now displays the missing key, and IndexError shows the out-of-range index.  
 
-**Detailed KeyError and IndexError Messages:**:
+**Detailed KeyError and IndexError Messages:**
 
 ```python
 # Example of KeyError with improved message
