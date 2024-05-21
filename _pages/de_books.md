@@ -9,6 +9,9 @@ sidebar:
 
 ![](https://m.media-amazon.com/images/I/81ohP7WlqyL._AC_UF1000,1000_QL80_.jpg)
 
+{:style="text-align:center;"}
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBCtLBQtvAAty7wP5oo0n8zKZqCDPu-9wztw&usqp=CAU)
+
 **Data Engineering With Python** - Walks through Hands-on implementation of Data Engineering Concepts using Python
 
 ![](https://m.media-amazon.com/images/I/712NB2pnF4L._AC_UF1000,1000_QL80_.jpg)
