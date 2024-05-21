@@ -47,7 +47,7 @@ if match := pattern.search(text):
 
 Python 3.8 introduced support for defining positional-only parameters in function definitions using the / separator. This allows developers to enforce the positional-only behavior for certain parameters, providing more control over function signatures.
 
-A special marker, /, can now be used when defining a method's arguments to specify that the functional only accepts positional arguments on the left of the marker.
+A special marker, /, can now be used when defining a method's arguments to specify that the function only accepts positional arguments on the left of the marker.
 
 ```python
 def func(a, b, /, c, d):
@@ -162,13 +162,11 @@ person: Person = {
 
 **Key Features of TypedDict in Python 3.8**
 
-> *Fixed Set of Keys:*
+*Fixed Set of Keys:*
+- 'TypedDict' allows you to define a dictionary with a fixed set of keys, improving type safety by ensuring only the specified keys are present.
 
-   > 'TypedDict' allows you to define a dictionary with a fixed set of keys, improving type safety by ensuring only the specified keys are present.
-
-> *Optional Keys:*
-
-  > TypedDict supports optional keys, allowing you to specify that certain keys are not required.
+*Optional Keys:*
+- TypedDict supports optional keys, allowing you to specify that certain keys are not required.
 
 ```python
 from typing import TypedDict, Optional
@@ -186,9 +184,8 @@ person: Person = {
 }
 ```  
 
-> *Inheriting TypedDict:*
-
-  > You can create more specific TypedDict types by inheriting from existing TypedDict types, enabling reusable and extendable dictionary structures.
+*Inheriting TypedDict:*
+- You can create more specific TypedDict types by inheriting from existing TypedDict types, enabling reusable and extendable dictionary structures.
 
 ```python
 class Employee(Person):
@@ -210,27 +207,27 @@ TypedDict in Python 3.8 provides a powerful way to define the structure and type
 
 Python 3.8 introduced several new syntax warnings and improvements to error handling that help developers catch potential issues earlier and understand error messages more clearly. Here are some of the key enhancements.
 
-**Syntax Warnings**
+**Syntax Warnings:**
 
 *1. Deprecation Warnings for Outdated Syntax*
     
-    Python 3.8 issues warnings for deprecated or outdated syntax that may be removed in future versions. This helps developers to update their code proactively.
+- Python 3.8 issues warnings for deprecated or outdated syntax that may be removed in future versions. This helps developers to update their code proactively.
 
 *2. Future Warnings for Incompatible Changes*
 
-    Python 3.8 introduces FutureWarning for features that are planned to change in future releases. This allows developers to prepare their codebases for upcoming changes.
+- Python 3.8 introduces FutureWarning for features that are planned to change in future releases. This allows developers to prepare their codebases for upcoming changes.
 
-**Error Handling Improvements**
+**Error Handling Improvements:**
 
 *1. Improved SyntaxError Messages*
 
-    Python 3.8 provides more informative SyntaxError messages, making it easier to understand what caused the error and how to fix it. This includes better highlighting of the error location within the code.
+- Python 3.8 provides more informative SyntaxError messages, making it easier to understand what caused the error and how to fix it. This includes better highlighting of the error location within the code.
 
 *2. More Detailed Exception Tracebacks*
 
-    Tracebacks in Python 3.8 include additional context to help diagnose errors. For example, KeyError now displays the missing key, and IndexError shows the out-of-range index.  
+- Tracebacks in Python 3.8 include additional context to help diagnose errors. For example, KeyError now displays the missing key, and IndexError shows the out-of-range index.  
 
-**Detailed KeyError and IndexError Messages**:
+**Detailed KeyError and IndexError Messages:**:
 
 ```python
 # Example of KeyError with improved message
@@ -288,21 +285,21 @@ Python 3.8 introduced several performance improvements and optimizations that en
 
 *1. Function Call Optimizations*
 
-    Positional-Only Parameters: The introduction of positional-only parameters allows for faster function calls because the interpreter can optimize how arguments are passed and validated.
+- Positional-Only Parameters: The introduction of positional-only parameters allows for faster function calls because the interpreter can optimize how arguments are passed and validated.
 
-    Vectorcall Protocol: Python 3.8 introduces a new calling convention for CPython, known as vectorcall, which reduces the overhead of function calls by using arrays of arguments. This results in faster calls to certain     built-in functions and methods.
+- Vectorcall Protocol: Python 3.8 introduces a new calling convention for CPython, known as vectorcall, which reduces the overhead of function calls by using arrays of arguments. This results in faster calls to certain     built-in functions and methods.
 
 *2. Memory Usage Improvements*
   
-    Pycache Files: Python 3.8 reduces the size of .pyc files by avoiding the storage of unused variables and constants, which leads to better memory efficiency and faster loading times.
+- Pycache Files: Python 3.8 reduces the size of .pyc files by avoiding the storage of unused variables and constants, which leads to better memory efficiency and faster loading times.
   
-    Shared Keys Dictionaries: Dictionaries with identical keys share a common key object, reducing memory usage and improving performance when creating many similar dictionaries.
+- Shared Keys Dictionaries: Dictionaries with identical keys share a common key object, reducing memory usage and improving performance when creating many similar dictionaries.
 
 *3. Optimized Standard Library*
   
-    Improved Modules: Various standard library modules have been optimized for better performance. For instance, the math module has received several optimizations for mathematical operations.
+- Improved Modules: Various standard library modules have been optimized for better performance. For instance, the math module has received several optimizations for mathematical operations.
   
-    f-string Performance: Formatting strings using f-strings is faster in Python 3.8 compared to previous versions, making it more efficient to use for string formatting tasks.  
+- f-string Performance: Formatting strings using f-strings is faster in Python 3.8 compared to previous versions, making it more efficient to use for string formatting tasks.  
 
 **Example: Memory Usage Optimization with Shared Keys**
 
