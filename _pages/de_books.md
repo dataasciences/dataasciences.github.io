@@ -15,8 +15,9 @@ sidebar:
 **Data Engineering With Python** - Walks through Hands-on implementation of Data Engineering Concepts using Python
 
 {:style="text-align:center;"}
-![](https://m.media-amazon.com/images/I/41iGN2xZZCL._AC_SY200_QL15_.jpg)
+![](https://www.booktopia.com.au/covers/big/9781839212307/3108/data-engineering-with-python.jpg)
 
 **Fundamentals of Data Engineering** - Touches upon fundamentals of Data Engineering in a very easy-to-understand manner. 
 
-![](https://www.jointaro.com/blog/content/images/2024/02/cover.JPG)
+{:style="text-align:center;"}
+![](https://m.media-amazon.com/images/I/41BCu6h1rWL.jpg)
