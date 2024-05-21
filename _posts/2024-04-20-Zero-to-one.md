@@ -5,6 +5,7 @@ categories:
   - Book Notes
 tags:
   - Books
+classes: wide
 ---
 
 **"Doing something good for society is a misguided goal. It’s better to do something different. You will benefit society more that way"**
