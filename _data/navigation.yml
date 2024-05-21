@@ -7,13 +7,12 @@ main:
   - title: "Coming Soon!"
     # url: /year-archive/
 docs:
-  - title: Getting Started
+  - title: Book Recommendations
     children:
-      - title: "Quick-Start Guide"
+      - title: "Data Engineering"
         url: /docs/quick-start-guide/
-      - title: "Structure"
+      - title: "Machine Learning"
         url: /docs/structure/
-      - title: "Installation"
+      - title: "Python"
         url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+      
