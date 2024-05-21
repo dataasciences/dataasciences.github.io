@@ -9,7 +9,8 @@ tags:
 sidebar:
   - nav: docs
   - text: >
-      [![](/assets/images/buy_me_coffee.jpg)](https://buymeacoffee.com/softwaremusings){:target="_blank"} 
+      [![](/assets/images/buy_me_coffee.jpg)](https://buymeacoffee.com/softwaremusings){:target="_blank"}
+classes: wide
 ---
 
 Evolution is not just for us, Homo Sapiens, but also applies to Software (No, AGI is not here yet!) and Python is no exception.
