@@ -11,6 +11,7 @@ tags:
   - NLP
 sidebar:
   - nav: docs
+classes: wide
 ---
 
 Ever read a bunch of sentences and wished to reduce it all as themes or categories so as to interpret it and document them easily? Yes, those wishes do have real-life answers to them and that is exactly the topic of this post.
