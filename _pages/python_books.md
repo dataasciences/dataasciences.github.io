@@ -19,7 +19,8 @@ sidebar:
 **Head First Series -**
 
 {:style="text-align:center;"}   
-![](https://m.media-amazon.com/images/I/51DqVfaPmaL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_PIStarRatingFOURANDHALF%2CBottomLeft%2C360%2C-6_SR600%2C315_ZA29%2C445%2C290%2C400%2C400%2CAmazonEmberBold%2C12%2C4%2C0%2C0%2C5_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg)
+![](https://target.scene7.com/is/image/Target/GUEST_7114afb4-73f4-456d-8598-297c5815e5ca?wid=488&hei=488&fmt=pjpeg)
+
 
 **Python Distilled -**
 
