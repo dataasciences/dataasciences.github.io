@@ -12,10 +12,10 @@ sidebar:
       [![](/assets/images/buy_me_coffee.jpg)](https://buymeacoffee.com/softwaremusings){:target="_blank"} 
 ---
 
-Software Engineering is all about upgrades and Python is no exception.
+Evolution is not just for us, Homo Sapiens, but also applies to Software (No, AGI is not here yet!) and Python is no exception.
 Python as a programming language has evolved into various versions and updates over the years, right from 2.x to now 3.12.
 
-But among all these upgrades, python improved marginally in 3.8 over 3.7 in some areas and added new syntax, and speed improvements but still maintaining the tradition from the earlier release. 
+But among all these upgrades, python improved marginally in 3.8 over 3.7 in some areas and added new syntax, and speed improvements and still maintained the tradition from the earlier versions. 
 
 If you are using Python 3.8 and are looking to improve on version < 3.7, here are the key changes made in this version;
 
