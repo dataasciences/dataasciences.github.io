@@ -14,5 +14,5 @@ docs:
       - title: "Machine Learning"
         #url: /about/
       - title: "Python"
-        #url: /year-archive/
+        url: /pythonbooks/
       
