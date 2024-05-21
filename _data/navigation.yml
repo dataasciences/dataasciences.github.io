@@ -6,8 +6,14 @@ main:
     url: /categories/
   - title: "Coming Soon!"
     # url: /year-archive/
-sidebar:
-  - title: "Podcasts you need to Listen to"
-    image: http://placehold.it/350x250
-    image_alt: "image"
-  - title: "Books to Read"
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
