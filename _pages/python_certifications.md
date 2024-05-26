@@ -27,7 +27,7 @@ From Beginner to Advanced, these top Python certifications will help you demonst
 
 The Certification along with preparations, and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcep). 
 
-**2. Certified Associate in Python Programmer (PCAP):**
+**2. Certified Associate Python Programmer (PCAP):**
 
 * Prerequisites: PCEP certification or equivalent experience.
 
