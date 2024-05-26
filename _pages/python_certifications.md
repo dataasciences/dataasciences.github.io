@@ -15,7 +15,7 @@ From Beginner to Advanced, these top Python certifications will help you demonst
 
 ### Python Certifications:
 
-1. Certified Entry-Level Python Programmer (PCEP): 
+**1. Certified Entry-Level Python Programmer (PCEP):**
   
 * This certificate is for beginners and tests basic concepts like Basic Syntax, Logic Structure, Data Types, Variables, Control Statements, Functions, Debugging, etc. 
 
@@ -27,7 +27,7 @@ From Beginner to Advanced, these top Python certifications will help you demonst
 
 The Certification along with preparations, and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcep) 
 
-2. Certified Associate in Python Programmer (PCAP):
+**2. Certified Associate in Python Programmer (PCAP):**
 
 * Prerequisites: PCEP certification or equivalent experience.
 
@@ -39,7 +39,7 @@ The Certification along with preparations, and formats can be referred to on the
 
 The Certification along with preparations and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcap) 
 
-3. Certified Professional in Python Programming 1 (PCPP 1):
+**3. Certified Professional in Python Programming 1 (PCPP 1):**
 
 * Prerequisites: PCAP certification or equivalent experience. Experience because Hands-On experience is very important to know some concepts inorder to clear the exam.
 
@@ -51,7 +51,7 @@ The Certification along with preparations and formats can be referred to on the 
 
 The Certification along with preparations and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcpp1) 
 
-4. Certified Professional in Python Programming 2 (PCPP 2):
+**4. Certified Professional in Python Programming 2 (PCPP 2):**
 
 * Prerequisites: PCPP 1 certification or equivalent experience.
 
@@ -63,7 +63,7 @@ The Certification along with preparations and formats can be referred to on the 
 
 The Certification along with preparations and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcpp2) 
 
-5. Certified Expert in Python Programming (CEPP):
+**5. Certified Expert in Python Programming (CEPP):**
 
 * Candidates who complete the OpenEDG Python Institute general Programming certification program which includes PCAP, and PCPP (both 1 and 2) exams is known as the OpenEDG Python Institute Certified Expert in Python Programming (CEPP). This is widely recognized as having tremendous value in one’s Python career & demonstrates expertise in Python programming with mastery of related technologies.
 
