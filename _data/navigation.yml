@@ -7,13 +7,13 @@ main:
   - title: "Coming Soon!"
     # url: /year-archive/
 docs:
-  - title: Book Recommendations
+  - title: Recommendations
     children:
-      - title: "Data Engineering"
+      - title: "Data Engineering Books"
         url: /debooks/
-      - title: "Machine Learning"
+      - title: "Machine Learning Books"
         url: /mlbooks/
-      - title: "Python"
+      - title: "Python Books"
         url: /pythonbooks/
       - title: "Python Certifications to Consider"
         url: /pycerts/
