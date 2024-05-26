@@ -97,4 +97,4 @@ The Certification along with preparations and formats can be referred to on the 
 
 The Certification along with preparations and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcad).
 
-These Python certifications demonstrate a developer's progression from basic to advanced skills, showcasing their expertise and commitment to the profession and is an asset to the holder, especially if you are keen to enter the Tech Services industry.
+These Python certifications demonstrate a developer’s progression from basic to advanced skills, showcasing their expertise and commitment to the profession. They are an asset to the holder, especially for those keen to enter the tech services industry.
