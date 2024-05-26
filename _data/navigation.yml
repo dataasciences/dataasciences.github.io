@@ -15,5 +15,7 @@ docs:
         url: /mlbooks/
       - title: "Python"
         url: /pythonbooks/
+      - title: "Python Certifications to Consider"
+        url: /pycerts/
    
             
