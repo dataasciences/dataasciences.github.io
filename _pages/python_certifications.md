@@ -1,3 +1,12 @@
+---
+title: "Python Certifications to Consider"
+permalink: /pycerts/
+sidebar:
+  - nav: docs
+  - text: >
+      [![](/assets/images/buy_me_coffee.jpg)](https://buymeacoffee.com/softwaremusings){:target="_blank"}
+---
+
 ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/certi.JPG?raw=true)
 
 Certifications in IT are very common across subjects, including Python, although its an open-source language. Based on what is expected in the market, python certifications are still looked out for by companies, especially in the IT Services industry. 
