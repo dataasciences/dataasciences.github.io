@@ -25,7 +25,7 @@ From Beginner to Advanced, these top Python certifications will help you demonst
 
 * Demonstrates: Fundamental understanding of Python programming concepts.
 
-The Certification along with preparations, and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcep) 
+The Certification along with preparations, and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcep). 
 
 **2. Certified Associate in Python Programmer (PCAP):**
 
@@ -37,7 +37,7 @@ The Certification along with preparations, and formats can be referred to on the
 
 * Demonstrates: Practical programming skills and problem-solving abilities.
 
-The Certification along with preparations and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcap) 
+The Certification along with preparations and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcap). 
 
 **3. Certified Professional in Python Programming 1 (PCPP 1):**
 
@@ -49,7 +49,7 @@ The Certification along with preparations and formats can be referred to on the 
 
 * Demonstrates: In-depth knowledge of Python programming and related technologies.
 
-The Certification along with preparations and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcpp1) 
+The Certification along with preparations and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcpp1). 
 
 **4. Certified Professional in Python Programming 2 (PCPP 2):**
 
@@ -61,7 +61,7 @@ The Certification along with preparations and formats can be referred to on the 
 
 * Demonstrates: Mastery of advanced Python concepts and ability to lead projects & a high level of expertise in advanced Python programming concepts, and extensive experience in the entire lifecycle of the software design and development processes.
 
-The Certification along with preparations and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcpp2) 
+The Certification along with preparations and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcpp2). 
 
 **5. Certified Expert in Python Programming (CEPP):**
 
@@ -77,7 +77,7 @@ The Certification along with preparations and formats can be referred to on the 
 
 * Demonstrates: Proficiency in software testing and engineering using a range of Python tools, including the ability to design, develop, and refactor multi-module computer programs in accordance with the Test-Driven Development (TDD) and Behavior-Driven Development (BDD) programming approaches, Testing-coding conventions, Best practices, and Recognized Software Engineering and Software Testing Principles such as DRY, KISS, and F.I.R.S.T, Types of Software Testing, Test Pyramid, Test Automation, Unit Tests, and more.
 
-The Certification along with preparations and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcat)
+The Certification along with preparations and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcat).
 
 ### Certifications for Data Analytics in Python:
 
@@ -87,7 +87,7 @@ The Certification along with preparations and formats can be referred to on the 
 
 * Demonstrates: Ability to efficiently gather, clean, and validate data using Python, Data acquisition, data cleaning, and standardization techniques as well as foundational programming and database management skills, Statistical analysis and machine learning basics in Python, Usage of essential Python libraries such as Pandas, NumPy, and visualization tools like Matplotlib and Seaborn, to handle complex data sets, perform statistical analysis, and create impactful data visualizations.
 
-The Certification along with preparations and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pced)
+The Certification along with preparations and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pced).
 
 *Certified Associate Data Analyst with Python (PCAD)*
 
@@ -95,6 +95,6 @@ The Certification along with preparations and formats can be referred to on the 
 
 * Demonstrates: Decision-making under uncertainty, data-based decision-making, predictive modelling, Machine Learning Algorithms and model selection, usage of Python for file processing and performing programming operations with the use of the NumPy, Pandas, Matplotlib, Seaborn, and SciKit-Learn libraries.
 
-The Certification along with preparations and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcad)
+The Certification along with preparations and formats can be referred to on the [Python Institute Website](https://pythoninstitute.org/pcad).
 
 These Python certifications demonstrate a developer's progression from basic to advanced skills, showcasing their expertise and commitment to the profession and is an asset to the holder, especially if you are keen to enter the Tech Services industry.
