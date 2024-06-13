@@ -125,6 +125,6 @@ solutions in the Hadoop ecosystem and beyond, including MapR (file system, datab
 Furthermore, the Apache Spark community is large, active, and international. A growing set of commercial providers, including Databricks, IBM, and all of the main Hadoop 
 vendors, deliver comprehensive support for Spark-based solutions. 
 
-Although, as of 2024, spark is widely used, knowing its background and the architecture, as we saw above will help in understanding the intricate components involved and in improving the performance of your Big data Application. 
+Although, as of 2024, Spark is widely used, knowing its background and architecture, as we saw above will help in understanding the intricate components involved and in improving the performance of your Big data Application. 
 
 
