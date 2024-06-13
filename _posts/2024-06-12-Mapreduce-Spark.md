@@ -26,18 +26,18 @@ In this Section, we will look at the core concepts that underlie MapReduce and h
 
 1. Distribute data
   
-  When a data file is uploaded into the cluster, it is split into chunks, called data blocks, and distributed amongst the data nodes and replicated across the cluster.
+* When a data file is uploaded into the cluster, it is split into chunks, called data blocks, and distributed amongst the data nodes and replicated across the cluster.
 
 2. Distribute computation
   
-  Users specify a map function that processes a key/value pair to generate a set of intermediate key/value pairs and a reduce function that merges all intermediate values associated with the same intermediate key. Programs written in this functional style are automatically parallelized and executed on a large cluster of commodity machines in the following way: 
+* Users specify a map function that processes a key/value pair to generate a set of intermediate key/value pairs and a reduce function that merges all intermediate values associated with the same intermediate key. Programs written in this functional style are automatically parallelized and executed on a large cluster of commodity machines in the following way: 
 
-  • The mapping process runs on each assigned data node, working only on its block of data from a distributed file. 
-  • The results from the mapping processes are sent to the reducers in a process called "shuffle and sort": key/value pairs from the mappers are sorted by key, partitioned by the number of reducers, and then sent across the network and written to key sorted "sequence files" on the reducer nodes. The reducer process executes on its assigned node and works only on its subset of the data (its sequence file). The output from the reducer process is written to an output file.
+  * The mapping process runs on each assigned data node, working only on its block of data from a distributed file. 
+  * The results from the mapping processes are sent to the reducers in a process called "shuffle and sort": key/value pairs from the mappers are sorted by key, partitioned by the number of reducers, and then sent across the network and written to key sorted "sequence files" on the reducer nodes. The reducer process executes on its assigned node and works only on its subset of the data (its sequence file). The output from the reducer process is written to an output file.
 
-3.  Tolerate faults
+3. Tolerate faults
 
-  Both data and computation can tolerate failures by failing over to another node for data or processing.
+  * Both data and computation can tolerate failures by failing over to another node for data or processing.
 
 ## MapReduce WordCount Example
 
@@ -52,20 +52,20 @@ Some iterative algorithms, like PageRank, which Google used to rank websites in 
 After MapReduce was published, Spark came into existence as a project within the Apache Foundation. The goal was to keep the benefits of MapReduce's scalable, distributed, 
 fault-tolerant processing framework while making it more efficient and easier to use. The advantages of Spark over MapReduce are;
 
-  • Spark executes much faster by caching data in memory across multiple parallel operations, whereas MapReduce involves more reading and writing from disk.
-  • Spark runs multi-threaded tasks inside of JVM processes, whereas MapReduce runs as heavier-weight JVM processes. This gives Spark faster startup, better parallelism, 
-  and better CPU utilization. 
-  • Spark provides a richer functional programming model than MapReduce. 
-  • Spark is especially useful for parallel processing of distributed data with iterative algorithms.
+* Spark executes much faster by caching data in memory across multiple parallel operations, whereas MapReduce involves more reading and writing from disk.
+* Spark runs multi-threaded tasks inside of JVM processes, whereas MapReduce runs as heavier-weight JVM processes. This gives Spark faster startup, better parallelism, 
+  and better CPU utilization.
+* Spark provides a richer functional programming model than MapReduce.
+* Spark is especially useful for parallel processing of distributed data with iterative algorithms.
 
 The following diagram shows how a Spark Application runs on a Cluster,
 
 ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/spark_arch.png?raw=true)
 
-  • A Spark application runs as independent processes, coordinated by the SparkSession object in the driver program.
-  • The resource or cluster manager assigns tasks to workers, one task per partition. 
-  • A task applies its unit of work to the dataset in its partition and outputs a new partition dataset. Because iterative algorithms apply operations repeatedly to data, they benefit from caching datasets across iterations.
-  • Results are sent back to the driver application or can be saved to disk.
+* A Spark application runs as independent processes, coordinated by the SparkSession object in the driver program.
+* The resource or cluster manager assigns tasks to workers, one task per partition.
+* A task applies its unit of work to the dataset in its partition and outputs a new partition dataset. Because iterative algorithms apply operations repeatedly to data, they benefit from caching datasets across iterations.
+* Results are sent back to the driver application or can be saved to disk.
 
 Spark supports the following resource/cluster managers:
 
@@ -92,7 +92,7 @@ From log files to sensor data, application developers are increasingly having to
 
 *Machine learning:*
 
-As data volumes grow, machine learning approaches become more feasible and increasingly accurate. Software can be trained to identify and act upon 
+As data volumes grow, Machine learning approaches become more feasible and increasingly accurate. Software can be trained to identify and act upon 
 triggers within well-understood data sets before applying the same solutions to new and unknown data. Spark’s ability to store data in memory and rapidly run repeated queries makes it a good choice for training machine learning algorithms. Running broadly similar queries again and again, at scale, significantly reduces the time required to go through a set of possible solutions in order to find the most efficient algorithms.
  
 *Interactive analytics:*
