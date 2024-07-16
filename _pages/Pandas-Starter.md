@@ -5,9 +5,10 @@ sidebar:
   - nav: docs  
 ---
 
-If you are in data science, there are high chances of using pandas in your Data science and Machine Learning processes and data pipelines. Considering the need to refer to syntax and the basics of pandas, here is a quick 10-min intro to pandas and the most used methods from it.
+If you are in data science, there are high chances of using pandas in your Data Science and Machine Learning processes and data pipelines. Considering the need to refer to syntax and the basics of pandas, here is a quick 10-minute intro to pandas and the most used methods from it.
 
-Note: In this article, "pd" is alias for pandas and "np" is an alias for numpy.
+> <span style="font-size:1em;"> Note: In this article, "pd" is an alias for pandas and "np" is an alias for numpy. </span>
+{: .notice--info}
 
 ### Object Creation
 
@@ -173,7 +174,7 @@ df[0:3]
 2013-01-02 | -0.380108	| 0.781734	 | -0.668664 |	0.122847
 2013-01-03 |  1.982129	| 1.970573	 | 1.724951	 | -0.810865
 
-Selection by Label for getting a cross section using a label
+Selection by Label for getting a cross-section using a label
 
 ```python
 df.loc[dates[0]]
@@ -488,7 +489,7 @@ dtype: object
 
 ## Merge
 
-Pandas provides various facilities for easily combining together Series, DataFrame, and Panel objects with various kinds of set logic for the indexes and relational algebra functionality in the case of join / merge-type operations. Concatenating pandas objects together with concat():
+Pandas provide various facilities for easily combining together Series, DataFrame, and Panel objects with various kinds of set logic for the indexes and relational algebra functionality in the case of join / merge-type operations. Concatenating pandas objects together with concat():
 
 ```python
 df = pd.DataFrame(np.random.randn(10, 4))
