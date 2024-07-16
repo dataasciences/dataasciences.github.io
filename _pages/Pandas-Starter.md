@@ -11,7 +11,7 @@ If you are in data science, there are high chances of using pandas in your Data 
 > <span style="font-size:1em;"> Note: In this article, "pd" is an alias for pandas and "np" is an alias for numpy. </span>
 {: .notice--info}
 
-### Object Creation
+## Object Creation
 
 Creating a Series by passing a list of values, letting pandas create a default integer index:
 
