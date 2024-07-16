@@ -607,6 +607,8 @@ Grouping by multiple columns forms a hierarchical index, and again we can apply 
 df.groupby(['A','B']).sum()
 ```
 
+![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/pandas_groupby.JPG?raw=true)
+
 ## Reshaping
 
 ```python
@@ -632,14 +634,7 @@ df_ind = df[:4]
 df_ind
 ```
 
-|                 |   A      |     B       
-|-----------------|----------|-------------
-  first |  second    
-|-------|-------- |-------------------------  
-bar	    |  one	  | -1.863544	|  -1.071139
-        |  two	  | -0.611544	|  -0.539124
-baz	    |  one	  | -0.438217	|   0.995510
-        |  two	  |  0.481952	|  -0.009496
+![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/pandas_multi.JPG?raw=true)
 
 The stack() method “compresses” a level in the DataFrame’s columns.
 
@@ -648,16 +643,7 @@ stacked = df_ind.stack()
 stacked
 ```
   
-|           |    first   |    second
-|-----------|------------|---------------
-bar |  one  |      A     |    -1.863544
-    |       |      B     |    -1.071139
-    |  two  |      A     |    -0.611544
-    |       |      B     |    -0.539124
-baz |  one  |      A     |    -0.438217
-    |       |      B     |    0.995510
-    |  two  |      A     |    0.481952
-    |       |      B     |    -0.009496
+![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/pandas_Stack.JPG?raw=true)
 
 With a “stacked” DataFrame or Series (having a MultiIndex as the index), the inverse operation of stack() is unstack(), which by default unstacks the last level:
 
@@ -665,39 +651,19 @@ With a “stacked” DataFrame or Series (having a MultiIndex as the index), the
 stacked.unstack()
 ```
 
-|                 |   A      |     B       
-|-----------------|----------|-------------
-  first |  second    
-|-------|-------- |-------------------------  
-  bar	  |  one	  | -1.863544 |	-1.071139
-        |  two	  | -0.611544 |	-0.539124
-  baz	  |  one	  | -0.438217 |	 0.995510
-        |  two	  | 0.481952	| -0.009496
+![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/pandas_stack_0.JPG?raw=true)
 
 ```python
 stacked.unstack(1)
 ```
-|       | second	|     one	    |   two
-|-----------------------------------------------
-  first			
-|-------|---------|-------------|---------------  
-   bar	|   A	    |   -1.863544	|  -0.611544
-        |   B	    |   -1.071139	|  -0.539124 
-   baz	|   A	    |   -0.438217	|  0.481952
-        |   B	    |   0.995510	|  -0.009496
+
+![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/pandas_stack_1.JPG?raw=true)
 
 ```python
 stacked.unstack(0)
 ```
 
-        | first	|  bar	    |   biz
-|----------------------------------------------
-  second			
-----------------|------------|-----------------  
-  one	  |   A	  |  -1.863544 |	-0.438217
-        |   B	  |  -1.071139 |	0.995510
-  two	  |   A	  |  -0.611544 |	0.481952
-        |   B	  |  -0.539124 |	-0.009496
+![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/pandas_unstack_0.JPG?raw=true)
 
 ## Pivot tables
 
@@ -712,20 +678,7 @@ We can produce pivot tables from this data very easily
 pd.pivot_table(df, values='D', index=['A', 'B'], columns=['C'])
 ```
 
-	              bar	     |      foo
-|----------------------------------------------      
-  A	     B	 	
-|----------------------------------------------      
-one	  |  A	 | -0.023021	|  -0.678341
-      |  B	 | 0.095968	  |  -0.795599
-      |  C	 | 0.722170	  |   0.027855
-three	|  A	 | -0.529623	|   NaN
-      |  B	 |  NaN	      |   1.808185
-      |  C	 | -1.165231	|   NaN
-two	  |  A	 |  NaN	      |   -0.097615
-      |  B	 | -2.359497	|   NaN
-      |  C	 |  NaN	      |  -1.002197
-
+![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/pandas_pivot.JPG?raw=true)
 
 ## Getting Data In/Out
 
@@ -765,4 +718,4 @@ Reading from an excel file
 pd.read_excel('foo.xlsx', 'Sheet1', index_col=None, na_values=['NA'])
 ```
 
-Pandas is indeed a powerful package to work with, especially for data engineers, scientists who work on manipulating and analysing data. With a solid grasp of Pandas, you are well-equipped to streamline your data workflow and uncover valuable insights from your data.
+Pandas is indeed a powerful package to work with, especially for data engineers, and scientists who work on manipulating and analysing data. With a solid grasp of Pandas, you are well-equipped to streamline your data workflow and uncover valuable insights from your data.
