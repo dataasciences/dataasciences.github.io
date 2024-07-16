@@ -7,9 +7,9 @@ sidebar:
 
 If you are in data science, there are high chances of using pandas in your Data science and Machine Learning processes and data pipelines. Considering the need to refer to syntax and the basics of pandas, here is a quick 10-min intro to pandas and the most used methods from it.
 
-Note: In this article, "pd" is alias for pandas.
+Note: In this article, "pd" is an alias for pandas and "np" is an alias for numpy.
 
-## Object Creation
+### Object Creation
 
 Creating a Series by passing a list of values, letting pandas create a default integer index:
 
@@ -34,17 +34,19 @@ DatetimeIndex(['2013-01-01', '2013-01-02', '2013-01-03', '2013-01-04',
 
 test_df = pd.DataFrame(np.random.randn(6,4), index=dates, columns=list('ABCD'))
 test_df
-
-	              A	        B       	C	        D
-2013-01-01	-0.165045	0.286237	-0.388395	0.189089
-2013-01-02	-0.380108	0.781734	-0.668664	0.122847
-2013-01-03	1.982129	1.970573	1.724951	-0.810865
-2013-01-04	-1.390268	-0.862023	1.708512	-1.268239
-2013-01-05	1.007223	0.024108	0.539417	1.442396
-2013-01-06	1.223380	-0.034152	0.349011	-0.225668
 ```
 
-## Viewing Data
+|Date|A | B | C | D |
+|----------|----------|----------|----------|                
+2013-01-01|-0.165045|0.286237|-0.388395|0.189089
+2013-01-02|-0.380108|0.781734|-0.668664|0.122847
+2013-01-03|1.982129|1.970573|1.724951|-0.810865
+2013-01-04|-1.390268|-0.862023|1.708512|-1.268239
+2013-01-05|1.007223|0.024108|0.539417|1.442396
+2013-01-06|1.223380|-0.034152|0.349011|-0.225668
+
+
+### Viewing Data
 
 Here is how to view the top and bottom rows of the frame.
 
@@ -53,7 +55,7 @@ df.head()
 
 df.tail(3)
 
-	            A         B         	C	        D
+	              A         B         	C	        D
 2013-01-01	-0.165045	0.286237	-0.388395	0.189089
 2013-01-02	-0.380108	0.781734	-0.668664	0.122847
 2013-01-03	1.982129	1.970573	1.724951	-0.810865
@@ -89,7 +91,8 @@ describe() shows a quick statistic summary of your data
 ```python
 df.describe()
 
-	      A	          B       	C	      D
+	        A	          B       	C	      D
+
 count	6.000000	6.000000	6.000000	6.000000
 mean	0.379552	0.361080	0.544139	-0.091740
 std	  1.239371	0.952760	1.012787	0.937839
@@ -115,7 +118,7 @@ Sorting by an axis
 ```python
 df.sort_index(axis=1, ascending=False)
 
-              D	        C	        B	        A
+                  D	        C	        B	        A
 2013-01-01	0.189089	-0.388395	0.286237	-0.165045
 2013-01-02	0.122847	-0.668664	0.781734	-0.380108
 2013-01-03	-0.810865	1.724951	1.970573	1.982129
@@ -129,7 +132,7 @@ Sorting by values
 ```python
 df.sort_values(by='B')
 
-                A	        B	        C	        D
+                  A	        B	        C	        D
 2013-01-04	-1.390268	-0.862023	1.708512	-1.268239
 2013-01-06	1.223380	-0.034152	0.349011	-0.225668
 2013-01-05	1.007223	0.024108	0.539417	1.442396
@@ -162,7 +165,7 @@ Selecting via [], which slices the rows.
 ```python
 df[0:3]
 
-                A	          B	          C     	    D                
+                    A	          B	          C     	    D                
 2013-01-01	  -0.165045	  0.286237	-0.388395 	0.189089
 2013-01-02	  -0.380108	  0.781734	-0.668664	  0.122847
 2013-01-03	  1.982129	  1.970573	 1.724951	  -0.810865
@@ -185,7 +188,7 @@ Selecting on a multi-axis by label:
 ```python
 df.loc[:,['A','B']]
 
-                A	         B
+                  A	         B
 2013-01-01	-0.165045	0.286237
 2013-01-02	-0.380108	0.781734
 2013-01-03	1.982129	1.970573
@@ -199,7 +202,7 @@ Showing label slicing, both endpoints are included:
 ```python
 df.loc['20130102':'20130104',['A','B']]
 
-                A	      B
+                  A	      B
 2013-01-02	-0.380108	0.781734
 2013-01-03	1.982129	1.970573
 2013-01-04	-1.390268	-0.862023
@@ -256,7 +259,7 @@ By lists of integer position locations, similar to the numpy/python style:
 ```python
 df.iloc[[1,2,4],[0,2]]
 
-                  A	      C
+                   A	      C
 2013-01-02	  -0.380108	  -0.668664
 2013-01-03	  1.982129	  1.724951
 2013-01-05	  1.007223	  0.539417
@@ -267,7 +270,7 @@ For slicing rows explicitly:
 ```python
 df.iloc[1:3,:]
 
-                A	      B	          C	        D
+                  A	      B	          C	        D
 2013-01-02	-0.380108	0.781734	-0.668664	0.122847
 2013-01-03	1.982129	1.970573	1.724951	-0.810865
 ```
@@ -277,7 +280,8 @@ For slicing columns explicitly:
 ```python
 df.iloc[:,1:3]
 
-              B	          C
+                B	          C
+
 2013-01-01	0.286237	-0.388395
 2013-01-02	0.781734	-0.668664
 2013-01-03	1.970573	1.724951
@@ -293,7 +297,7 @@ Using a single column’s values to select data.
 ```python
 df[df.A > 0]
 
-              A	          B	        C	        D
+                  A	          B	        C	        D
 2013-01-03	1.982129	1.970573	1.724951	-0.810865
 2013-01-05	1.007223	0.024108	0.539417	1.442396
 2013-01-06	1.223380	-0.034152	0.349011	-0.225668
@@ -304,13 +308,13 @@ Selecting values from a DataFrame where a Boolean condition is met.
 ```python
 df[df > 0]
 
-              A	          B	      C 	        D
-2013-01-01	  NaN	      0.286237	NaN	      0.189089
-2013-01-02	  NaN	      0.781734	NaN	      0.122847
-2013-01-03	  1.982129	1.970573	1.724951	NaN
-2013-01-04	  NaN	      NaN	      1.708512	NaN
-2013-01-05	  1.007223	0.024108	0.539417	1.442396
-2013-01-06	  1.223380	NaN	      0.349011	NaN
+                A	                B	          C 	        D
+2013-01-01	  NaN	          0.286237	    NaN	         0.189089
+2013-01-02	  NaN	          0.781734	    NaN	          0.122847
+2013-01-03	  1.982129	    1.970573	    1.724951	    NaN
+2013-01-04	  NaN	          NaN	          1.708512	    NaN
+2013-01-05	  1.007223	    0.024108	    0.539417	    1.442396
+2013-01-06	  1.223380	    NaN	          0.349011	    NaN
 ```
 
 Using the isin() method for filtering:
@@ -683,4 +687,3 @@ two	  A	      NaN	            -0.097615
       B	      -2.359497	      NaN
       C	      NaN	            -1.002197
 ```
-
