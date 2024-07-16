@@ -5,7 +5,7 @@ sidebar:
   - nav: docs  
 ---
 
-If you are in data science, there are high chances of using pandas in your Data Science and Machine Learning processes and data pipelines. Considering the need to refer to syntax and the basics of pandas, here is a quick 10-minute intro to pandas and the most used methods from it.
+If you are in data science, there are high chances of using pandas in your Data science and Machine Learning processes and data pipelines. Considering the need to refer to syntax and the basics of pandas, here is a quick 10-min intro to pandas and the most used methods from it.
 
 > <span style="font-size:1em;"> Note: In this article, "pd" is an alias for pandas and "np" is an alias for numpy. </span>
 {: .notice--info}
@@ -37,8 +37,8 @@ test_df = pd.DataFrame(np.random.randn(6,4), index=dates, columns=list('ABCD'))
 test_df
 ```
 
-| Date     |        A |         B |      C  |       D  |
-|----------|----------|----------|----------|----------|
+| Date      |     A    |    B     |    C     |    D     |
+|-----------|----------|----------|----------|----------|
 2013-01-01  | -0.165045 | 0.286237  | -0.388395 | 0.189089
 2013-01-02  | -0.380108 | 0.781734  | -0.668664|  0.122847
 2013-01-03  | 1.982129  | 1.970573  | 1.724951| -0.810865
@@ -106,11 +106,11 @@ Transposing your data
 ```python
 df.T
 ```
+
 2013-01-01 00:00:00	|  2013-01-02 00:00:00	 |  2013-01-03 00:00:00	 | 2013-01-04 00:00:00	|   2013-01-05 00:00:00 |  2013-01-06 00:00:00  |
 |-------------------|------------------------|-----------------------|----------------------|-----------------------|-----------------------|
-
-A	|  -0.165045  |         0.380108           |    1.982129	         |   -1.390268	        |      1.007223	        |     1.223380
-B	|   0.286237	|         0.781734	         |    1.970573	         |   -0.862023	        |      0.024108	        |     -0.034152
+A	|  -0.165045      |         0.380108       |      1.982129	       |    -1.390268	        |      1.007223	        |     1.223380
+B	|   0.286237	    |         0.781734	     |      1.970573	       |    -0.862023	        |      0.024108	        |     -0.034152
 
 Sorting by an axis
 
@@ -118,8 +118,8 @@ Sorting by an axis
 df.sort_index(axis=1, ascending=False)
 ```
 
-| Date     |    A     |    B        |    C      |     D   |
-|----------|-----------|------------|---------- |----------|
+| Date     |    A       |    B      |    C      |     D   
+|----------|----------- |-----------|---------- |----------
 2013-01-01 |	0.189089  |	-0.388395	| 0.286237  |	-0.165045
 2013-01-02 |  0.122847  | -0.668664	| 0.781734  | -0.380108
 2013-01-03 |	-0.810865	| 1.724951	| 1.970573  | 1.982129
@@ -133,8 +133,8 @@ Sorting by values
 df.sort_values(by='B')
 ```
 
-| Date     |    A       |    B       |    C      |     D   |
-|----------|----------- |------------|-----------|----------|                  
+| Date     |    A       |    B       |    C      |     D   
+|----------|----------- |------------|-----------|----------  
 2013-01-04 |  -1.390268 |	-0.862023	 | 1.708512	 | -1.268239
 2013-01-06 |  1.223380	| -0.034152	 | 0.349011	 | -0.225668
 2013-01-05 |  1.007223	| 0.024108	 | 0.539417	 | 1.442396
@@ -168,13 +168,13 @@ Selecting via [], which slices the rows.
 df[0:3]
 ```
 
-| Date     |    A       |    B       |    C      |     D   |
-|----------|----------- |------------|-----------|----------|  
+| Date     |    A       |    B       |    C      |     D   
+|----------|----------- |------------|-----------|----------  
 2013-01-01 | -0.165045	| 0.286237	 | -0.388395 |	0.189089
 2013-01-02 | -0.380108	| 0.781734	 | -0.668664 |	0.122847
 2013-01-03 |  1.982129	| 1.970573	 | 1.724951	 | -0.810865
 
-Selection by Label for getting a cross-section using a label
+Selection by Label for getting a cross section using a label
 
 ```python
 df.loc[dates[0]]
@@ -489,7 +489,7 @@ dtype: object
 
 ## Merge
 
-Pandas provide various facilities for easily combining together Series, DataFrame, and Panel objects with various kinds of set logic for the indexes and relational algebra functionality in the case of join / merge-type operations. Concatenating pandas objects together with concat():
+Pandas provides various facilities for easily combining together Series, DataFrame, and Panel objects with various kinds of set logic for the indexes and relational algebra functionality in the case of join / merge-type operations. Concatenating pandas objects together with concat():
 
 ```python
 df = pd.DataFrame(np.random.randn(10, 4))
@@ -572,8 +572,12 @@ By "group by" we are referring to a process involving one or more of the followi
 * Combining the results into a data structure.
 
 ```python
-df = pd.DataFrame({'A' : ['foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'foo'], 'B' : ['one', 'one', 'two', 'three', 'two', 'two', 'one', 'three'],'C' : np.random.randn(8), 'D' : np.random.randn(8)})
+df = pd.DataFrame({'A' : ['foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'foo'], 
+'B' : ['one', 'one', 'two', 'three', 'two', 'two', 'one', 'three'],
+'C' : np.random.randn(8),
+'D' : np.random.randn(8)})
 ```
+
 |     A      |     B      |     C       |    D       
 |------------|------------|-------------|-----------
 |     foo	   |    one	    |  -0.606619  |  0.295979
@@ -606,7 +610,9 @@ df.groupby(['A','B']).sum()
 ## Reshaping
 
 ```python
-tuples = list(zip(*[['bar', 'bar', 'baz', 'baz', 'foo', 'foo', 'qux', 'qux'], ['one', 'two', 'one', 'two', 'one', 'two', 'one', 'two']]))
+tuples = list(zip(*[['bar', 'bar', 'baz', 'baz', 'foo', 'foo', 'qux', 'qux'],
+['one', 'two', 'one', 'two', 'one', 'two', 'one', 'two']]))
+
 tuples
 
 [('bar', 'one'),
@@ -625,14 +631,14 @@ df = pd.DataFrame(np.random.randn(8, 2), index=index, columns=['A', 'B'])
 df_ind = df[:4]
 df_ind
 ```
-|            |    A       |     B       
-|------------|------------|-------------
-first	second |	
-|------------|------------|-------------
-bar	|  one	 | -1.863544	|  -1.071139
-    |  two	 | -0.611544	|  -0.539124
-baz	|  one	 | -0.438217	|   0.995510
-    |  two	 |  0.481952	|  -0.009496
+
+|            |     A          |     B       
+|------------|--------------- |-------------
+  first    second    
+bar	    |  one	  | -1.863544	|  -1.071139
+        |  two	  | -0.611544	|  -0.539124
+baz	    |  one	  | -0.438217	|   0.995510
+        |  two	  |  0.481952	|  -0.009496
 
 The stack() method “compresses” a level in the DataFrame’s columns.
 
@@ -641,17 +647,16 @@ stacked = df_ind.stack()
 stacked
 ```
   
-|            |    first   |  second
-|------------|------------|---------------
-bar |   one  |      A     |    -1.863544
-    |        |      B     |    -1.071139
-    |   two  |      A     |    -0.611544
-    |        |      B     |    -0.539124
-baz |   one  |      A     |    -0.438217
-    |        |      B     |    0.995510
-    |   two  |      A     |    0.481952
-    |        |      B     |    -0.009496
-dtype: float64
+|           |    first   |  second
+|-----------|------------|---------------
+bar    one  |      A     |    -1.863544
+            |      B     |    -1.071139
+       two  |      A     |    -0.611544
+            |      B     |    -0.539124
+baz    one  |      A     |    -0.438217
+            |      B     |    0.995510
+       two  |      A     |    0.481952
+            |      B     |    -0.009496
 
 With a “stacked” DataFrame or Series (having a MultiIndex as the index), the inverse operation of stack() is unstack(), which by default unstacks the last level:
 
@@ -660,37 +665,37 @@ stacked.unstack()
 ```
 |            |    A      |    B
 |------------|-----------|---------------
-first	| second		
+first	second |		
 |------------------------|---------------
-  bar	| one	 | -1.863544 |	 -1.071139
-      | two	 | -0.611544 |	 -0.539124
-  baz	| one	 | -0.438217 |	 0.995510
-      | two	 | 0.481952	 |  -0.009496
+  bar	 one	 | -1.863544 |	 -1.071139
+       two	 | -0.611544 |	 -0.539124
+  baz	 one	 | -0.438217 |	 0.995510
+       two	 | 0.481952	 |  -0.009496
 
 ```python
 stacked.unstack(1)
 ```
         | second	|  one	 |     two
 |--------------------------------------------
-   first			
---------------|-------------|-----------------  
-   bar	    A	|   -1.863544	|  -0.611544
-            B	|   -1.071139	|  -0.539124 
-   baz	    A	|   -0.438217	|  0.481952
-            B	|   0.995510	|  -0.009496
+  first			
+--------|-----|-------------|-----------------  
+   bar	|   A	|   -1.863544	|  -0.611544
+        |   B	|   -1.071139	|  -0.539124 
+   baz	|   A	|   -0.438217	|  0.481952
+        |   B	|   0.995510	|  -0.009496
 
 ```python
 stacked.unstack(0)
 ```
 
-        |  first	 |  bar	    |   biz
+        | first	|  bar	    |   biz
 |----------------------------------------------
   second			
 ----------------|------------|-----------------  
-  one	      A	  |  -1.863544 |	-0.438217
-            B	  |  -1.071139 |	0.995510
-  two	      A	  |  -0.611544 |	0.481952
-            B	  |  -0.539124 |	-0.009496
+  one	  |   A	  |  -1.863544 |	-0.438217
+        |   B	  |  -1.071139 |	0.995510
+  two	  |   A	  |  -0.611544 |	0.481952
+        |   B	  |  -0.539124 |	-0.009496
 
 ## Pivot tables
 
@@ -705,9 +710,9 @@ We can produce pivot tables from this data very easily
 pd.pivot_table(df, values='D', index=['A', 'B'], columns=['C'])
 ```
 
-	          |   bar	     |      foo
+	              bar	     |      foo
 |----------------------------------------------      
-  A	  |  B	 	
+  A	     B	 	
 |----------------------------------------------      
 one	  |  A	 | -0.023021	|  -0.678341
       |  B	 | 0.095968	  |  -0.795599
@@ -720,7 +725,7 @@ two	  |  A	 |  NaN	      |   -0.097615
       |  C	 |  NaN	      |  -1.002197
 
 
-# Getting Data In/Out
+## Getting Data In/Out
 
 Writing to a csv file.
 
