@@ -5,7 +5,7 @@ sidebar:
   - nav: docs  
 ---
 
-If you are in data science, there are high chances of using pandas in your Data science and Machine Learning processes and data pipelines. Considering the need to refer to syntax and the basics of pandas, here is a quick 10-min intro to pandas and the most used methods from it.
+If you are in data science, there are high chances of using pandas in your Data Science and Machine Learning processes and data pipelines. Considering the need to refer to syntax and the basics of pandas, here is a quick 10-minute intro to pandas and the most used methods from it.
 
 > <span style="font-size:1em;"> Note: In this article, "pd" is an alias for pandas and "np" is an alias for numpy. </span>
 {: .notice--info}
