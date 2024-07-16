@@ -11,7 +11,7 @@ If you are in data science, there are high chances of using pandas in your Data 
 > <span style="font-size:1em;"> Note: In this article, "pd" is an alias for pandas and "np" is an alias for numpy. </span>
 {: .notice--info}
 
-## Object Creation
+### Object Creation
 
 Creating a Series by passing a list of values, letting pandas create a default integer index:
 
@@ -108,10 +108,7 @@ Transposing your data
 df.T
 ```
 
-    2013-01-01 00:00:00	|  2013-01-02 00:00:00	 |  2013-01-03 00:00:00	 | 2013-01-04 00:00:00	|   2013-01-05 00:00:00 |  2013-01-06 00:00:00 
-|---------------------- |------------------------|-----------------------|----------------------|-----------------------|----------------------
-A	|  -0.165045          |         0.380108       |      1.982129	       |    -1.390268	        |      1.007223	        |     1.223380
-B	|   0.286237	        |         0.781734	     |      1.970573	       |    -0.862023	        |      0.024108	        |     -0.034152
+![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/pandas_transpose.JPG?raw=true)
 
 **Sorting by an axis**
 
@@ -719,4 +716,4 @@ Reading from an excel file
 pd.read_excel('foo.xlsx', 'Sheet1', index_col=None, na_values=['NA'])
 ```
 
-Pandas is indeed a powerful package to work with, especially for data engineers, and scientists who work on manipulating and analysing data. With a solid grasp of Pandas, you are well-equipped to streamline your data workflow and uncover valuable insights from your data.
+Pandas is indeed a powerful package to work with, especially for data engineers, scientists who work on manipulating and analysing data. With a solid grasp of Pandas, you are well-equipped to streamline your data workflow and uncover valuable insights from your data.
