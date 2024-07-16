@@ -17,5 +17,7 @@ docs:
         url: /pythonbooks/
       - title: "Python Certifications"
         url: /pycerts/
+      - title: "10 Minutes to Pandas"
+        url: /pandas/
    
             
