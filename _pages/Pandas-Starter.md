@@ -499,44 +499,48 @@ break it into pieces
 ```python
 pieces = [df[:3], df[3:7], df[7:]]
 pd.concat(pieces)
-
-      0	        1	        2	       3
-0	-0.106234	-0.950631	1.519573	0.097218
-1	1.796956	-0.450472	-1.315292	-1.099288
-2	1.589803	0.774019	0.009430	-0.227336
-3	1.153811	0.272446	1.984570	-0.039846
-4	0.495798	0.714185	-1.035842	0.101935
-5	0.254143	0.359573	-1.274558	-1.978555
-6	0.456850	-0.094249	0.665324	0.226110
-7	-0.657296	0.760446	-0.521526	0.392031
-8	0.186656	-0.131740	-1.404915	0.501818
-9	-0.523582	-0.876016	-0.004513	-0.509841
 ```
+
+|     A   |     B      |     C      |    D       
+|---------|------------|------------|-----------
+-0.106234 |	-0.950631	 |  1.519573	|  0.097218
+1.796956	| -0.450472	 |  -1.315292	| -1.099288
+1.589803	| 0.774019	 |  0.009430	| -0.227336
+1.153811	| 0.272446	 |  1.984570	| -0.039846
+0.495798	| 0.714185	 | -1.035842	| 0.101935
+0.254143	| 0.359573	 | -1.274558	| -1.978555
+0.456850	| -0.094249	 | 0.665324	  | 0.226110
+-0.657296	| 0.760446	 | -0.521526	| 0.392031
+0.186656	| -0.131740	 | -1.404915	| 0.501818
+-0.523582	| -0.876016	 |-0.004513	  | -0.509841
 
 ## JOIN
 
 ```python
 left = pd.DataFrame({'key': ['foo', 'foo'], 'lval': [1, 2]})
 right = pd.DataFrame({'key': ['foo', 'foo'], 'rval': [4, 5]})
-
-  key	lval
-0	foo	  1
-1	foo	  2
-
-right
-
-    key	 rval
-0 	foo	  4
-1	  foo	  5
-
-pd.merge(left, right, on='key')
-
-    key	  lval	rval
-0	  foo	    1	    4
-1	  foo	    1	    5
-2	  foo	    2	    4 
-3	  foo	    2	    5
 ```
+
+| key	 | lval
+|------|------
+| foo	 |  1
+| foo	 |  2
+
+| key	 | rval
+|------|------
+| foo	 |  4
+| foo	 |  5
+
+```python
+pd.merge(left, right, on='key')
+```
+
+| key	 | lval | rval
+|------|------|-------
+|  foo	 |   1	|  4
+|  foo	 |   1	|  5
+|  foo	 |   2	|  4 
+|  foo	 |   2	|  5
 
 ## Append
 
@@ -545,17 +549,18 @@ Append rows to a dataframe.
 ```python
 append_df = pd.DataFrame(np.random.randn(8, 4), columns=['A','B','C','D'])
 append_df
-
-    A	        B	         C	       D
-0	0.310213	0.511346	1.891497	0.491886
-1	-2.099571	-0.477107	0.701392	0.452229
-2	-1.508507	0.207553	0.140408	0.033682
-3	-1.026017	-1.277501	1.755467	1.056045
-4	-0.890034	0.726291	-0.419684	-1.073366
-5	-0.614249	1.139664	-1.582946	0.661833
-6	-0.010116	1.877924	-0.015332	1.176713
-7	-0.314318	1.088290	-0.067972	-1.759359
 ```
+
+|     A      |     B      |     C      |    D       
+|------------|------------|------------|-----------
+|  0.310213	 |  0.511346	|  1.891497	 | 0.491886
+|  -2.099571 | 	-0.477107	|  0.701392	 | 0.452229
+|  -1.508507 |	0.207553	|  0.140408	 | 0.033682
+|  -1.026017 |	-1.277501	|  1.755467	 | 1.056045
+|  -0.890034 |	0.726291	|  -0.419684 | -1.073366
+|  -0.614249 |	1.139664	|  -1.582946 | 0.661833
+|  -0.010116 |	1.877924	|  -0.015332 | 1.176713
+|  -0.314318 |	1.088290	|  -0.067972 | -1.759359
 
 ## Grouping 
 
@@ -567,28 +572,29 @@ By "group by" we are referring to a process involving one or more of the followi
 
 ```python
 df = pd.DataFrame({'A' : ['foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'foo'], 'B' : ['one', 'one', 'two', 'three', 'two', 'two', 'one', 'three'],'C' : np.random.randn(8), 'D' : np.random.randn(8)})
-
-    A	 B	    C	      D
-0	foo	one	-0.606619	0.295979
-1	bar	one	-0.015111	-1.662742
-2	foo	two	-0.212922	1.564823
-3	bar	three	0.332831	0.337342
-4	foo	two	0.235074	-0.568002
-5	bar	two	-0.892237	0.944328
-6	foo	one	0.558490	0.977741
-7	foo	three	0.517773	1.052036
 ```
+|     A      |     B      |     C       |    D       
+|------------|------------|-------------|-----------
+|     foo	   |    one	    |  -0.606619  |  0.295979
+|     bar	   |    one	    |  -0.015111	| -1.662742
+|     foo	   |    two	    |  -0.212922	|  1.564823
+|     bar	   |    three	  |   0.332831	|  0.337342
+|     foo	   |    two	    |   0.235074	| -0.568002
+|     bar	   |    two	    |   -0.892237	|  0.944328
+|     foo	   |    one	    |    0.558490	|  0.977741
+|     foo	   |    three	  |    0.517773	|  1.052036
 
 Grouping and then applying the sum() function to the resulting groups
 
 ```python
 df.groupby('A').sum()
-
-        C	          D
-A		
-bar	  -0.574517	  -0.381072
-foo	  0.491797	  3.322576
 ```
+
+|            |     C      |     D       
+|------------|------------|-------------
+    A        |
+|  bar	     |  -0.574517	|  -0.381072
+|  foo	     |  0.491797	|  3.322576
 
 Grouping by multiple columns forms a hierarchical index, and again we can apply the sum function.
 
@@ -617,66 +623,73 @@ index = pd.MultiIndex.from_tuples(tuples, names=['first', 'second'])
 df = pd.DataFrame(np.random.randn(8, 2), index=index, columns=['A', 'B'])
 df_ind = df[:4]
 df_ind
-
-                  A	        B
-first	second		
-
-bar	  one	    -1.863544	  -1.071139
-      two	    -0.611544	  -0.539124
-baz	  one	    -0.438217	   0.995510
-      two	    0.481952	  -0.009496
 ```
+|            |    A       |     B       
+|------------|------------|-------------
+first	second |	
+|------------|------------|-------------
+bar	|  one	 | -1.863544	|  -1.071139
+    |  two	 | -0.611544	|  -0.539124
+baz	|  one	 | -0.438217	|   0.995510
+    |  two	 |  0.481952	|  -0.009496
 
 The stack() method “compresses” a level in the DataFrame’s columns.
 
 ```python
 stacked = df_ind.stack()
 stacked
-
-first  second   
-bar    one     A   -1.863544
-               B   -1.071139
-       two     A   -0.611544
-               B   -0.539124
-baz    one     A   -0.438217
-               B    0.995510
-       two     A    0.481952
-               B   -0.009496
-dtype: float64
 ```
+  
+|            |    first   |  second
+|------------|------------|---------------
+bar |   one  |      A     |    -1.863544
+    |        |      B     |    -1.071139
+    |   two  |      A     |    -0.611544
+    |        |      B     |    -0.539124
+baz |   one  |      A     |    -0.438217
+    |        |      B     |    0.995510
+    |   two  |      A     |    0.481952
+    |        |      B     |    -0.009496
+dtype: float64
 
 With a “stacked” DataFrame or Series (having a MultiIndex as the index), the inverse operation of stack() is unstack(), which by default unstacks the last level:
 
 ```python
 stacked.unstack()
-
-                      A	         B
-first	  second		
-bar	      one	    -1.863544	  -1.071139
-          two	    -0.611544	  -0.539124
-baz	      one	    -0.438217	  0.995510
-          two	     0.481952	  -0.009496
 ```
+|            |    A      |    B
+|------------|-----------|---------------
+first	| second		
+|------------------------|---------------
+  bar	| one	 | -1.863544 |	 -1.071139
+      | two	 | -0.611544 |	 -0.539124
+  baz	| one	 | -0.438217 |	 0.995510
+      | two	 | 0.481952	 |  -0.009496
 
 ```python
 stacked.unstack(1)
-
-          second	  one	      two
-first			
-bar	        A	    -1.863544	  -0.611544
-            B	    -1.071139	  -0.539124
-baz	        A	    -0.438217	   0.481952
-            B	     0.995510	   -0.009496
-
-stacked.unstack(0)
-
-          first   	bar	          baz
-second			
-  one	      A	      -1.863544	  -0.438217
-            B	      -1.071139	   0.995510
-  two	      A	      -0.611544	   0.481952
-            B	      -0.539124	   -0.009496
 ```
+        | second	|  one	 |     two
+|--------------------------------------------
+   first			
+--------------|-------------|-----------------  
+   bar	    A	|   -1.863544	|  -0.611544
+            B	|   -1.071139	|  -0.539124 
+   baz	    A	|   -0.438217	|  0.481952
+            B	|   0.995510	|  -0.009496
+
+```python
+stacked.unstack(0)
+```
+
+        |  first	 |  bar	    |   biz
+|----------------------------------------------
+  second			
+----------------|------------|-----------------  
+  one	      A	  |  -1.863544 |	-0.438217
+            B	  |  -1.071139 |	0.995510
+  two	      A	  |  -0.611544 |	0.481952
+            B	  |  -0.539124 |	-0.009496
 
 ## Pivot tables
 
@@ -689,19 +702,59 @@ We can produce pivot tables from this data very easily
 
 ```python
 pd.pivot_table(df, values='D', index=['A', 'B'], columns=['C'])
-
-	    C	      bar	        foo
-A	    B		
-
-one	  A	    -0.023021	    -0.678341
-      B	    0.095968	    -0.795599
-      C	    0.722170	     0.027855
-
-three	A	      -0.529623	      NaN
-      B	      NaN	            1.808185
-      C	      -1.165231	      NaN
-two	  A	      NaN	            -0.097615
-      B	      -2.359497	      NaN
-      C	      NaN	            -1.002197
 ```
 
+	          |   bar	     |      foo
+|----------------------------------------------      
+  A	  |  B	 	
+|----------------------------------------------      
+one	  |  A	 | -0.023021	|  -0.678341
+      |  B	 | 0.095968	  |  -0.795599
+      |  C	 | 0.722170	  |   0.027855
+three	|  A	 | -0.529623	|   NaN
+      |  B	 |  NaN	      |   1.808185
+      |  C	 | -1.165231	|   NaN
+two	  |  A	 |  NaN	      |   -0.097615
+      |  B	 | -2.359497	|   NaN
+      |  C	 |  NaN	      |  -1.002197
+
+
+# Getting Data In/Out
+
+Writing to a csv file.
+
+```python
+df.to_csv('foo.csv')
+```
+
+Reading a CSV
+
+```python
+pd.read_csv('foo.csv')
+```
+
+Writing to a HDF5 Store.
+
+```python
+df.to_hdf('foo.h5','df')
+```
+
+Reading from a HDF5 Store.
+
+```python
+pd.read_hdf('foo.h5','df')
+```
+
+Writing to an excel file.
+
+```python
+df.to_excel('foo.xlsx', sheet_name='Sheet1')
+```
+
+Reading from an excel file
+
+```python
+pd.read_excel('foo.xlsx', 'Sheet1', index_col=None, na_values=['NA'])
+```
+
+Pandas is indeed a powerful package to work with, especially for data engineers, scientists who work on manipulating and analysing data. With a solid grasp of Pandas, you are well-equipped to streamline your data workflow and uncover valuable insights from your data.
