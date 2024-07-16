@@ -2,9 +2,7 @@
 title: "10 Minutes to Pandas"
 permalink: /pandas/
 sidebar:
-  - nav: docs
-  - text: >
-      [![](/assets/images/buy_me_coffee.jpg)](https://buymeacoffee.com/softwaremusings){:target="_blank"}
+  - nav: docs  
 ---
 
 If you are in data science, there are high chances of using pandas in your Data science and Machine Learning processes and data pipelines. Considering the need to refer to syntax and the basics of pandas, here is a quick 10-min intro to pandas and the most used methods from it.
