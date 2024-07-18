@@ -21,6 +21,9 @@ docs:
     children:
       - title: "10 Minutes to Pandas"
         url: /pandas/
-       
+  - title: Cheatsheets
+    children:
+      - title: "Coming Soon"
+    
      
             
