@@ -5,7 +5,7 @@ main:
   - title: "Posts by Category"
     url: /categories/
   - title: "Coming Soon!"
-    # url: /year-archive/
+    url: /assets/images/coming-soon.png
 docs:
   - title: Recommendations
     children:
