@@ -25,6 +25,7 @@ docs:
     children:
       - title: "Coming Soon"    
         url: /assets/images/coming-soon.png
-    
+      - title: "Kaggle Solutions"
+        url: /assets/images/coming-soon.png
      
             
