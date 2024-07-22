@@ -1,13 +1,9 @@
 ---
 title: "Python - Tips & Hacks"
-categories:
-  - Python
-  - Tips
-tags:
-  - Python
-  - Pip
-  - Pip Packages
-  - Python3
+permalink: /pythontips/
+sidebar:
+  - nav: docs
+classes: wide
 ---
 
 ## Listing Outdate Packages in Python 
