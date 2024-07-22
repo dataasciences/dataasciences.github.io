@@ -23,7 +23,7 @@ docs:
         url: /pandas/
   - title: Cheatsheets
     children:
-      - title: "Coming Soon"    
+      - title: "Python Hacks & Tips"    
         url: /assets/images/coming-soon.png
       - title: "Kaggle Solutions"
         url: /assets/images/coming-soon.png
