@@ -24,7 +24,7 @@ docs:
   - title: Cheatsheets
     children:
       - title: "Python Hacks & Tips"    
-        url: /assets/images/coming-soon.png
+        url: /pythontips/
       - title: "Kaggle Solutions"
         url: /assets/images/coming-soon.png
      
