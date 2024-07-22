@@ -21,7 +21,7 @@ docs:
     children:
       - title: "10 Minutes to Pandas"
         url: /pandas/
-  - title: Cheatsheets
+  - title: Discover!
     children:
       - title: "Python Hacks & Tips"    
         url: /pythontips/
