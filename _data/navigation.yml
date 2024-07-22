@@ -25,7 +25,7 @@ docs:
     children:
       - title: "Python Hacks & Tips"    
         url: /pythontips/
-      - title: "Kaggle Solutions"
+      - title: "Data Science Solutions"
         url: /Kaggle-Competitions/
 
      
