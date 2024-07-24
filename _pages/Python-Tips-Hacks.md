@@ -112,3 +112,29 @@ file.read()
 
 'This is the first line\nAnd a second\nAnd even a third\nShall we put a fourth?\nWhy not a fifth\nOr a sixt\n'
 ```
+
+#### 🔍How to Create Infinite Iteration using "itertools.cycle"
+
+  Use-cases?
+    👉 Round-robin task scheduling.
+    👉Creating repeating patterns in data processing.
+    👉Continuously cycling through a list of configurations or parameters.
+
+The itertools.cycle function can be used to iterate over a sequence infinitely.
+
+👉 itertools.cycle: Takes an iterable and returns an iterator that produces the elements of the iterable in a cycle, repeating indefinitely.
+👉 next: Used to get the next item from the iterator.
+
+```python
+import itertools
+
+# Define a list of values
+colours = ['red', 'green', 'blue']
+
+# Create an infinite iterator
+infinite_colors = itertools.cycle(colours)
+
+# Use the iterator
+for _ in range(10):
+    print(next(infinite_colors))
+```
