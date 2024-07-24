@@ -47,6 +47,7 @@ sudo pipdate3
 **Note for Windows users:** *Pipdate* is already installed by default so you don't need to install it
 
 **Note for Mac users:** If you installed *Python* via **homebrew** there is no need to use *sudo* to install *pipdate* or upgrade packages
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## File Navigations
 
@@ -112,13 +113,15 @@ file.read()
 
 'This is the first line\nAnd a second\nAnd even a third\nShall we put a fourth?\nWhy not a fifth\nOr a sixt\n'
 ```
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### 🔍How to Create Infinite Iteration using "itertools.cycle"
+## 🔍How to Create Infinite Iteration using "itertools.cycle"
 
-  Use-cases?
-    👉 Round-robin task scheduling.
-    👉Creating repeating patterns in data processing.
-    👉Continuously cycling through a list of configurations or parameters.
+Use-cases?
+
+👉 Round-robin task scheduling.
+👉Creating repeating patterns in data processing.
+👉Continuously cycling through a list of configurations or parameters.
 
 The itertools.cycle function can be used to iterate over a sequence infinitely.
 
