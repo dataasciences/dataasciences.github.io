@@ -47,6 +47,7 @@ sudo pipdate3
 **Note for Windows users:** *Pipdate* is already installed by default so you don't need to install it
 
 **Note for Mac users:** If you installed *Python* via **homebrew** there is no need to use *sudo* to install *pipdate* or upgrade packages
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## File Navigations
