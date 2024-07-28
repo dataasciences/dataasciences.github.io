@@ -30,7 +30,7 @@ docs:
   - title: "Cheatsheets"
     children:
       - title: "Pandas"
-        url: /https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/Pandas%20Cheatsheet%20-%20Software%20Musings.pdf/
+        url: https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/Pandas%20Cheatsheet%20-%20Software%20Musings.pdf/
             
 
      
