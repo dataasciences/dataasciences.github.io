@@ -30,7 +30,7 @@ docs:
   - title: "Cheatsheets"
     children:
       - title: "Pandas"
-        url: /assets/Pandas Cheatsheet - Software Musings.pdf
+        url: /assets/images/Pandas Cheatsheet - Software Musings.pdf
             
 
      
