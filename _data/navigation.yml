@@ -27,6 +27,11 @@ docs:
         url: /pythontips/
       - title: "Data Science Solutions"
         url: /Kaggle-Competitions/
+      - title: "Cheatsheets"
+        children:
+          - title: "Pandas"
+            url: /Kaggle-Competitions/
+            
 
      
             
