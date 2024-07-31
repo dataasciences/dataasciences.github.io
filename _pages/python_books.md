@@ -2,9 +2,7 @@
 title: "Python Books to Read"
 permalink: /pythonbooks/
 sidebar:
-  - nav: docs
-  - text: >
-      [![](/assets/images/buy_me_coffee.jpg)](https://buymeacoffee.com/softwaremusings){:target="_blank"}
+  - nav: docs 
 ---
 **Automate the Boring Stuff With Python -**
 
