@@ -147,9 +147,9 @@ for _ in range(10):
 ```
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Immutable & Mutable classes in Python using dataclass
+## Immutable & Mutable classes in Python using data class
 
-# Data Classes in Python are a Huge saver for boilerplate code. There could be instances where your python classes may need to be defined as an immutable object. The "frozen" parameter is of help here. 
+Data Classes in Python are a Huge saver for boilerplate code. There could be instances where your Python classes may need to be defined as an immutable object. The "frozen" parameter is of help here. 
 
 ```python
 from dataclasses import dataclass
