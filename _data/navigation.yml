@@ -31,6 +31,8 @@ docs:
     children:
       - title: "Pandas"
         url: /assets/images/Pandas Cheatsheet - Software Musings.pdf
+      - title: "Numpy"
+        url: /assets/images/Numpy Cheatsheet - Software Musings.pdf
             
 
      
