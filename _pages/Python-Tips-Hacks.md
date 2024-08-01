@@ -145,3 +145,54 @@ infinite_colors = itertools.cycle(colours)
 for _ in range(10):
     print(next(infinite_colors))
 ```
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Immutable & Mutable classes in Python using dataclass
+
+# Data Classes in Python are a Huge saver for boilerplate code. There could be instances where your python classes may need to be defined as an immutable object. The "frozen" parameter is of help here. 
+
+```python
+from dataclasses import dataclass
+
+# Not Immutable 
+
+@dataclass()
+class Point:
+    x: int
+    y: int
+
+# Create an instance of the data class
+point = Point(x=1, y=2)
+
+print(point)  # Output: Point(x=1, y=2)
+
+# Attempting to modify the fields will NOT raise an error
+try:
+    point.x = 10
+except AttributeError as e:
+    print(e) 
+
+print(point)  # Output: Point(x=10, y=2)
+```
+
+```python
+# Freezing the Class, thereby becoming Immutable.
+
+from dataclasses import dataclass
+
+@dataclass(frozen=True)
+class Point:
+    x: int
+    y: int
+
+# Create an instance of the data class
+point = Point(x=1, y=2)
+
+print(point)  # Output: Point(x=1, y=2)
+
+# Attempting to modify the fields will raise an error
+try:
+    point.x = 10
+except AttributeError as e:
+    print(e)  # Output: cannot assign to field 'x'
+```
