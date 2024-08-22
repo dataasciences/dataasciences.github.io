@@ -71,7 +71,10 @@ Hover over a line of code to see who last modified it and when. GitLens might sh
 ## 5. autoDocstring - Python Docstring Generator
 
 Automatically generates docstrings for your Python functions, methods, and classes according to PEP 257.
-How it works - After you create your function definition, enter """ and it will prompt you to auto-generate docstrings. It ensures that your code is well-documented, which is vital for code maintainability and collaboration. 
+
+How it works:
+
+* After you create your function definition, enter """ and it will prompt you to auto-generate docstrings. It ensures that your code is well-documented, which is vital for code maintainability and collaboration. 
 Refer to the image below that shows the code and how it should look once the extension is installed.
 
   ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin_autodoc.JPG?raw=true)
