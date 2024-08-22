@@ -81,6 +81,6 @@ Refer to the image below that shows the code and how it should look once the ext
 
 After you press enter, it should show something like this;
 
-![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin_autodoc_function.JPG?raw=true)
+  ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin_autodoc_function.JPG?raw=true)
 
 Hope this post helps in boosting your productivity! 
