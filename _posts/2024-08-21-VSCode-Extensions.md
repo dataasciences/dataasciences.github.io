@@ -30,7 +30,9 @@ The official Python extension for VS Code is essential for any Python developer.
 
 With this extension, as you type add(, IntelliSense will suggest adding and showing the function signature. Refer to the image below for reference. This is how it should look once you have the extension installed in your VS Code;
 
-  ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin.JPG?raw=true)
+<p align="center">
+  <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin.JPG?raw=true" alt="Python Extension" />
+</p>
 
 ## 2. Pylance
 
@@ -42,7 +44,9 @@ A language server for Python that provides fast, feature-rich IntelliSense, type
 
 This is how it should look once you have the extension installed in your VS Code;
 
-  ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin_pylance.JPG?raw=true)
+<p align="center">
+  <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin_pylance.JPG?raw=true" alt="Pylance Extension" />
+</p>
 
 ## 3. Jupyter
 
@@ -54,7 +58,9 @@ Adds Jupyter Notebook support to VS Code, allowing you to work with notebooks di
 
 This is how it should look once you have the Jupyter extension installed in your VS Code;
 
-  ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin_jupyter.JPG?raw=true)
+<p align="center">
+  <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin_jupyter.JPG?raw=true" alt="Jupyter Extension" />
+</p>
 
 ## 4. GitLens
 
@@ -66,7 +72,9 @@ You can Git from within VSCode, which offers powerful features to visualize and 
  
 Hover over a line of code to see who last modified it and when. GitLens might show. This is how it should look once you have the extension installed in your VS Code;
 
-  ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin_gitlens_new.JPG?raw=true)
+<p align="center">
+  <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin_gitlens_new.JPG?raw=true" alt="GitLens Extension" />
+</p>
 
 ## 5. autoDocstring - Python Docstring Generator
 
@@ -77,10 +85,14 @@ How it works:
 * After you create your function definition, enter """ and it will prompt you to auto-generate docstrings. It ensures that your code is well-documented, which is vital for code maintainability and collaboration. 
 Refer to the image below that shows the code and how it should look once the extension is installed.
 
-  ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin_autodoc.JPG?raw=true)
+<p align="center">
+  <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin_autodoc.JPG?raw=true" alt="autoDoc Extension" />
+</p>
 
 After you press enter, it should show something like this;
 
-  ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin_autodoc_function.JPG?raw=true)
+<p align="center">
+  <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin_autodoc_function.JPG?raw=true" alt="autoDoc Ext" />
+</p>
 
-Hope this post helps in boosting your productivity! 
+I hope this post helps in boosting your productivity when you use VS Code!
