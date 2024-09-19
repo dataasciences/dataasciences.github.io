@@ -74,7 +74,7 @@ Example: If you understand and practice a math formula. You no longer will need 
 - Don’t always trust your initial intuition - Einstellung problem (a German word for Mindset). An idea or a neural pattern you developed might prevent a new better idea from being found. Sometimes your initial intuition on what you need to be doing is misleading. You’ve to unlearn old ideas and approaches as you are learning new ones.
 - Mix up the problems (Interleaving) from different chapters. This is helpful to create connections between your chunks. It can make your learning a bit more difficult, but it helps you learn more deeply. Interleaving is very important. It is where you leave the world of practice and repetition, and begin thinking more independently.
 
-### Don'ts:
+Don'ts:
 
 1. Highlighting too much and creating maps are often ineffective without recalling.
 2. Repeating something you already learned or know very well is easy. It can bring the illusion of competence; that you’ve mastered the full material when you actually just know the easy stuff. Balance your studies and focus on the more difficult (deliberate practice). This sets the difference between a good student and a great student.
@@ -82,26 +82,26 @@ Example: If you understand and practice a math formula. You no longer will need 
 
 ## Week 3: Procrastination and Memory
 
-Procrastination:
+### Procrastination
 
 1. The routine, habitual responses your brain falls into when you try to do something hard or unpleasant. Focusing only on making the present moment feels better.
 2. Unlike procrastination which is easy to fall into, willpower is hard to come by. It uses a lot of neural resources and you shouldn’t waste it on fending off procrastination except when really necessary. You actually don’t need to.
 3. The long-term effect of Procrastination can be dangerous. Putting your studies off leads to studying becoming even more painful. Procrastination is a habit that affects many areas of your life, if you improve in this area, many positive changes will unfold.
-4. Procrastination shares feature with addiction. At first, it leads you to think that if you study too early you’ll forget the material. Then, when the class is ahead of you, it leads you to think that you are inadequate or that the subject is too hard.
+4. Procrastination shares features with addiction. At first, it leads you to think that if you study too early you’ll forget the material. Then, when the class is ahead of you, it leads you to think that you are inadequate or that the subject is too hard.
 5. You want to avoid cramming which doesn’t build solid neural structures, by putting the same amount into your learning and spacing it over a long period by starting earlier.
 
-### First time learning something:
+### First time learning something
 
   - The first time you do something the deluge of information coming at you would make the job seem almost impossibly difficult. But, once you've chunked it, it will be simple.
   - At first, it's really hard, but later it's easy. It becomes like a habit. Ex: Driving for the first time.
 
-### Habits: 
+### Habits
 
   - Neuro-scientifically speaking, chunking is related to habit.
   - Habit is an energy saver. You don’t need to focus when performing different habitual tasks.
   - Habits can be good or bad, brief or long.
 
-### Habits Parts:
+### Habits Parts
 
 #### 1. The cue: The trigger that launches you into zombie mode (habitual routine).
   - Recognize what launches you into zombie procrastination mode:
@@ -124,7 +124,7 @@ Procrastination:
    - Joining a student community helps, either online or in real life.
    - Trust your system. You have to feel happy and worry-free when you are resting.
 
-### Weekly/Daily list:
+### Weekly/Daily list
 
   - Researchers showed that writing your daily list the evening before helps you accomplish them the next day. If you don’t write them down, they will take the valuable slots of memory.
   - Plan your finishing time, this is as important as planning your working time.
@@ -132,12 +132,12 @@ Procrastination:
   - Take notes about what works and what doesn’t.
   - Have a backup plan for when you will still procrastinate.
 
-### Focus on Process:
+### Focus on Process
 
   - You should realize that it’s perfectly normal to start a learning session with a negative feeling even if you like the subject. It’s how you handle those feelings that matter.
   - Solution: Focus on the process, not the product. The product is what triggers the pain that causes you to procrastinate. Instead of saying "I will solve this task today", put in your best effort for a period of time continuously over the days.
 
-### Memory:
+### Memory
 
   - Use your visual memory to remember things.
   - Example: Link a memorable picture to a formula.
@@ -147,7 +147,7 @@ Procrastination:
   - Flashcards help. Consider using Anki.
   - Handwriting helps you deeply convert what you are trying to learn into neural memory structures.
 
-### Memory Techniques:
+### Memory Techniques
 
   - Create meaningful groups and abbreviations.
   - To remember numbers, associate them with memorable events.
@@ -156,20 +156,20 @@ Procrastination:
   - This is not easy. You’ll be very slow at first. But with practice, you’ll get better.
   - The more you practice your "memory muscle" the easier you’ll remember.
 
-### Week 4: Renaissance Learning and Unlocking Your Potential
+## Week 4: Renaissance Learning and Unlocking Your Potential
 
-You should know:
+#### You should know
 
   - Exercising is by far more effective than any drug to help you learn better. It helps new neurons survive.
   - Learning doesn't always progress linearly and logically. Inevitably your brain will hit a knowledge collapse sometimes. This usually means your brain is restructuring its understanding, building a more solid   foundation.
   - You learn complex concepts by trying to make sense of the information you perceive. Not by having someone else tell it to you.
 
-#### Metaphors:
+#### Metaphors
 
   - Metaphors and analogies are very helpful, not only to memorize but to also understand different concepts.
   - It is often helpful to pretend that you are the concept you’re trying to understand.
 
-#### Intelligence:
+#### Intelligence
 
    - Intelligence does matter. Being smart usually equates to having a large working memory (more than just four slots).
   - However, a superb working memory can hold its thoughts so tightly that new thoughts won’t easily find a way into the brain. Such tightly controlled attention could use an occasional breath of ADHD. Your attention shifts even if you don’t want it to shift.
@@ -177,17 +177,17 @@ You should know:
   - Brilliant scientists like Ramón y Cajal, the father of neuroscience, or Charles Darwin, were not exceptionally gifted. The key to their success was perseverance, taking responsibility for their learning and changing their thoughts.
   - Take pride in the qualities you excel at. Tune people out if they try to demean your efforts.
 
-#### Right hemisphere:
+#### Right hemisphere
 
   - Helps us put our work into the big picture perspective and does reality checks.
   - When you go through homework or test questions and don’t go back to check your work, you’re acting like a person who’s refusing to use parts of his brain.
 
-#### Left hemisphere:
+#### Left hemisphere
 
   - Interprets the world for us but with a tendency for rigidity, dogmatism, and egocentricity.
   - This may lead to overconfidence. Ex: believing dismissively that your answers are correct.
 
-#### Best Practices:
+#### Best Practices
 
   - Always step back and recheck to take advantage of the abilities of both-hemispheres interactions.
   - Brainstorm and find focused people to analyze your work with.
@@ -196,7 +196,7 @@ You should know:
   - Studying in a team helps you catch what you missed, or what you can’t see.
   - Don’t fool yourself. Don’t blindly believe in your intellectual abilities. Having a team can bring those projections down.
 
-#### Test Checklist:
+#### Test Checklist
 
   - Did you make a serious effort to understand the text? If you had a study guide, did you go through it?
   - Did you attempt to outline every homework problem solution?
@@ -205,13 +205,13 @@ You should know:
   - Did you consult your instructor/teacher when you had a problem with something?
   - Did you sleep well the night before the test?
 
-#### Test-Taking Technique:
+#### Test-Taking Technique
 
   - Take a quick look at the test when it’s handed to you to get a sense of what it involves.
   - Start with the hardest problem. Pull yourself out if you get stuck for over 2 minutes. Starting with a hard problem loads your focused mode first and then switches attention away from it. This allows the diffused mode to start its work.
-  - Turn next to an easy problem. Solves what you can, then move back to a hard one. This allows the different parts of your brain to work simultaneously on different thoughts.   
+  - Turn next to an easy problem. Solve what you can, then move back to a hard one. This allows the different parts of your brain to work simultaneously on different thoughts.   
 
-#### Taking Test Tips:
+#### Taking Test Tips
 
   - Being Stressed before a test is normal. The body puts ups out chemicals when it’s under stress. How you interpret the body's reaction to those chemicals makes all the difference.
   - Shift your thinking from "I am afraid of this test" to “I am excited to do my best”.
