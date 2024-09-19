@@ -158,18 +158,18 @@ Don'ts:
 
 ## Week 4: Renaissance Learning and Unlocking Your Potential
 
-#### You should know
+### You should know
 
   - Exercising is by far more effective than any drug to help you learn better. It helps new neurons survive.
   - Learning doesn't always progress linearly and logically. Inevitably your brain will hit a knowledge collapse sometimes. This usually means your brain is restructuring its understanding, building a more solid   foundation.
   - You learn complex concepts by trying to make sense of the information you perceive. Not by having someone else tell it to you.
 
-#### Metaphors
+### Metaphors
 
   - Metaphors and analogies are very helpful, not only to memorize but to also understand different concepts.
   - It is often helpful to pretend that you are the concept you’re trying to understand.
 
-#### Intelligence
+### Intelligence
 
    - Intelligence does matter. Being smart usually equates to having a large working memory (more than just four slots).
   - However, a superb working memory can hold its thoughts so tightly that new thoughts won’t easily find a way into the brain. Such tightly controlled attention could use an occasional breath of ADHD. Your attention shifts even if you don’t want it to shift.
@@ -177,17 +177,17 @@ Don'ts:
   - Brilliant scientists like Ramón y Cajal, the father of neuroscience, or Charles Darwin, were not exceptionally gifted. The key to their success was perseverance, taking responsibility for their learning and changing their thoughts.
   - Take pride in the qualities you excel at. Tune people out if they try to demean your efforts.
 
-#### Right hemisphere
+### Right hemisphere
 
   - Helps us put our work into the big picture perspective and does reality checks.
   - When you go through homework or test questions and don’t go back to check your work, you’re acting like a person who’s refusing to use parts of his brain.
 
-#### Left hemisphere
+### Left hemisphere
 
   - Interprets the world for us but with a tendency for rigidity, dogmatism, and egocentricity.
   - This may lead to overconfidence. Ex: believing dismissively that your answers are correct.
 
-#### Best Practices
+### Best Practices
 
   - Always step back and recheck to take advantage of the abilities of both-hemispheres interactions.
   - Brainstorm and find focused people to analyze your work with.
@@ -196,7 +196,7 @@ Don'ts:
   - Studying in a team helps you catch what you missed, or what you can’t see.
   - Don’t fool yourself. Don’t blindly believe in your intellectual abilities. Having a team can bring those projections down.
 
-#### Test Checklist
+### Test Checklist
 
   - Did you make a serious effort to understand the text? If you had a study guide, did you go through it?
   - Did you attempt to outline every homework problem solution?
@@ -205,13 +205,13 @@ Don'ts:
   - Did you consult your instructor/teacher when you had a problem with something?
   - Did you sleep well the night before the test?
 
-#### Test-Taking Technique
+### Test-Taking Technique
 
   - Take a quick look at the test when it’s handed to you to get a sense of what it involves.
   - Start with the hardest problem. Pull yourself out if you get stuck for over 2 minutes. Starting with a hard problem loads your focused mode first and then switches attention away from it. This allows the diffused mode to start its work.
-  - Turn next to an easy problem. Solve what you can, then move back to a hard one. This allows the different parts of your brain to work simultaneously on different thoughts.   
+  - Turn next to an easy problem. Solve what you can then move back to a hard one. This allows the different parts of your brain to work simultaneously on different thoughts.   
 
-#### Taking Test Tips
+### Taking Test Tips
 
   - Being Stressed before a test is normal. The body puts ups out chemicals when it’s under stress. How you interpret the body's reaction to those chemicals makes all the difference.
   - Shift your thinking from "I am afraid of this test" to “I am excited to do my best”.
