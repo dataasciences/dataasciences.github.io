@@ -56,9 +56,8 @@ Chunks:
 
 Pieces of information, neuroscientifically speaking, bond together through use and meaning. They can get bigger and more complex, but at the same time, they are single easy-to-access items that can fit into the slot of the working memory.
 
-```
-Chunking is the act of grouping concepts into compact packages of information that are easier for the mind to access.
-```
+> <span style="font-size:1em;"> Chunking is the act of grouping concepts into compact packages of information that are easier for the mind to access. </span>
+{: .notice--info}
 
 Example: If you understand and practice a math formula. You no longer will need to focus much to solve it like you did the first time. That’s because your "formula chunk" got so abstracted into your brain that it can only take one slot of your working memory to solve it.
 
