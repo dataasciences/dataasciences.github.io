@@ -1,5 +1,5 @@
 ---
-title: "Top 5 VS Code Extensions - [Aug 2024]"
+title: "Top 5 VS Code Extensions for Python Users"
 excerpt: "VS Code Extensions to Boost your Productivity"
 categories:
   - Software Development
@@ -13,7 +13,7 @@ sidebar:
 classes: wide
 ---
 
-VS Code is one of the widely used plugins by developers, engineers & data scientists. Here are the top 5 VS Code Plugins for Python developers especially, along with examples of how they enhance your development experience.
+VS Code is one of the widely used plugins by developers, engineers & data scientists. Here are the top 5 VS Code Plugins for Python developers, especially, along with examples of how they enhance your development experience.
 These five VS Code extensions are considered due to their comprehensive and essential features that directly address common development needs.
 
 > <span style="font-size:1em;"> The code examples are shown along with the descriptions of the extension. </span>
@@ -28,7 +28,7 @@ The official Python extension for VS Code is essential for any Python developer.
 * Linting: Helps catch errors and potential issues in your code.
 * Debugging: Integrated debugging tools for setting breakpoints, stepping through code, and inspecting variables.
 
-With this extension, as you type add(, IntelliSense will suggest adding and showing the function signature. Refer to the image below for reference. This is how it should look once you have the extension installed in your VS Code;
+With this extension, as you type, add(, IntelliSense will suggest adding and showing the function signature. Refer to the image below for reference. This is how it should look once you have the extension installed in your VS Code;
 
 <p align="center">
   <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin.JPG?raw=true" alt="Python Extension" />
@@ -53,10 +53,10 @@ This is how it should look once you have the extension installed in your VS Code
 Adds Jupyter Notebook support to VS Code, allowing you to work with notebooks directly within the editor. The main Features of the Jupyter extension include;
 
 * Notebook Execution: Run Jupyter notebooks (.ipynb files) seamlessly.
-* Interactive Data Visualization: See plots and data visualizations inline.
+* Interactive Data Visualisation: See plots and data visualisations inline.
 * When running the code in a Jupyter Notebook within VS Code, the plot will be rendered directly in the notebook interface.
 
-This is how it should look once you have the Jupyter extension installed in your VS Code;
+This is how it should look once you have the Jupyter extension installed in your VS Code.
 
 <p align="center">
   <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin_jupyter.JPG?raw=true" alt="Jupyter Extension" />
@@ -64,7 +64,7 @@ This is how it should look once you have the Jupyter extension installed in your
 
 ## 4. GitLens
 
-You can Git from within VSCode, which offers powerful features to visualize and manage Git repositories. GitLens offers many features. Some of these include;
+You can Git from within VSCode, which offers powerful features to visualise and manage Git repositories. GitLens offers many features. Some of these include;
 
 * Git Blame: See who last modified a line and why.
 * Commit History: View the history of a file or line of code.
@@ -95,4 +95,37 @@ After you press enter, it should show something like this;
   <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin_autodoc_function.JPG?raw=true" alt="autoDoc Ext" />
 </p>
 
-I hope this post helps in boosting your productivity when you use VS Code!
+Alongside coding, what a lot of developers like doing is tweaking, be it their tools, themes or just the desktop background for the sake of it. Know what i mean? The latter is fine, but what has a positive impact is having the right tools, in whichever way possible. VSCODE Extensions enable having the right tools (extensions) by your side ridiculously easy. It can supercharge productivity for real.
+
+Other than the extensions already discussed above, here are some good-to-have Non-Coding VSCODE extensions;
+
+1. PDF Viewer
+
+![]()
+                
+Easily, a must-have extension to read technical papers, books, or any other document in PDF format while you just write your code on the tab next to it. Can't get easier than this.
+
+2. Excalidraw
+
+ ![]()
+
+This one was a gem of a find for me. It is known that a picture is easier to understand than text. PPTs were the go-to tool to draw technical architecture, data pipelines and flows, but excalidraw makes it FUN. The extension feels like drawing or writing on a board and makes the entire activity joyful.
+
+3. WSL  
+
+<p align="center">
+  <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin_autodoc_function.JPG?raw=true" alt="autoDoc Ext" />
+</p>
+
+This one's for Windows users who also have WSL installed. Coding on a Bare-metal Unix machine has its PROs, and what better way to do it using an IDE instead of VIM Or EMACS. 
+
+4. markdownlint
+
+![]()
+                
+This one is for the Writers - The technical documentation Writers. 
+
+Markdown files are very common, as we all know. This extension is a super add-on for those writers who heavily use markdown to write their documentations. 
+                markdownlint includes a library of rules to encourage standards and consistency for Markdown files. It is powered by the markdownlint library for Node.js  Linting is performed by the markdownlint-cli2 engine, which can be used in conjunction with this extension to provide command-line support for scripts and continuous integration scenarios.
+
+I hope this post helps boost your productivity, creativity when you use VS Code. 
