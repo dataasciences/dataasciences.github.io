@@ -126,15 +126,28 @@ Don'ts:
 ### Weekly/Daily list
 
   - Researchers showed that writing your daily list the evening before helps you accomplish them the next day. If you don’t write them down, they will take the valuable slots of memory.
-  - Plan your finishing time, this is as important as planning your working time.
+  - Plan your finishing time; this is as important as planning your working time.
   - Work on the most important and most disliked task first, even if it’s only one Pomodoro.
   - Take notes about what works and what doesn’t.
   - Have a backup plan for when you will still procrastinate.
 
 ### Focus on Process
 
-  - You should realize that it’s perfectly normal to start a learning session with a negative feeling even if you like the subject. It’s how you handle those feelings that matter.
+  - You should realise that it’s perfectly normal to start a learning session with a negative feeling, even if you like the subject. It’s how you handle those feelings that matter.
   - Solution: Focus on the process, not the product. The product is what triggers the pain that causes you to procrastinate. Instead of saying "I will solve this task today", put in your best effort for a period of time continuously over the days.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9931405426648676"
+     crossorigin="anonymous"></script>
+<!-- Test -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9931405426648676"
+     data-ad-slot="5031359380"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Memory
 
