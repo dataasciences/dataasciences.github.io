@@ -2,9 +2,7 @@
 title: "Data Engineering Books to Read"
 permalink: /debooks/
 sidebar:
-  - nav: docs
-  - text: >
-      [![](/assets/images/buy_me_coffee.jpg)](https://buymeacoffee.com/softwaremusings){:target="_blank"}
+  - nav: docs  
 ---
 
 **Data Warehouse Toolkit** - Considered one of the most fundamental books in the field of Data Engineering. A Must-read!
