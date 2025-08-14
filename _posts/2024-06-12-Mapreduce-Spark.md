@@ -8,9 +8,7 @@ tags:
   - Big Data
   - Spark
 sidebar:
-  - nav: docs
-  - text: >
-      [![](/assets/images/buy_me_coffee.jpg)](https://buymeacoffee.com/softwaremusings){:target="_blank"}
+  - nav: docs      
 classes: wide
 ---
 
