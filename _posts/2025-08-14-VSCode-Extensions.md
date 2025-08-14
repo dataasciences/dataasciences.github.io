@@ -125,7 +125,7 @@ Easily, a must-have extension to read technical papers, books, or any other docu
 ### 2. Excalidraw
 
  <p align="center">
-  <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/excalidraw.jpg?raw=true" alt="Excalidraw" />
+  <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/excalidraww.jpg?raw=true" alt="Excalidraw" />
 </p>
 
 This one was a gem of a find for me. It is known that a picture is easier to understand than text. PPTs were the go-to tool to draw technical architecture, data pipelines and flows, but excalidraw makes it FUN. The extension feels like drawing or writing on a board and makes the entire activity joyful.
