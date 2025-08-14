@@ -108,23 +108,29 @@ After you press enter, it should show something like this;
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+## Non-Coding Extensions
+
 Alongside coding, what a lot of developers like doing is tweaking, be it their tools, themes or just the desktop background for the sake of it. Know what i mean? The latter is fine, but what has a positive impact is having the right tools, in whichever way possible. VSCODE Extensions enable having the right tools (extensions) by your side ridiculously easy. It can supercharge productivity for real.
 
 Other than the extensions already discussed above, here are some good-to-have Non-Coding VSCODE extensions;
 
-1. PDF Viewer
+### 1. PDF Viewer
 
-![]()
-                
+<p align="center">
+  <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/pdfv.jpg?raw=true" alt="WSL" />
+</p>
+
 Easily, a must-have extension to read technical papers, books, or any other document in PDF format while you just write your code on the tab next to it. Can't get easier than this.
 
-2. Excalidraw
+### 2. Excalidraw
 
  ![]()
 
+ https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/og-image.png?raw=true
+
 This one was a gem of a find for me. It is known that a picture is easier to understand than text. PPTs were the go-to tool to draw technical architecture, data pipelines and flows, but excalidraw makes it FUN. The extension feels like drawing or writing on a board and makes the entire activity joyful.
 
-3. WSL  
+### 3. WSL  
 
 <p align="center">
   <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/wsl-tux.jpg?raw=true" alt="WSL" />
@@ -132,13 +138,14 @@ This one was a gem of a find for me. It is known that a picture is easier to und
 
 This one's for Windows users who also have WSL installed. Coding on a Bare-metal Unix machine has its PROs, and what better way to do it using an IDE instead of VIM Or EMACS. 
 
-4. markdownlint
+### 4. markdownlint
 
 ![]()
                 
 This one is for the Writers - The technical documentation Writers. 
 
 Markdown files are very common, as we all know. This extension is a super add-on for those writers who heavily use markdown to write their documentations. 
-                markdownlint includes a library of rules to encourage standards and consistency for Markdown files. It is powered by the markdownlint library for Node.js  Linting is performed by the markdownlint-cli2 engine, which can be used in conjunction with this extension to provide command-line support for scripts and continuous integration scenarios.
+
+Markdownlint includes a library of rules to encourage standards and consistency for Markdown files. It is powered by the markdownlint library for Node.js  Linting is performed by the markdownlint-cli2 engine, which can be used in conjunction with this extension to provide command-line support for scripts and continuous integration scenarios.
 
 I hope this post helps boost your productivity, creativity when you use VS Code. 
