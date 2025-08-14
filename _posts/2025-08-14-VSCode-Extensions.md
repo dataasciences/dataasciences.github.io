@@ -110,23 +110,23 @@ After you press enter, it should show something like this;
 
 ## Non-Coding Extensions
 
-Alongside coding, what a lot of developers like doing is tweaking, be it their tools, themes or just the desktop background for the sake of it. Know what i mean? The latter is fine, but what has a positive impact is having the right tools, in whichever way possible. VSCODE Extensions enable having the right tools (extensions) by your side ridiculously easy. It can supercharge productivity for real.
+Alongside coding, what a lot of developers like doing is tweaking, be it their tools, themes or just the desktop background for the sake of it. Know what I mean? The latter is fine, but what has a positive impact is having the right tools, in whichever way possible. VSCODE Extensions enable having the right tools (extensions) by your side ridiculously easy. It can supercharge productivity for real.
 
 Other than the extensions already discussed above, here are some good-to-have Non-Coding VSCODE extensions;
 
 ### 1. PDF Viewer
 
 <p align="center">
-  <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/pdfv.jpg?raw=true" alt="WSL" />
+  <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/pdfv.jpg?raw=true" alt="PDF Viewer" />
 </p>
 
 Easily, a must-have extension to read technical papers, books, or any other document in PDF format while you just write your code on the tab next to it. Can't get easier than this.
 
 ### 2. Excalidraw
 
- ![]()
-
- https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/og-image.png?raw=true
+ <p align="center">
+  <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/excalidraw.jpg?raw=true" alt="Excalidraw" />
+</p>
 
 This one was a gem of a find for me. It is known that a picture is easier to understand than text. PPTs were the go-to tool to draw technical architecture, data pipelines and flows, but excalidraw makes it FUN. The extension feels like drawing or writing on a board and makes the entire activity joyful.
 
