@@ -2,9 +2,7 @@
 title: "Machine Learning Books to Read"
 permalink: /mlbooks/
 sidebar:
-  - nav: docs
-  - text: >
-      [![](/assets/images/buy_me_coffee.jpg)](https://buymeacoffee.com/softwaremusings){:target="_blank"}
+  - nav: docs  
 ---
 
 **Hands-On Machine Learning with Scikit-Learn and TensorFlow** - Touches the basics and advanced concepts in an easy-to-understand manner.
