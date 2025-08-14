@@ -95,6 +95,19 @@ After you press enter, it should show something like this;
   <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/python_vscode_plugin_autodoc_function.JPG?raw=true" alt="autoDoc Ext" />
 </p>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9931405426648676"
+     crossorigin="anonymous"></script>
+<!-- Test -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9931405426648676"
+     data-ad-slot="5031359380"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Alongside coding, what a lot of developers like doing is tweaking, be it their tools, themes or just the desktop background for the sake of it. Know what i mean? The latter is fine, but what has a positive impact is having the right tools, in whichever way possible. VSCODE Extensions enable having the right tools (extensions) by your side ridiculously easy. It can supercharge productivity for real.
 
 Other than the extensions already discussed above, here are some good-to-have Non-Coding VSCODE extensions;
