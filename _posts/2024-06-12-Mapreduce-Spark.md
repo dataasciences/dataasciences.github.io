@@ -10,6 +10,7 @@ tags:
 sidebar:
   - nav: docs      
 classes: wide
+show_ads: true
 ---
 
 In order to understand Spark, it helps to understand its History. If you have worked on Spark, you would have come across the term MapReduce. Before Spark, there was MapReduce. 
