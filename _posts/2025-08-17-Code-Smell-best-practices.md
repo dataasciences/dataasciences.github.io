@@ -12,7 +12,11 @@ sidebar:
 classes: wide
 ---
 
-Recently, in a Tech town hall an interesting topic was discussed. In the age of AI, when code is automated (or atleast to begin with), what are some development practice smells to watch out for.  
+<p align="center">
+  <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/codesmells-qualityofcode.jpg?raw=true" alt="Code Smell" />
+</p>
+
+Recently, in a Tech town hall, an interesting topic was discussed. In the age of AI, when code is automated (or atleast to begin with), what are some development practice smells to watch out for.  
 
 Because here is the thing, in the world of software development, not all problems announce themselves with errors or glaring bugs. Some creep in quietly, and decisions that seem harmless at first slowly erode code quality, team efficiency, and long-term maintainability.
 These are development practice smells, warning signs that your processes might be leading you toward technical debt and delivery pain. Much like code smells, they don’t guarantee failure, but they do hint at trouble ahead, if you do not know how to spot them & fix them at the right time.
