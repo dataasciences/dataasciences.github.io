@@ -100,5 +100,5 @@ On that note, here are some ways to handle them;
 
   * Binary files don’t belong in version control repos and unnecessarily inflate repository size. Instead, store them in a dedicated artifact manager like Artifactory and version them properly there.
 
-Technical debt, such as code smells, can be a developer's nightmare. Imagine your solution in place with all functionalitie,s only to know that there is a lot of clean up to be done later on.
+Technical debt, such as code smells, can be a developer's nightmare. Imagine your solution in place with all functionalities, only to know that there is a lot of clean up to be done later on.
 Instead, implementing all the best practices discussed above during the development phase can save us a lot of time, which can be spent elsewhere in the SDLC pipeline.
