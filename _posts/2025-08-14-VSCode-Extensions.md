@@ -133,7 +133,7 @@ This one was a gem of a find for me. It is known that a picture is easier to und
 ### 3. WSL  
 
 <p align="center">
-  <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/wsl-tux.jpg?raw=true" alt="WSL" />
+  <img src="https://raw.githubusercontent.com/dataasciences/dataasciences.github.io/refs/heads/master/assets/images/wsltux.jpg" alt="WSL" />
 </p>
 
 This one's for Windows users who also have WSL installed. Coding on a Bare-metal Unix machine has its PROs, and what better way to do it using an IDE instead of VIM Or EMACS. 
