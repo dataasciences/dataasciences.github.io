@@ -145,7 +145,7 @@ df.sort_values(by='B')
 
 While Standard Python / Numpy expressions for selecting and setting are intuitive and come in handy for interactive work, for production code, it is recommended to use the optimized pandas data access methods such as .at, .iat, .loc, etc..
 
-Selecting a single column, which yields a Series, equivalent to df.A.
+Selecting a single column, which yields a Series equivalent to df.A.
 
 ```python
 df['A']
@@ -172,7 +172,7 @@ df[0:3]
 2013-01-02 | -0.380108	| 0.781734	 | -0.668664 |	0.122847
 2013-01-03 |  1.982129	| 1.970573	 | 1.724951	 | -0.810865
 
-Selection by Label for getting a cross section using a label
+Selection by Label for getting a cross-section using a label
 
 ```python
 df.loc[dates[0]]
@@ -578,7 +578,7 @@ append_df
 
 ## Grouping 
 
-By "group by" we are referring to a process involving one or more of the following steps:
+By "group by", we are referring to a process involving one or more of the following steps:
 
 * Splitting the data into groups based on some criteria.
 * Applying a function to each group independently.
@@ -614,7 +614,7 @@ df.groupby('A').sum()
 |  bar	     |  -0.574517	|  -0.381072
 |  foo	     |  0.491797	|  3.322576
 
-Grouping by multiple columns forms a hierarchical index, and again we can apply the sum function.
+Grouping by multiple columns forms a hierarchical index, and again, we can apply the sum function.
 
 ```python
 df.groupby(['A','B']).sum()
@@ -695,7 +695,7 @@ pd.pivot_table(df, values='D', index=['A', 'B'], columns=['C'])
 
 ## Getting Data In/Out
 
-Writing to a csv file.
+Writing to a CSV file.
 
 ```python
 df.to_csv('foo.csv')
@@ -707,25 +707,25 @@ Reading a CSV
 pd.read_csv('foo.csv')
 ```
 
-Writing to a HDF5 Store.
+Writing to an HDF5 Store.
 
 ```python
 df.to_hdf('foo.h5','df')
 ```
 
-Reading from a HDF5 Store.
+Reading from an HDF5 Store.
 
 ```python
 pd.read_hdf('foo.h5','df')
 ```
 
-Writing to an excel file.
+Writing to an Excel file.
 
 ```python
 df.to_excel('foo.xlsx', sheet_name='Sheet1')
 ```
 
-Reading from an excel file
+Reading from an Excel file
 
 ```python
 pd.read_excel('foo.xlsx', 'Sheet1', index_col=None, na_values=['NA'])
