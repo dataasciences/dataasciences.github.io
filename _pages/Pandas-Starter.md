@@ -102,7 +102,7 @@ min	  | -1.390268	| -0.862023	| -0.668664	| -1.268239
 75%	  | 1.169341	| 0.657860	| 1.416239	| 0.172528
 max	  | 1.982129	| 1.970573	| 1.724951	| 1.442396
 
-Transposing your data
+## 3. Transposing your data
 
 ```python
 df.T
@@ -140,8 +140,7 @@ df.sort_values(by='B')
 2013-01-02 |	-0.380108 | 0.781734	 | -0.668664 | 0.122847
 2013-01-03 |  1.982129	| 1.970573	 | 1.724951	 | -0.810865
 
-
-## Selection
+## 4. Selection
 
 While Standard Python / Numpy expressions for selecting and setting are intuitive and come in handy for interactive work, for production code, it is recommended to use the optimized pandas data access methods such as .at, .iat, .loc, etc..
 
@@ -246,7 +245,7 @@ df.at[dates[0],'A']
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## Selection by Position
+## 5. Selection by Position
 
 Select via the position of the passed integers:
 
@@ -309,7 +308,7 @@ df.iloc[:,1:3]
 2013-01-05 |	0.024108	  |   0.539417
 2013-01-06 |	-0.034152	  |   0.349011
 
-## Boolean Indexing
+## 6. Boolean Indexing
 
 Using a single column’s values to select data.
 
@@ -391,7 +390,7 @@ Setting by assigning with a NumPy array:
 df.loc[:,'D'] = np.array([5] * len(df))
 ```
 
-## Missing Data
+## 7. Missing Data
 
 Pandas primarily uses the value np.nan to represent missing data. It is by default not included in computations. Reindexing allows you to change/add/delete the index on a specified axis. This returns a copy of the data.
 
@@ -444,7 +443,7 @@ pd.isna(df)
 2013-01-03 |	False	  | False	 | False	| False	| False	 | True
 2013-01-04 |	False	  | False	 | False	| False	| False	 | True
 
-##  Apply
+## 8. Apply
 
 Applying functions to the data:
 
@@ -465,7 +464,7 @@ df.apply(lambda x: x.max() - x.min())
 
 ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/pandas_limit.JPG?raw=true)
 
-## String Methods
+## 9. String Methods
 
 Series is equipped with a set of string processing methods in the str attribute that make it easy to operate on each element of the array. Note that pattern-matching in str generally uses regular expressions by default.
 
@@ -500,7 +499,7 @@ s.str.lower()
 dtype: object
 ```
 
-## Merge
+## 10. Merge
 
 Pandas provides various facilities for easily combining together Series, DataFrame, and Panel objects with various kinds of set logic for the indexes and relational algebra functionality in the case of join / merge-type operations. Concatenating pandas objects together with concat():
 
@@ -528,7 +527,7 @@ pd.concat(pieces)
 0.186656	| -0.131740	 | -1.404915	| 0.501818
 -0.523582	| -0.876016	 |-0.004513	  | -0.509841
 
-## JOIN
+## 11. JOIN
 
 ```python
 left = pd.DataFrame({'key': ['foo', 'foo'], 'lval': [1, 2]})
@@ -556,7 +555,7 @@ pd.merge(left, right, on='key')
 |  foo	 |   2	|  4 
 |  foo	 |   2	|  5
 
-## Append
+## 12. Append
 
 Append rows to a dataframe. 
 
@@ -576,7 +575,7 @@ append_df
 |  -0.010116 |	1.877924	|  -0.015332 | 1.176713
 |  -0.314318 |	1.088290	|  -0.067972 | -1.759359
 
-## Grouping 
+## 13. Grouping 
 
 By "group by", we are referring to a process involving one or more of the following steps:
 
@@ -622,7 +621,7 @@ df.groupby(['A','B']).sum()
 
 ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/pandas_groupby.JPG?raw=true)
 
-## Reshaping
+## 14. Reshaping
 
 ```python
 tuples = list(zip(*[['bar', 'bar', 'baz', 'baz', 'foo', 'foo', 'qux', 'qux'],
@@ -678,7 +677,7 @@ stacked.unstack(0)
 
 ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/pandas_unstack_0.JPG?raw=true)
 
-## Pivot tables
+## 15. Pivot tables
 
 ```python
 df = pd.DataFrame({'A' : ['one', 'one', 'two', 'three'] * 3,
@@ -693,7 +692,7 @@ pd.pivot_table(df, values='D', index=['A', 'B'], columns=['C'])
 
 ![](https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/pandas_pivot.JPG?raw=true)
 
-## Getting Data In/Out
+## 16. Getting Data In/Out
 
 Writing to a CSV file.
 
