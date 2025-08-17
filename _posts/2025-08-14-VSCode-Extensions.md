@@ -13,7 +13,7 @@ sidebar:
 classes: wide
 ---
 
-VS Code is one of the widely used plugins by developers, engineers & data scientists. Here are the top 5 VS Code Plugins for Python developers, especially, along with examples of how they enhance your development experience.
+VS Code is one of the widely used IDEs by developers, engineers & data scientists. Here are the top 5 VS Code extensions, especially for Python developers, along with examples of how they enhance your development experience.
 These five VS Code extensions are considered due to their comprehensive and essential features that directly address common development needs.
 
 > <span style="font-size:1em;"> The code examples are shown along with the descriptions of the extension. </span>
@@ -146,8 +146,8 @@ This one's for Windows users who also have WSL installed. Coding on a Bare-metal
 
 This one is for the Writers - The technical documentation Writers. 
 
-Markdown files are very common, as we all know. This extension is a super add-on for those writers who heavily use markdown to write their documentations. 
+Markdown files are very common, as we all know. This extension is a super add-on for those writers who heavily use markdown to write their documentation. 
 
-Markdownlint includes a library of rules to encourage standards and consistency for Markdown files. It is powered by the markdownlint library for Node.js  Linting is performed by the markdownlint-cli2 engine, which can be used in conjunction with this extension to provide command-line support for scripts and continuous integration scenarios.
+Markdownlint includes a library of rules to encourage standards and consistency for Markdown files. It is powered by the markdownlint library for Node.js. Linting is performed by the markdownlint-cli2 engine, which can be used in conjunction with this extension to provide command-line support for scripts and continuous integration scenarios.
 
 I hope this post helps boost your productivity, creativity when you use VS Code. 
