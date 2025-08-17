@@ -11,7 +11,7 @@ If you are in data science, there are high chances of using pandas in your Data 
 > <span style="font-size:1em;"> Note: In this article, "pd" is an alias for pandas and "np" is an alias for numpy. </span>
 {: .notice--info}
 
-### Object Creation
+## 1. Object Creation
 
 Creating a Series by passing a list of values, letting pandas create a default integer index:
 
@@ -47,7 +47,7 @@ test_df
 2013-01-05  | 1.007223  | 0.024108  | 0.539417| 1.442396
 2013-01-06  | 1.223380  | -0.034152 | 0.349011| -0.225668
 
-### Viewing Data
+## 2. Viewing Data
 
 Here is how to view the top and bottom rows of the frame.
 
