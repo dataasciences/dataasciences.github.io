@@ -16,6 +16,19 @@ classes: wide
   <img src="https://github.com/dataasciences/dataasciences.github.io/blob/master/assets/images/codesmells-qualityofcode.jpg?raw=true" alt="Code Smell" />
 </p>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9931405426648676"
+     crossorigin="anonymous"></script>
+<!-- Test -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9931405426648676"
+     data-ad-slot="5031359380"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Recently, in a Tech town hall, an interesting topic was discussed. In the age of AI, when code is automated (or atleast to begin with), what are some development practice smells to watch out for.  
 
 Because here is the thing, in the world of software development, not all problems announce themselves with errors or glaring bugs. Some creep in quietly, and decisions that seem harmless at first slowly erode code quality, team efficiency, and long-term maintainability.
@@ -57,6 +70,19 @@ On that note, here are some ways to handle them;
 ## 8. Enable minimum successful build merge checks for your repositories.
 
    * Require that all merges pass CI tests before being merged into important branches. This ensures the branch is always in a deployable state and that broken code isn't introduced.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9931405426648676"
+     crossorigin="anonymous"></script>
+<!-- Test -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9931405426648676"
+     data-ad-slot="5031359380"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 9. A well-written README provides a clear explanation of your code.
 
