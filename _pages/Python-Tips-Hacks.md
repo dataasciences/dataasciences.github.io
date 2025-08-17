@@ -6,7 +6,7 @@ sidebar:
 classes: wide
 ---
 
-## Listing Outdate Packages in Python 
+## 1. Listing Outdated Packages in Python 
 
 Python3 comes with a list of pre-installed packages which are updated from time to time. It is really easy to list any *outdated* package with the following command:
 
@@ -23,9 +23,9 @@ setuptools 40.0.0    40.6.3     wheel
 six        1.11.0    1.12.0     wheel
 ```
 
-As you can see 5 packages on my machine are outdated.
+As you can see, 5 packages on my machine are outdated.
 
-To update a specific package to the latest version you can use
+To update a specific package to the latest version, you can use
 
 ```python
 pip install --upgrade  <PackageName>
@@ -48,9 +48,9 @@ sudo pipdate3
 
 **Note for Mac users:** If you installed *Python* via **homebrew** there is no need to use *sudo* to install *pipdate* or upgrade packages
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
-## File Navigations
+## 2. File Navigations
 
 This is something I used to stumble on a lot in the early days of my Python coding adventure so I thought to write a quick article about it.
 
@@ -65,7 +65,7 @@ file = open("/Python/Files/MyFile.txt")
 
 #### Python Read file
 
-To read content of the file we simply use the **read()** method
+To read the content of the file, we simply use the **read()** method
 
 ```python
 # Read file to the end of file
@@ -90,9 +90,9 @@ Not a lot to see on screen, so where did our file's content go?
 
 #### Python seek()
 
-When Python reads a file's content it will move *file current position* to the end of the file so trying to re-read it again will yield the above result. Nothing as there is nothing else to read.
+When Python reads a file's content, it will move *file current position* to the end of the file, so trying to re-read it again will yield the above result. Nothing as there is nothing else to read.
 
-You can easily go back to the beginning of the file with the *seek()* method which is used like this:
+You can easily go back to the beginning of the file with the *seek()* method, which is used like this:
 
 ```python
 # Go back to position 0
@@ -114,9 +114,9 @@ file.read()
 
 'This is the first line\nAnd a second\nAnd even a third\nShall we put a fourth?\nWhy not a fifth\nOr a sixt\n'
 ```
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
-## 🔍How to Create Infinite Iteration using "itertools.cycle"
+## 3. 🔍How to Create Infinite Iteration using "itertools.cycle"
 
 *Use-cases?*
 
@@ -145,9 +145,9 @@ infinite_colors = itertools.cycle(colours)
 for _ in range(10):
     print(next(infinite_colors))
 ```
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
-## Immutable & Mutable classes in Python using data class
+## 4. Immutable & Mutable classes in Python using data class
 
 Data Classes in Python are a Huge saver for boilerplate code. There could be instances where your Python classes may need to be defined as an immutable object. The "frozen" parameter is of help here. 
 
