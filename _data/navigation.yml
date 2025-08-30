@@ -4,7 +4,7 @@ main:
   #  url: /about/
   - title: "Posts by Category"
     url: /categories/
-  # - title: "Privacy Policy"
+  - title: "Python Handy Guide - COMING SOON!"
   #  url: /ppolicy/
 docs:
   - title: Recommendations
