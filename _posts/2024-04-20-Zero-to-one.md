@@ -85,14 +85,14 @@ The day it can do that is very far in the future.
 
 Thiel strongly believed in rewriting rules and that;
 
-1) It is better to risk boldness than triviality. 
-2) A bad plan is better than no plan.
-3) Competitive markets destroy profits.
-4) Sales matter just as much as product. His emphasis on selling being a key skill, irrespective of whichever job you are in, will be reflected in many pages throughout the book.
+1. It is better to risk boldness than triviality. 
+2. A bad plan is better than no plan.
+3. Competitive markets destroy profits.
+4. Sales matter just as much as product. His emphasis on selling being a key skill, irrespective of whichever job you are in, will be reflected in many pages throughout the book.
 
 ## The Importance of Singular Focus
 
-Another key takeaway from "Zero to One" is the significance of singular focus and relentless execution. Thiel emphasizes the importance of building a unique and valuable product that addresses a pressing need or fulfils an unmet desire. By concentrating resources and efforts on a singular vision, entrepreneurs can achieve breakthroughs that have the potential to reshape industries and redefine paradigms.
+Another key takeaway from "Zero to One" is the significance of singular focus and relentless execution. Thiel emphasises the importance of building a unique and valuable product that addresses a pressing need or fulfils an unmet desire. By concentrating resources and efforts on a singular vision, entrepreneurs can achieve breakthroughs that have the potential to reshape industries and redefine paradigms.
 
 Thiel's emphasis on the intersection of technology and business underscores the transformative power of innovation. He encourages entrepreneurs to harness the full potential of technology to create exponential value and drive societal progress. From Artificial Intelligence to Biotechnology, Thiel envisions a future where groundbreaking innovations push humanity towards unprecedented heights.
 
@@ -100,8 +100,8 @@ Thiel's emphasis on the intersection of technology and business underscores the 
 
 Thiel believes that a technological start-up has 4 important aspects to be considered. They are; 
 
-1. Proprietary technology - Monopolies in many ways exist because they have some sort of proprietary technology. It is a necessary factor in ensuring one's current and future profits are protected. If not, no matter how genius your product is, you will soon enter the realm of competition rather than monopoly. 
-2. Network effects - Another factor that can make all the difference in bringing your business to the status of monopoly is its ability to capitalize on network effects. The network effect occurs when engagement with your product requires that others participate as well. 
+1. Proprietary technology - Monopolies in many ways exist because they have some sort of proprietary technology. It is a necessary factor in ensuring one's current and future profits are protected. If not, no matter how genius your product is, you will soon enter the realm of competition rather than a monopoly. 
+2. Network effects - Another factor that can make all the difference in bringing your business to the status of a monopoly is its ability to capitalise on network effects. The network effect occurs when engagement with your product requires that others participate as well. 
 3. Economies of scale - Companies where growth means primarily greater profits, not greater cost and complexity. 
 4. Branding - How distinctive and integrated is your brand into your product and company culture? 
 
