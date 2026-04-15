@@ -32,7 +32,7 @@ DELETE FROM analytics.daily_orders WHERE order_date = '2026-04-15';
 INSERT INTO analytics.daily_orders (...)
 SELECT ... FROM source_table WHERE created_at = '2026-04-15';
 ```
-
+**Why it works:**
 If the job fails halfway through the INSERT, you don't have to guess which rows made it in. You simply run the script again. The DELETE ensures you're starting from a clean slate every single time.
 
 #### 2. The Upsert Pattern (The Robust Fix)
@@ -48,7 +48,8 @@ ON CONFLICT (user_id)
 DO UPDATE SET last_login = EXCLUDED.last_login;
 ```
 
-Why it works: Using ON CONFLICT or MERGE in Spark/Delta Lake ensures that if a record already exists, it gets updated with the latest info instead of creating a duplicate row. This is the gold standard for "stateful" data.
+**Why it works:**
+Using ON CONFLICT or MERGE in Spark/Delta Lake ensures that if a record already exists, it gets updated with the latest info instead of creating a duplicate row. This is the gold standard for "stateful" data.
 
 #### 3. Functional Data Engineering
 
@@ -59,4 +60,5 @@ Write data to new, versioned partitions (e.g., s3://bucket/table/version=1/). Us
 
 If a partition is wrong, you don't "fix" it. You write a brand new version and flip the switch.
 
-Key Takeaway:- Immutability is the best friend of a Data Engineer. Idempotency is the foundation of self-healing systems. If your data pipeline isn't idempotent, you don't own a pipeline; you own a ticking time bomb.
+
+**Key Takeaway:-** Immutability is the best friend of a Data Engineer. Idempotency is the foundation of self-healing systems. If your data pipeline isn't idempotent, you don't own a pipeline; you own a ticking time bomb.
