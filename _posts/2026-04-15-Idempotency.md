@@ -1,5 +1,6 @@
 ---
 title: "The Junior vs. Senior Pipeline: Why Idempotency is a very important DE Skill."
+excerpt: "Idempotency - The Differentiator"
 categories:
   - Data Engineering  
 tags:
