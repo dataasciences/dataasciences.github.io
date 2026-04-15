@@ -14,7 +14,7 @@ Most developers can move data from Point A to Point B. In a perfect world where 
 
 But we don’t live in that world.
 
-In reality, the challenge isn't that, it's what happens when the pipeline fails at 80% completion. Do you end up with duplicate records? Does your financial report show double the revenue? Do you have to wake up at 3 AM to manually "clean up" the database before hitting restart?
+In reality, the challenge isn't that; it's what happens when the pipeline fails at 80% completion. Do you end up with duplicate records? Does your financial report show double the revenue? Do you have to wake up at 3 AM to manually "clean up" the database before hitting restart?
 
 If you answered yes to any of those, you are missing the most critical differentiator in professional Data Engineering: Idempotency.
 
